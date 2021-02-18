@@ -1,0 +1,20 @@
+<ul>
+	<li *ngFor="let recipe of recipes">
+		<a routerLink="/recipe" [routerLink]="['/show-recipe', recipe.id]" routerLinkActive="active">
+			<div>
+				<div [ngClass]="{'note': recipe.type === types.note, 'recipe': recipe.type === types.recipe,'list': recipe.type === types.list}"
+					class="title">
+					<recipe-icon *ngIf="recipe.type === types.recipe" color="#ffffff" name="recipe"></recipe-icon>
+					<recipe-icon *ngIf="recipe.type === types.note" color="#ffffff" name="notes"></recipe-icon>
+					<recipe-icon *ngIf="recipe.type === types.list" color="#ffffff" name="list"></recipe-icon>
+					&nbsp;
+					<span>{{recipe.name}}</span>
+				</div>
+
+				<div class="summary" *ngIf="recipe.type === types.list" [innerHTML]="recipe.ingredients | truncate : 150 : true"></div>
+				<div class="summary" *ngIf="recipe.type !== types.list"
+					[innerHTML]="recipe.recipeInstructions | truncate : 150 : true"></div>
+			</div>
+		</a>
+	</li>
+<ul>
