@@ -1,0 +1,46 @@
+@import '../../shared/colors.scss';
+
+.spacer {
+	flex: 1 1 auto;
+}
+
+.icon-button {
+	width: 45px;
+	height: 45px;
+	border-color: #fd4b4a;
+	@apply border-2 rounded-full;
+}
+
+h4 {
+	color: $color;
+}
+
+.sidebar {
+	height: 100%;
+	width: 80px;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	right: -80px;
+	background-color: $blue;
+	transition: transform 150ms ease-in-out;
+  }
+.sidebar.show {
+    transform: translateX(-80px);
+	transition: transform 150ms ease-in-out;
+}
+
+.search {
+	background-color: $bg-color;
+	top: -48px;
+	transition: transform 150ms ease-in-out;
+	input {
+		background-color: $bg-color;
+		border-color: $red;
+	}
+
+}
+.search.show {
+	transform: translateY(68px);
+	transition: transform 150ms ease-in-out;
+}

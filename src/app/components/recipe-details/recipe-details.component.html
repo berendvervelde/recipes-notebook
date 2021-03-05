@@ -1,0 +1,13 @@
+<div *ngIf="recipe">
+	<h3  [ngClass]="{'note': recipe.type === types.note, 'recipe': recipe.type === types.recipe,'list': recipe.type === types.list}" 
+	class="text-white p-2 text-2xl">{{recipe.name}}</h3>
+	<div class="mb-4">
+		<span>{{recipe.datePublished}}</span><span>{{recipe.type}}</span>
+	</div>
+	<h3 class="text-lg font-bold" >Ingredienten</h3>
+	<div class="mb-4" [innerHTML]="recipe.ingredients"></div>
+	<h3 class="text-lg font-bold">Bereiding</h3>
+	<div class="mb-4" [innerHTML]="recipe.recipeInstructions"></div>
+	<h3>Tags</h3>
+	<span *ngFor="let tag of recipe.tags">{{tag}}  </span>
+</div>

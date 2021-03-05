@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core'
 import { ActivatedRoute } from '@angular/router';
-import { Recipe } from 'src/app/core/models/recipe';
-import { JsonImporterService } from 'src/app/core/services/json-importer.service';
+import { Recipe, types } from 'src/app/core/models/recipe';
+import { RecipeService } from 'src/app/core/services/recipe.service';
 
 @Component({
 	selector: 'app-recipe-details',
@@ -11,9 +11,12 @@ import { JsonImporterService } from 'src/app/core/services/json-importer.service
 export class RecipeDetailsComponent implements OnInit {
 	recipe?: Recipe | null
 
+	// to make an enum work in the template
+	types: typeof types = types;
+
 	constructor(
-		private jsonImporterService: JsonImporterService,
-		private route: ActivatedRoute
+		private route: ActivatedRoute,
+		private recipeService: RecipeService
 	) { }
 
 	ngOnInit(): void {
@@ -21,7 +24,7 @@ export class RecipeDetailsComponent implements OnInit {
 		this.route.params.subscribe(params => {
 			const id = params['recipeId'];
 			if(id){
-				this.recipe = this.jsonImporterService.getRecipe(Number(id))
+				this.recipe = this.recipeService.getRecipe(Number(id))
 			}
 		});
 	}

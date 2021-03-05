@@ -1,0 +1,41 @@
+<div class="toolbar flex">
+	<h4 class="text-1xl font-bold">Mijn recepten <br />notitieblok</h4>
+	<span class="flex-1"></span>
+	<ul class="action-bar space-x-2">
+		<li class="inline-block">
+			<button class="icon-button" (click)="searchToggle()" aria-label="search">
+				<recipe-icon color="#fd4b4a" name="search"></recipe-icon>
+			</button>
+		</li>
+		<li class="inline-block">
+			<button (click)="menuToggle()" class="icon-button" aria-label="menu">
+				<recipe-icon color="#fd4b4a" name="menu"></recipe-icon>
+			</button>
+		</li>
+	</ul>
+	<ul class="sidebar p-4 py-5 space-y-2" [ngClass]="{'show': showMenu}">
+		<li>
+			<button (click)="menuToggle()" class="icon-button" aria-label="close">
+				<recipe-icon color="#fd4b4a" name="close"></recipe-icon>
+			</button>
+		</li>
+		<li >
+			<button class="icon-button" (click)="authToggle()" aria-label="log in / out">
+				<recipe-icon *ngIf="!authenticated" color="#fd4b4a" name="lock_close"></recipe-icon>
+				<recipe-icon  *ngIf="authenticated" color="#fd4b4a" name="lock_open"></recipe-icon>
+			</button>
+		</li>
+		<li >
+			<button class="icon-button" aria-label="calculator">
+				<recipe-icon color="#fd4b4a" name="calculator"></recipe-icon>
+			</button>
+		</li>
+	</ul>
+	<div  [ngClass]="{'show': showSearch}" class="search h-12 absolute w-full">
+		<input class="h-12 border-b-2 w-full" type="text" [formControl]="searchQuery" />
+		<button (click)="searchToggle()" class="absolute right-0 rounded-full" aria-label="close">
+			<recipe-icon color="#fd4b4a" name="close"></recipe-icon>
+		</button>
+	</div>
+	
+</div>

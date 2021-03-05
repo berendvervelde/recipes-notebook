@@ -1,28 +1,25 @@
-import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-import firebase from 'firebase/app';
-import { AngularFireAuth } from '@angular/fire/auth';
-import { MatSnackBar } from '@angular/material/snack-bar';
+import { Injectable } from '@angular/core'
+import { Observable } from 'rxjs'
+import firebase from 'firebase/app'
+import { AngularFireAuth } from '@angular/fire/auth'
 
 @Injectable({
 	providedIn: 'root'
 })
 export class FirebaseAuthServiceService {
-	//private authState: Observable<firebase.User>
-	private currentUser: firebase.User = null;
+	private currentUser: firebase.User | undefined;
 
 	constructor(
-		public afAuth: AngularFireAuth,
-		private snackBar: MatSnackBar) {
+		public afAuth: AngularFireAuth) {
 	}
 
-	getCurrentUser(): Observable<firebase.User>{
+	getCurrentUser(): Observable<any>{
 		if(this.currentUser){
 			return new Observable(subscriber => {
-				subscriber.next(this.currentUser);
+				subscriber.next(this.currentUser)
 			})
 		} else {
-			return this.afAuth.authState;
+			return this.afAuth.authState
 		}
 	}
 }
