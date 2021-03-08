@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Recipe, types } from 'src/app/core/models/recipe';
-import { FirebaseAuthServiceService } from 'src/app/core/services/firebase-auth-service.service';
+import { FirebaseAuthService } from 'src/app/core/services/firebase-auth.service';
 import { JsonImporterService } from 'src/app/core/services/json-importer.service';
 import { RecipeService } from 'src/app/core/services/recipe.service';
 import firebase from 'firebase/app';
@@ -25,15 +25,26 @@ export class RecipesListComponent implements OnInit {
 	constructor(
 		private jsonImporterService: JsonImporterService,
 		private recipeService: RecipeService,
-		private authService: FirebaseAuthServiceService
+		private authService: FirebaseAuthService
 	) { }
 
 	ngOnInit(): void {
+		this.recipeService.subscribeToRecipes().subscribe(resp =>{
+			if(resp){
+				this.recipes =  this.recipeService.groupBy(resp, 'category')
+				this.showCategory = this.buildCategoryToggleObject(this.recipes)
+			} else {
+				this.recipes = []
+			}
+		})
+
 		this.authService.getCurrentUser().subscribe(user => {
 			this.user = user
-			this.getRecipes()
+			const uid = this.user?.uid
+			if(uid) {
+				this.recipeService.getRecipes(uid)
+			}
 		})
-		//this.importRecipes()
 	}
 
 	importRecipes(): void {
@@ -49,17 +60,6 @@ export class RecipesListComponent implements OnInit {
 		// add each category to the schowCategory object so we can use it to keep track if a category is shown or hidden in the list later
 		recipes.forEach(c => sc[c[0].category] = true)
 		return sc
-	}
-
-	getRecipes(): void{
-		if(this.user) {
-			this.recipeService.getRecipes(this.user.uid).subscribe(resp => {
-				if(resp){
-					this.recipes = this.recipeService.groupBy(resp, 'category')
-					this.showCategory = this.buildCategoryToggleObject(this.recipes)
-				}
-			})
-		}
 	}
 
 	toggleCategory(category: string): void {

@@ -1,9 +1,11 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/auth';
 import { FormControl, FormGroup } from '@angular/forms';
 import firebase from 'firebase/app'
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators'
+import { FirebaseAuthService } from 'src/app/core/services/firebase-auth.service';
+import { RecipeService } from 'src/app/core/services/recipe.service';
 
 @Component({
 	selector: 'app-list-header',
@@ -11,25 +13,44 @@ import { takeUntil } from 'rxjs/operators'
 	styleUrls: ['./list-header.component.scss']
 })
 export class ListHeaderComponent implements OnInit, OnDestroy {
+	// search delay tme (ms)
+	private static readonly searchDelay = 400
+	// get the search input so we can set focus to it
+	@ViewChild('searchInput') searchInput?: ElementRef;
+	// this subjects to be put in the takeuntil so we can destroy observables on exit
 	private readonly destroy$ = new Subject();
-
+	// delay searches so we don't have stuttering interfaces
+	private searchDelayTimer: any;
+	// firebase user
+	user?: firebase.User;
+	// toggle authentication icon
 	authenticated = true
+	// toggle search input bar
 	showSearch = false
-	showMenu = false
-
+	// toggle overflow menu
+	showSideMenu = false
+	// the search input 
 	searchQuery = new FormControl('')
 
 	constructor(
-		public auth: AngularFireAuth
+		public auth: AngularFireAuth,
+		private recipeService: RecipeService,
+		private authService: FirebaseAuthService
 	){}
+
+	ngOnInit(): void {
+		this.authService.getCurrentUser().subscribe(user => {
+			this.user = user
+			// listen to changes in the searchinput
+			this.searchQuery.valueChanges.pipe(takeUntil(this.destroy$)).subscribe (val => {
+				this.search(val)
+			})
+		})
+	}
+
 	ngOnDestroy(): void {
 		this.destroy$.next();
 		this.destroy$.complete();
-	}
-	ngOnInit(): void {
-		this.searchQuery.valueChanges.pipe(takeUntil(this.destroy$)).subscribe (val => {
-			console.log(val)
-		})
 	}
 
 	authToggle() {
@@ -41,11 +62,20 @@ export class ListHeaderComponent implements OnInit, OnDestroy {
 		}
 	}
 	searchToggle(){
-		this.showSearch = !this.showSearch
+		if(this.searchInput) {
+			this.showSearch = !this.showSearch
+			if(this.showSearch){
+				setTimeout(()=>{
+					this.searchInput?.nativeElement.focus()
+				},0)
+			} else {
+				this.searchQuery.setValue('')
+			}
+		}
 	}
 
 	menuToggle(){
-		this.showMenu = !this.showMenu
+		this.showSideMenu = !this.showSideMenu
 	}
 
 	login() {
@@ -68,7 +98,15 @@ export class ListHeaderComponent implements OnInit, OnDestroy {
 			// The firebase.auth.AuthCredential type that was used.
 			var credential = error.credential
 			// ...
-		  });
+		});
 	}
-
+	
+	private search(searchQuery: string): void{
+		if (this.searchDelayTimer){
+			clearTimeout(this.searchDelayTimer);
+		}
+		this.searchDelayTimer = setTimeout(() => {
+			this.recipeService.updateSearchQuery(searchQuery)
+		}, ListHeaderComponent.searchDelay)
+	}
 }

@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { Recipe } from '../models/recipe';
+import firebase from 'firebase/app';
 
 interface groupContainer {
 	[key: string]: Recipe[]
@@ -11,54 +11,76 @@ interface recipesDictionary {
 	[id: string]: Recipe | null
 }
 
+interface MutationDate {
+		mutationDate: firebase.firestore.Timestamp
+}
+
 @Injectable({
 	providedIn: 'root'
 })
 
 export class RecipeService {
-	static readonly cacheTimeout = 30 * 60 * 1000
+
+	static readonly cacheTimeout = 60 * 60 * 1000 // 60 minutes
 
 	private cache?: Recipe[]
 	recipeObj?: recipesDictionary
+	private searchQuery = ''
+
+	private recipesMessenger = new BehaviorSubject<Recipe[]>([]);
 
 	constructor(
 		private firestore: AngularFirestore
 	) { }
+
+	subscribeToRecipes(): Observable<Recipe[]>  {
+        return this.recipesMessenger.asObservable();
+    }
+
+	updateSearchQuery(sq: string) {
+		this.searchQuery = sq.toLowerCase()
+		if(this.cache){
+			this.searchFilter(this.cache)
+		}
+	}
 
 	setRecipe(uid: string, recipe: Recipe) {
 		const firestorePlacesCollection = this.firestore.collection('recipes').doc(uid).collection('recipe')
 		firestorePlacesCollection.doc(recipe.id.toString()).set(recipe, {merge: true})
 	}
 
-	getRecipes(uid: string):Observable<any> { 
-		if (this.cache){
-			return new Observable(subscriber => {
-				subscriber.next(this.cache)
-			})
-		}
-		const now = new Date().getTime()
-		const cacheDate = Number(window.localStorage.getItem('cacheDate'))
-		if (now - cacheDate < RecipeService.cacheTimeout){
-			const lsr = window.localStorage.getItem('recipes')
-			if(lsr){
-				const r = JSON.parse(lsr)
-				this.cache =  (r as unknown as Recipe[])
-				this.recipeObj = this.mapToDictionary(this.cache)
-				return new Observable(subscriber => {
-					subscriber.next(this.cache)
-				})
+	getRecipes(uid: string): void {
+		//get mutationdate from firebase
+		this.firestore.collection('recipes').doc(uid).valueChanges().subscribe(resp => {
+			if(resp){
+				const mutationDate = (resp as MutationDate).mutationDate.seconds
+				// get cachedate from localstorage
+				const cacheDate = Number(window.localStorage.getItem('cacheDate'))
+				if (cacheDate && cacheDate === mutationDate){
+					if (this.cache){
+						// or always get it from localstorage? Do we need this?
+						this.recipesMessenger.next(this.cache)
+					} else {
+						const lsr = window.localStorage.getItem('recipes')
+						if(lsr){
+							const r = JSON.parse(lsr)
+							this.cache =  (r as unknown as Recipe[])
+							this.recipeObj = this.mapToDictionary(this.cache)
+							this.recipesMessenger.next(this.cache)
+						} else {
+							// no localstorage recipes
+							this.getRecipesFromFirebase(uid, mutationDate)
+						}
+					}
+				} else {
+					// no cachedate or cachedate is out of sync
+					this.getRecipesFromFirebase(uid, mutationDate)
+				}
+			} else {
+				//there is no firebase database
+				// todo: create database
 			}
-		}
-
-		const firestorePlacesCollection = this.firestore.collection('recipes').doc(uid).collection('recipe')
-		return firestorePlacesCollection.valueChanges({ idField: 'id' }).pipe(map(r => {
-			this.cache = (r as unknown as Recipe[]).sort(this.sort)
-			this.recipeObj = this.mapToDictionary(this.cache)
-
-			window.localStorage.setItem('recipes', JSON.stringify(this.cache))
-			window.localStorage.setItem('cacheDate', new Date().getTime().toString())
-			return this.cache
-		}));
+		})
 	}
 
 	getRecipe(id: number):Recipe | null {
@@ -78,6 +100,36 @@ export class RecipeService {
 			
 		})
 		return Object.values(gc)
+	}
+
+	private getRecipesFromFirebase(uid: string, mutationDate: number) {
+		const firestorePlacesCollection = this.firestore.collection('recipes').doc(uid).collection('recipe')
+	
+		firestorePlacesCollection.valueChanges({ idField: 'id' }).subscribe(r => {
+			this.cache = (r as unknown as Recipe[]).sort(this.sort)
+			this.recipeObj = this.mapToDictionary(this.cache)
+
+			window.localStorage.setItem('recipes', JSON.stringify(this.cache))
+			window.localStorage.setItem('cacheDate', mutationDate.toString())
+
+			this.recipesMessenger.next(this.cache)
+		});
+	}
+	private searchFilter(cache: Recipe[]): void {
+		if(this.searchQuery !== ''){
+			const result: Recipe[] = []
+
+			cache.forEach(r => {
+				if (r.description.toLowerCase().indexOf(this.searchQuery) > -1 || 
+					r.recipeInstructions.toLowerCase().indexOf(this.searchQuery) > -1 || 
+					r.ingredients.toLowerCase().indexOf(this.searchQuery) > -1 ||
+					r.name.toLowerCase().indexOf(this.searchQuery) > -1
+					){
+					result.push(r)
+				}
+			})
+			this.recipesMessenger.next(result)
+		}
 	}
 
 	private mapToDictionary(recipes: Recipe[]): recipesDictionary{
