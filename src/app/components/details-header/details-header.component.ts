@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import { Location } from '@angular/common'
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
 	selector: 'app-details-header',
@@ -8,13 +9,20 @@ import { Location } from '@angular/common'
 })
 export class DetailHeaderComponent implements OnInit {
 
-	constructor(private location: Location) { }
+	id?: number
+
+	constructor(
+		private location: Location,
+		private route: ActivatedRoute
+	) { }
 
 	ngOnInit(): void {
+		this.route.params.subscribe(params => {
+			this.id = params['recipeId']
+		})
 	}
 
 	back() {
 		this.location.back()
 	}
-
 }

@@ -14,14 +14,14 @@ interface recipesDictionary {
 interface MutationDate {
 		mutationDate: firebase.firestore.Timestamp
 }
-
+interface Categories {
+	[key: string]: boolean
+}
 @Injectable({
 	providedIn: 'root'
 })
 
 export class RecipeService {
-
-	static readonly cacheTimeout = 60 * 60 * 1000 // 60 minutes
 
 	private cache?: Recipe[]
 	recipeObj?: recipesDictionary
@@ -100,6 +100,16 @@ export class RecipeService {
 			
 		})
 		return Object.values(gc)
+	}
+
+	getAllCategories(): string[] {
+		const categories: Categories = {}
+		// add all categories to an object as keys, there cannot be duplicate keys so all categories will be unique
+		this.cache?.forEach(r => {
+			categories[r.category] = true
+		})
+		//turn object into array with only keys
+		return Object.keys(categories)
 	}
 
 	private getRecipesFromFirebase(uid: string, mutationDate: number) {

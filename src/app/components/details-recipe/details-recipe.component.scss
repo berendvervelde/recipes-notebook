@@ -1,6 +1,6 @@
 @import '../../shared/colors.scss';
 
-h3 {
+h2 {
 	&.list {
 		background-color: $yellow;
 	}
@@ -10,4 +10,7 @@ h3 {
 	&.recipe {
 		background-color: $blue;
 	}
+}
+h3 {
+	color: $red;
 }

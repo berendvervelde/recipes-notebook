@@ -7,5 +7,24 @@ app-list-header {
     right: 19px;
 }
 .footer {
-	background-color: $blue;
+	background-color: $red-tr;
+	z-index: 1;
+	.icon-button {
+		width: 45px;
+		height: 45px;
+		border-color: $red;
+		@apply border-2 rounded-full;
+	}
+	.button-floor {
+		width: 60px;
+		height: 60px;
+		margin: 0 auto;
+		position: relative;
+		top: -29px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #f9f5ef;
+		border-radius: 50%;
+	}
 }

@@ -1,0 +1,35 @@
+<form *ngIf="recipe" [formGroup]="recipeForm">
+	<div class="form-input-container">
+		<label class="mr-2" for="title">Titel:</label>
+		<input class="h-12 flex-1" type="text" id="title" formControlName="title" />
+	</div>
+
+	<!-- <div class="form-input-container">
+		<label class="mr-2" for="category">Categorie:</label>
+		<input class="h-12 flex-1" type="text" id="category" formControlName="category"/>
+	</div> -->
+
+	<div class="form-input-container autocomplete">
+		<label class="mr-2" for="category">Categorie:</label>
+		<ng-autocomplete [data]="categories" formControlName="category"
+			[searchKeyword]="keyword"
+			[itemTemplate]="itemTemplateStatic">
+		</ng-autocomplete>
+	</div>
+
+	<ng-template #itemTemplateStatic let-item>
+		<a [innerHTML]="item"></a>
+	</ng-template>
+
+	<div>
+		<label class="ck-label" for="ingredients">Ingredienten:</label>
+		<ckeditor id="ingredients" [editor]="Editor" formControlName="ckIngredients"></ckeditor>
+	</div>
+
+	<div>
+		<label class="ck-label" for="instructions">Bereiding:</label>
+		<ckeditor id="instructions" [editor]="Editor" formControlName="ckInstructions"></ckeditor>
+	</div>
+
+</form>
+<p *ngIf="!recipe">Er ging iets mis. Het recept is niet gevonden.</p>

@@ -1,33 +1,40 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { TruncatePipe } from './shared/truncate.pipe';
-import { ListHeaderComponent } from './components/list-header/list-header.component';
-import { RecipesListComponent } from './components/recipes-list/recipes-list.component'
-import { RecipeDetailsComponent } from './components/recipe-details/recipe-details.component';
+import { NgModule } from '@angular/core'
+import { BrowserModule } from '@angular/platform-browser'
+import { HttpClientModule } from '@angular/common/http'
+import { AppRoutingModule } from './app-routing.module'
+import { AppComponent } from './app.component'
+import { TruncatePipe } from './shared/truncate.pipe'
+import { ListHeaderComponent } from './components/list-header/list-header.component'
+import { ListRecipesComponent } from './components/list-recipes/list-recipes.component'
+import { DetailsRecipeComponent } from './components/details-recipe/details-recipe.component'
 import { RecipeIconComponent } from './shared/recipe-icon/recipe-icon.component'
-// firestore
-import { AngularFireModule } from '@angular/fire';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
-import { environment } from 'src/environments/environment';
-import { DetailHeaderComponent } from './components/details-header/details-header.component';
-import { ListPageComponent } from './components/pages/list-page/list-page.component';
-import { DetailsPageComponent } from './components/pages/details-page/details-page.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AngularFireModule } from '@angular/fire'
+import { AngularFirestoreModule } from '@angular/fire/firestore'
+import { environment } from 'src/environments/environment'
+import { DetailHeaderComponent } from './components/details-header/details-header.component'
+import { ListPageComponent } from './components/pages/list-page/list-page.component'
+import { DetailsPageComponent } from './components/pages/details-page/details-page.component'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+import { EditPageComponent } from './components/pages/edit-page/edit-page.component'
+import { EditRecipeComponent } from './components/edit-recipe/edit-recipe.component'
+import { EditHeaderComponent } from './components/edit-header/edit-header.component'
+import { CKEditorModule } from '@ckeditor/ckeditor5-angular'
+import { AutocompleteLibModule } from 'angular-ng-autocomplete';
 
 @NgModule({
   declarations: [
     AppComponent,
 	ListHeaderComponent,
-	RecipesListComponent,
+	ListRecipesComponent,
     TruncatePipe,
-    RecipeDetailsComponent,
+    DetailsRecipeComponent,
     RecipeIconComponent,
     DetailHeaderComponent,
     ListPageComponent,
-    DetailsPageComponent
+    DetailsPageComponent,
+    EditPageComponent,
+    EditRecipeComponent,
+    EditHeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +43,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 	AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
 	FormsModule,
-	ReactiveFormsModule
+	ReactiveFormsModule,
+	CKEditorModule,
+	AutocompleteLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]

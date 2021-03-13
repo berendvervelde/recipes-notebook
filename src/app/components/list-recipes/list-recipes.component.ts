@@ -10,11 +10,11 @@ interface categoryToggleInterface {
 }
 
 @Component({
-	selector: 'app-recipes-list',
-	templateUrl: './recipes-list.component.html',
-	styleUrls: ['./recipes-list.component.scss']
+	selector: 'app-list-recipes',
+	templateUrl: './list-recipes.component.html',
+	styleUrls: ['./list-recipes.component.scss']
 })
-export class RecipesListComponent implements OnInit {
+export class ListRecipesComponent implements OnInit {
 	recipes?: Recipe[][]
 	showCategory: categoryToggleInterface = {}
 

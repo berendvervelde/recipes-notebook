@@ -4,11 +4,11 @@ import { Recipe, types } from 'src/app/core/models/recipe';
 import { RecipeService } from 'src/app/core/services/recipe.service';
 
 @Component({
-	selector: 'app-recipe-details',
-	templateUrl: './recipe-details.component.html',
-	styleUrls: ['./recipe-details.component.scss']
+	selector: 'app-details-recipe',
+	templateUrl: './details-recipe.component.html',
+	styleUrls: ['./details-recipe.component.scss']
 })
-export class RecipeDetailsComponent implements OnInit {
+export class DetailsRecipeComponent implements OnInit {
 	recipe?: Recipe | null
 
 	// to make an enum work in the template
