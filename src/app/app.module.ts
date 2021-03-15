@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core'
+import { LOCALE_ID, NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
 import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module'
@@ -19,7 +19,11 @@ import { EditPageComponent } from './components/pages/edit-page/edit-page.compon
 import { EditRecipeComponent } from './components/edit-recipe/edit-recipe.component'
 import { EditHeaderComponent } from './components/edit-header/edit-header.component'
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular'
-import { AutocompleteLibModule } from 'angular-ng-autocomplete';
+import { AutocompleteLibModule } from 'angular-ng-autocomplete'
+import { ListFooterComponent } from './components/list-footer/list-footer.component'
+import { registerLocaleData } from '@angular/common'
+import localeNl from '@angular/common/locales/nl'
+registerLocaleData(localeNl);
 
 @NgModule({
   declarations: [
@@ -34,7 +38,8 @@ import { AutocompleteLibModule } from 'angular-ng-autocomplete';
     DetailsPageComponent,
     EditPageComponent,
     EditRecipeComponent,
-    EditHeaderComponent
+    EditHeaderComponent,
+    ListFooterComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +52,9 @@ import { AutocompleteLibModule } from 'angular-ng-autocomplete';
 	CKEditorModule,
 	AutocompleteLibModule
   ],
-  providers: [],
+  providers: [
+    { provide: LOCALE_ID, useValue: 'nl-NL'},
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

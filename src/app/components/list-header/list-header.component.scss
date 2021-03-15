@@ -4,13 +4,6 @@
 	flex: 1 1 auto;
 }
 
-.icon-button {
-	width: 45px;
-	height: 45px;
-	border-color: #fd4b4a;
-	@apply border-2 rounded-full;
-}
-
 h4 {
 	color: $color;
 }
@@ -22,7 +15,7 @@ h4 {
 	top: 0;
 	z-index: 1;
 	right: -80px;
-	background-color: $blue;
+	background-color: $blue-tr;
 	transition: transform 150ms ease-in-out;
   }
 .sidebar.show {

@@ -1,13 +1,45 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-
+@import './app/shared/colors.scss';
 
 body {
 	background-color: #f9f5ef;
 }
 
-button:focus, input:focus {
-    outline: none;
-    background-color:#ece8e1 !important;
+button:focus,
+input:focus {
+	outline: none;
+	background-color: $bg-focus !important;
+}
+
+.icon-button {
+	width: 45px;
+	height: 45px;
+	border-color: $red;
+	background-color: $bg-color;
+	@apply justify-center items-center flex border-2 rounded-full;
+}
+
+/* custom style for the autocomplete input */
+.ng-autocomplete .autocomplete-container {
+	box-shadow: none;
+	.input-container{
+		.x i {
+			color: $red;
+		}
+		input {
+			background-color: $bg-color;
+			font-size: 16px;
+		}
+	}
+	
+	.suggestions-container {
+		box-shadow: none;
+		background-color: $red-tr;
+
+		ul li a {
+			color: $white;
+		}
+	}
 }

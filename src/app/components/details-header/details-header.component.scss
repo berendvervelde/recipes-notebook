@@ -1,8 +1,1 @@
 @import '../../shared/colors.scss';
-
-.icon-button {
-	width: 45px;
-	height: 45px;
-	border-color: $red;
-	@apply justify-center items-center flex border-2 rounded-full;
-}

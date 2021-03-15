@@ -3,7 +3,7 @@
 .form-input-container {
 	background-color: $bg-color;
 	border-color: $red;
-	@apply font-bold flex justify-between items-center border-b-2;
+	@apply flex justify-between items-center border-b-2;
 	input {
 		background-color: $bg-color;
 	}
@@ -11,6 +11,12 @@
 .ck-label {
 	@apply font-bold mt-5 block;
 }
-.autocomplete input {
-	background-color: $bg-color;
+
+.close-button {
+	right: 10px;
+	top: 15px;
+	color: $red;
+	i {
+		font-size: 22px;
+	}
 }

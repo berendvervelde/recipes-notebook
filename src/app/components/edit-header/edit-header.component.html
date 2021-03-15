@@ -1,7 +1,7 @@
 <div class="toolbar flex">
 	<ul class="action-bar space-x-2">
 		<li class="inline-block">
-			<button (click)="back()" class="icon-button" aria-label="back">
+			<button (click)="back(false)" class="icon-button" aria-label="back">
 				<recipe-icon color="#fd4b4a" name="back"></recipe-icon>
 			</button>
 		</li>
@@ -9,9 +9,27 @@
 	<span class="flex-1"></span>
 	<ul class="action-bar space-x-2">
 		<li class="inline-block">
-			<button class="icon-button" aria-label="save">
+			<button (click)="saveRecipe()" class="icon-button" aria-label="save">
 				<recipe-icon color="#fd4b4a" name="save"></recipe-icon>
 			</button>
 		</li>
 	</ul>
+</div>
+<div *ngIf="showSaveAlert">
+	<div class="alert-back" (click)="showSaveAlert = false" ></div>
+	<div class="alert p-4 relative">
+		<h3 class="text-center text-white font-bold" >Wijzigingen opslaan?</h3>
+		<ul class="mt-8 my-4 flex justify-around">
+			<li >
+				<button (click)="back(true)" class="icon-button" aria-label="back">
+					<recipe-icon color="#fd4b4a" name="back"></recipe-icon>
+				</button>
+			</li>
+			<li >
+				<button class="icon-button" aria-label="save">
+					<recipe-icon color="#fd4b4a" name="save"></recipe-icon>
+				</button>
+			</li>
+		</ul>
+	</div>
 </div>

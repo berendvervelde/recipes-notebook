@@ -1,16 +1,12 @@
-<form *ngIf="recipe" [formGroup]="recipeForm">
+<form class="relative" *ngIf="recipe" [formGroup]="recipeForm">
 	<div class="form-input-container">
-		<label class="mr-2" for="title">Titel:</label>
+		<label class="font-bold mr-2" for="title">Titel:</label>
 		<input class="h-12 flex-1" type="text" id="title" formControlName="title" />
+		<button (click)="clearTitle()" class="absolute close-button" ><i class="material-icons">close</i></button>
 	</div>
 
-	<!-- <div class="form-input-container">
-		<label class="mr-2" for="category">Categorie:</label>
-		<input class="h-12 flex-1" type="text" id="category" formControlName="category"/>
-	</div> -->
-
 	<div class="form-input-container autocomplete">
-		<label class="mr-2" for="category">Categorie:</label>
+		<label class="font-bold mr-2" for="category">Categorie:</label>
 		<ng-autocomplete [data]="categories" formControlName="category"
 			[searchKeyword]="keyword"
 			[itemTemplate]="itemTemplateStatic">
@@ -32,4 +28,4 @@
 	</div>
 
 </form>
-<p *ngIf="!recipe">Er ging iets mis. Het recept is niet gevonden.</p>
+<p class="py-8" *ngIf="!recipe">Er ging iets mis. Het recept is niet gevonden.</p>

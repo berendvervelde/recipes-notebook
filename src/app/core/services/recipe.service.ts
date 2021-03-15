@@ -12,7 +12,7 @@ interface recipesDictionary {
 }
 
 interface MutationDate {
-		mutationDate: firebase.firestore.Timestamp
+	mutationDate: firebase.firestore.Timestamp
 }
 interface Categories {
 	[key: string]: boolean
@@ -33,38 +33,44 @@ export class RecipeService {
 		private firestore: AngularFirestore
 	) { }
 
-	subscribeToRecipes(): Observable<Recipe[]>  {
-        return this.recipesMessenger.asObservable();
-    }
+	subscribeToRecipes(): Observable<Recipe[]> {
+		return this.recipesMessenger.asObservable();
+	}
 
 	updateSearchQuery(sq: string) {
 		this.searchQuery = sq.toLowerCase()
-		if(this.cache){
+		if (this.cache) {
 			this.searchFilter(this.cache)
 		}
 	}
 
 	setRecipe(uid: string, recipe: Recipe) {
-		const firestorePlacesCollection = this.firestore.collection('recipes').doc(uid).collection('recipe')
-		firestorePlacesCollection.doc(recipe.id.toString()).set(recipe, {merge: true})
+		// update recipe
+		this.firestore.collection('recipes').doc(uid).collection('recipe').doc(recipe.id.toString()).set(recipe, { merge: true })
+		// update mutationdate
+		const mutationDate = { mutationDate: firebase.firestore.Timestamp.now() }
+		this.firestore.collection('recipes').doc(uid).set(mutationDate, { merge: true })
+		// update local cache?
+		//this.cache.sort(this.sort)
+		// this.cacheObj ...
 	}
 
 	getRecipes(uid: string): void {
 		//get mutationdate from firebase
 		this.firestore.collection('recipes').doc(uid).valueChanges().subscribe(resp => {
-			if(resp){
+			if (resp) {
 				const mutationDate = (resp as MutationDate).mutationDate.seconds
 				// get cachedate from localstorage
 				const cacheDate = Number(window.localStorage.getItem('cacheDate'))
-				if (cacheDate && cacheDate === mutationDate){
-					if (this.cache){
+				if (cacheDate && cacheDate === mutationDate) {
+					if (this.cache) {
 						// or always get it from localstorage? Do we need this?
 						this.recipesMessenger.next(this.cache)
 					} else {
 						const lsr = window.localStorage.getItem('recipes')
-						if(lsr){
+						if (lsr) {
 							const r = JSON.parse(lsr)
-							this.cache =  (r as unknown as Recipe[])
+							this.cache = (r as unknown as Recipe[])
 							this.recipeObj = this.mapToDictionary(this.cache)
 							this.recipesMessenger.next(this.cache)
 						} else {
@@ -83,21 +89,21 @@ export class RecipeService {
 		})
 	}
 
-	getRecipe(id: number):Recipe | null {
-		if(this.recipeObj){
+	getRecipe(id: number): Recipe | null {
+		if (this.recipeObj) {
 			return this.recipeObj[id]
 		}
 		return null
 	}
 
-	groupBy(recipes: Recipe[], key: keyof Recipe): Recipe[][]{
+	groupBy(recipes: Recipe[], key: keyof Recipe): Recipe[][] {
 		const gc: groupContainer = {}
 		recipes.forEach(r => {
 			const c = r[key]
-			if(typeof c === 'string'){
+			if (typeof c === 'string') {
 				(gc[c] = gc[c] || []).push(r)
 			}
-			
+
 		})
 		return Object.values(gc)
 	}
@@ -112,9 +118,56 @@ export class RecipeService {
 		return Object.keys(categories)
 	}
 
+	newRecipe(): number {
+		if (this.cache && this.recipeObj) {
+			const id = this.cache.length
+			const newRecipe: Recipe = {
+				'@type': 'Recipe',
+				'@context': 'http://schema.org/',
+				id: id,
+				image: {
+					'@type': 'ImageObject',
+					url: ''
+				},
+				totalTime: '',
+				author: {
+					'@type': 'Person',
+					name: ''
+				},
+				cookTime: '',
+				description: '',
+				type: 0,
+				prepTime: '',
+				tags: [],
+				datePublished: '',
+				recipeYield: 0,
+				nutrition: {
+					'@type': 'NutritionInformation',
+					fatContent: '',
+					calories: 0,
+					servingSize: ''
+				},
+				name: '',
+				ingredients: '',
+				category: 'Ongecategoriseerd',
+				aggregateRating: {
+					'@type': 'AggregateRating',
+					reviewCount: 0,
+					ratingValue: 0
+				},
+				recipeInstructions: ''
+			}
+
+			this.recipeObj[id] = newRecipe
+			this.cache.push(newRecipe)
+			return id
+		}
+		return -1
+	}
+
 	private getRecipesFromFirebase(uid: string, mutationDate: number) {
 		const firestorePlacesCollection = this.firestore.collection('recipes').doc(uid).collection('recipe')
-	
+
 		firestorePlacesCollection.valueChanges({ idField: 'id' }).subscribe(r => {
 			this.cache = (r as unknown as Recipe[]).sort(this.sort)
 			this.recipeObj = this.mapToDictionary(this.cache)
@@ -126,15 +179,15 @@ export class RecipeService {
 		});
 	}
 	private searchFilter(cache: Recipe[]): void {
-		if(this.searchQuery !== ''){
+		if (this.searchQuery !== '') {
 			const result: Recipe[] = []
 
 			cache.forEach(r => {
-				if (r.description.toLowerCase().indexOf(this.searchQuery) > -1 || 
-					r.recipeInstructions.toLowerCase().indexOf(this.searchQuery) > -1 || 
+				if (r.description.toLowerCase().indexOf(this.searchQuery) > -1 ||
+					r.recipeInstructions.toLowerCase().indexOf(this.searchQuery) > -1 ||
 					r.ingredients.toLowerCase().indexOf(this.searchQuery) > -1 ||
 					r.name.toLowerCase().indexOf(this.searchQuery) > -1
-					){
+				) {
 					result.push(r)
 				}
 			})
@@ -142,7 +195,7 @@ export class RecipeService {
 		}
 	}
 
-	private mapToDictionary(recipes: Recipe[]): recipesDictionary{
+	private mapToDictionary(recipes: Recipe[]): recipesDictionary {
 		const obj: recipesDictionary = {}
 		recipes.forEach(r => {
 			obj[r.id] = r
@@ -150,9 +203,9 @@ export class RecipeService {
 		return obj
 	}
 
-	private sort(a: Recipe, b: Recipe): number{
+	private sort(a: Recipe, b: Recipe): number {
 		const cSort = a.category.localeCompare(b.category)
-		if(cSort !== 0){
+		if (cSort !== 0) {
 			return cSort
 		}
 		return a.name.localeCompare(b.name)
