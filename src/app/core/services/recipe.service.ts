@@ -55,6 +55,12 @@ export class RecipeService {
 		// this.cacheObj ...
 	}
 
+	deleteRecipe(uid: string, recipe: Recipe) {
+		this.firestore.collection('recipes').doc(uid).collection('recipe').doc(recipe.id.toString()).delete()
+		const mutationDate = { mutationDate: firebase.firestore.Timestamp.now() }
+		this.firestore.collection('recipes').doc(uid).set(mutationDate, { merge: true })
+	}
+
 	getRecipes(uid: string): void {
 		//get mutationdate from firebase
 		this.firestore.collection('recipes').doc(uid).valueChanges().subscribe(resp => {

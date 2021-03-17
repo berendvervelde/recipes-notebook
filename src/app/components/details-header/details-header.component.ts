@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core'
-import { Location } from '@angular/common'
 import { ActivatedRoute } from '@angular/router';
+import { SharedService } from 'src/app/core/services/shared.service';
 
 @Component({
 	selector: 'app-details-header',
@@ -10,10 +10,11 @@ import { ActivatedRoute } from '@angular/router';
 export class DetailHeaderComponent implements OnInit {
 
 	id?: number
+	showDeleteAlert = false
 
 	constructor(
-		private location: Location,
-		private route: ActivatedRoute
+		private route: ActivatedRoute,
+		private sharedService: SharedService
 	) { }
 
 	ngOnInit(): void {
@@ -22,7 +23,14 @@ export class DetailHeaderComponent implements OnInit {
 		})
 	}
 
-	back() {
-		this.location.back()
+	showAlert(){
+		this.showDeleteAlert = true
+	}
+	delete() {
+		this.sendMessage(SharedService.id.ac_delete)
+	}
+
+	private sendMessage(message: number): void {
+		this.sharedService.messageSource.next(message)
 	}
 }

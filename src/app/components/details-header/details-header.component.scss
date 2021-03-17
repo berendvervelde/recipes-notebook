@@ -1,1 +1,18 @@
 @import '../../shared/colors.scss';
+
+.alert-back {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: $bg-focus-tr;
+}
+
+.alert {
+	background-color: $blue-tr;
+	margin: 0 auto;
+	max-width: 300px;
+	min-width: 200px;
+}

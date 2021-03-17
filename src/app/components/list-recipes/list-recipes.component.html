@@ -12,7 +12,7 @@
 		</button>
 		<ul *ngIf="showCategory[recipeGroup[0].category]" class="grid">
 			<li *ngFor="let recipe of recipeGroup">
-				<a routerLink="/recipe" [routerLink]="['/show-recipe', recipe.id]" routerLinkActive="active">
+				<a [routerLink]="['/show-recipe', recipe.id]" routerLinkActive="active">
 					<div>
 						<div [ngClass]="{'note': recipe.type === types.note, 'recipe': recipe.type === types.recipe,'list': recipe.type === types.list}"
 							class="title">

@@ -1,17 +1,41 @@
 <div class="toolbar flex">
 	<ul class="action-bar space-x-2">
 		<li class="inline-block">
-			<button (click)="back()" class="icon-button" aria-label="back">
+			<a class="icon-button" [routerLink]="['/recipes']" routerLinkActive="active">
 				<recipe-icon color="#fd4b4a" name="back"></recipe-icon>
-			</button>
+			</a>
 		</li>
 	</ul>
 	<span class="flex-1"></span>
 	<ul class="action-bar space-x-2">
 		<li class="inline-block">
-			<a class="icon-button" routerLink="/recipe" [routerLink]="['/edit-recipe', id]" routerLinkActive="active">
+			<button (click)="showAlert()" class="icon-button" aria-label="delete">
+				<recipe-icon color="#fd4b4a" name="trash"></recipe-icon>
+			</button>
+		</li>
+		<li class="inline-block">
+			<a class="icon-button" [routerLink]="['/edit-recipe', id]" routerLinkActive="active">
 				<recipe-icon color="#fd4b4a" name="edit"></recipe-icon>
 			</a>
 		</li>
 	</ul>
+</div>
+<div *ngIf="showDeleteAlert">
+	<div class="alert-back" (click)="showDeleteAlert = false" ></div>
+	<div class="alert p-4 relative">
+		<h3 class="text-center text-white font-bold" >Verwijderen?</h3>
+		<ul class="mt-8 my-4 flex justify-around">
+			<li >
+				<button  (click)="delete()" class="icon-button" aria-label="trash">
+					<recipe-icon color="#fd4b4a" name="trash"></recipe-icon>
+				</button>
+			</li>
+			<li >
+				<button  (click)="showDeleteAlert = false" class="icon-button" aria-label="close">
+					<recipe-icon color="#fd4b4a" name="close"></recipe-icon>
+				</button>
+			</li>
+			
+		</ul>
+	</div>
 </div>

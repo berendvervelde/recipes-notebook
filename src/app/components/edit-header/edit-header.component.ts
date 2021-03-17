@@ -1,8 +1,8 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Location } from '@angular/common'
 import { SharedService } from 'src/app/core/services/shared.service';
 import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
 	selector: 'app-edit-header',
@@ -18,15 +18,21 @@ export class EditHeaderComponent implements OnInit, OnDestroy {
 	// are you sure you want to exit without save
 	showSaveAlert = false
 
+	id?: number
+
 	constructor(
-		private location: Location,
-		private sharedService: SharedService
+		private sharedService: SharedService,
+		private router: Router,
+		private route: ActivatedRoute,
 	) { }
 
 	ngOnInit(): void {
 		// get messages from the header
 		this.sharedService.messageSource.pipe(takeUntil(this.destroy$)).subscribe((message: number) => {
 			this.handleMessages(message)
+		})
+		this.route.params.subscribe(params => {
+			this.id = params['recipeId']
 		})
 	}
 
@@ -39,7 +45,7 @@ export class EditHeaderComponent implements OnInit, OnDestroy {
 		if(this.formDirty && !force){
 			this.showSaveAlert = true
 		} else {
-			this.location.back()
+			this.router.navigate(['/show-recipe', this.id])
 		}
 	}
 

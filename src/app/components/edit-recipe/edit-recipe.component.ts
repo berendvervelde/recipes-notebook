@@ -1,13 +1,13 @@
 import { Component, OnDestroy, OnInit } from '@angular/core'
 import { FormControl, FormGroup } from "@angular/forms"
 import * as ClassicEditor from "@ckeditor/ckeditor5-build-classic"
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Recipe, types } from 'src/app/core/models/recipe';
 import { RecipeService } from 'src/app/core/services/recipe.service';
 import { SharedService } from 'src/app/core/services/shared.service';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { formatDate, Location } from '@angular/common'
+import { formatDate } from '@angular/common'
 import { FirebaseAuthService } from 'src/app/core/services/firebase-auth.service';
 
 @Component({
@@ -25,6 +25,8 @@ export class EditRecipeComponent implements OnInit, OnDestroy {
 	// have changes been made in the form?
 	dirty = false
 
+	id?: number
+
 	public Editor = ClassicEditor;
 	notification = new FormControl('');
 	recipeForm!: FormGroup
@@ -33,18 +35,18 @@ export class EditRecipeComponent implements OnInit, OnDestroy {
 
 	constructor(
 		private route: ActivatedRoute,
-		private location: Location,
 		private recipeService: RecipeService,
 		private sharedService: SharedService,
-		private authService: FirebaseAuthService
+		private authService: FirebaseAuthService,
+		private router: Router
 	) { }
 
 	ngOnInit(): void {
 		//if all goes well we get the id from the url param
 		this.route.params.subscribe(params => {
-			const id = params['recipeId'];
-			if (id) {
-				this.recipe = this.recipeService.getRecipe(Number(id))
+			this.id = params['recipeId'];
+			if (this.id) {
+				this.recipe = this.recipeService.getRecipe(this.id)
 				this.setupForm()
 				this.categories = this.recipeService.getAllCategories()
 			}
@@ -101,16 +103,26 @@ export class EditRecipeComponent implements OnInit, OnDestroy {
 					const recipe = this.mapRecipe(this.recipeForm.value, this.recipe)
 
 					this.recipeService.setRecipe(uid, recipe)
-					this.location.back()
+					this.router.navigate(['/show-recipe', this.id]);
 				}
 			})
 		} else {
-			this.location.back()
+			this.router.navigate(['/show-recipe', this.id]);
 		}
 	}
 
 	private mapRecipe(values: any, recipe: Recipe): Recipe{
-		//TODO determine type based on ingredients and recipeInstructions content
+		// determine type based on ingredients and instructions content
+		if(values.ckIngredients.length > 0 && values.ckInstructions.length > 0){
+			recipe.type = types.recipe
+		} else if(values.ckIngredients.length > 0){
+			recipe.type = types.list
+		} else if(values.ckInstructions.length > 0){
+			recipe.type = types.note
+		} else {
+			recipe.type = types.recipe
+		}
+
 		recipe.name = values.title
 		recipe.ingredients = values.ckIngredients
 		recipe.category = values.category.length > 0 ? values.category: 'Ongecategoriseerd'
