@@ -2,7 +2,7 @@
 	<div class="form-input-container">
 		<label class="font-bold mr-2" for="title">Titel:</label>
 		<input class="h-12 flex-1" type="text" id="title" formControlName="title" />
-		<button (click)="clearTitle()" class="absolute close-button" ><i class="material-icons">close</i></button>
+		<button (click)="clearTitle()" class="absolute close-button" ><recipe-icon color="#fd4b4a" name="close"></recipe-icon></button>
 	</div>
 
 	<div class="form-input-container autocomplete">
@@ -22,9 +22,25 @@
 		<ckeditor id="ingredients" [editor]="Editor" formControlName="ckIngredients"></ckeditor>
 	</div>
 
+	<div class="form-input-container">
+		<label class="font-bold mr-2" for="servings">Porties:</label>
+		<input class="h-12 flex-1" type="number" id="servings" formControlName="servings" />
+	</div>
+
 	<div>
 		<label class="ck-label" for="instructions">Bereiding:</label>
 		<ckeditor id="instructions" [editor]="Editor" formControlName="ckInstructions"></ckeditor>
+	</div>
+
+	<div class="form-input-container">
+		<app-time-picker label="Voorbereiding:" formControlName="prepTime"></app-time-picker>
+		<app-time-picker label="Bereiding:" formControlName="cookTime"></app-time-picker>
+	</div>
+
+	<div class="form-input-container">
+		<label class="font-bold mr-2" for="tags">Tags:</label>
+		<input class="h-12 flex-1" type="text" id="tags" formControlName="tags" />
+		<button (click)="clearTags()" class="absolute close-button" ><recipe-icon color="#fd4b4a" name="close"></recipe-icon></button>
 	</div>
 
 </form>

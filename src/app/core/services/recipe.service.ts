@@ -1,8 +1,9 @@
-import { Injectable } from '@angular/core';
+import { Injectable, OnDestroy } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { BehaviorSubject, Observable } from 'rxjs';
+import { BehaviorSubject, Observable, Subject } from 'rxjs';
 import { Recipe } from '../models/recipe';
 import firebase from 'firebase/app';
+import { takeUntil } from 'rxjs/operators';
 
 interface groupContainer {
 	[key: string]: Recipe[]
@@ -21,17 +22,24 @@ interface Categories {
 	providedIn: 'root'
 })
 
-export class RecipeService {
+export class RecipeService implements OnDestroy{
 
 	private cache?: Recipe[]
 	recipeObj?: recipesDictionary
 	private searchQuery = ''
 
 	private recipesMessenger = new BehaviorSubject<Recipe[]>([]);
-
+	// this subjects to be put in the takeuntil so we can destroy observables on exit
+	private readonly destroy$ = new Subject();
 	constructor(
 		private firestore: AngularFirestore
 	) { }
+
+	ngOnDestroy(): void {
+		this.destroy$.next()
+		this.destroy$.unsubscribe()
+	}
+
 
 	subscribeToRecipes(): Observable<Recipe[]> {
 		return this.recipesMessenger.asObservable();
@@ -63,7 +71,7 @@ export class RecipeService {
 
 	getRecipes(uid: string): void {
 		//get mutationdate from firebase
-		this.firestore.collection('recipes').doc(uid).valueChanges().subscribe(resp => {
+		this.firestore.collection('recipes').doc(uid).valueChanges().pipe(takeUntil(this.destroy$)).subscribe(resp => {
 			if (resp) {
 				const mutationDate = (resp as MutationDate).mutationDate.seconds
 				// get cachedate from localstorage
@@ -174,7 +182,7 @@ export class RecipeService {
 	private getRecipesFromFirebase(uid: string, mutationDate: number) {
 		const firestorePlacesCollection = this.firestore.collection('recipes').doc(uid).collection('recipe')
 
-		firestorePlacesCollection.valueChanges({ idField: 'id' }).subscribe(r => {
+		firestorePlacesCollection.valueChanges({ idField: 'id' }).pipe(takeUntil(this.destroy$)).subscribe(r => {
 			this.cache = (r as unknown as Recipe[]).sort(this.sort)
 			this.recipeObj = this.mapToDictionary(this.cache)
 

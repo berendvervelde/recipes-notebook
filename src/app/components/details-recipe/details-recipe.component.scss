@@ -4,13 +4,16 @@ h2 {
 	&.list {
 		background-color: $yellow;
 	}
+
 	&.note {
 		background-color: $green;
 	}
+
 	&.recipe {
 		background-color: $blue;
 	}
 }
+
 h3 {
 	color: $red;
 }

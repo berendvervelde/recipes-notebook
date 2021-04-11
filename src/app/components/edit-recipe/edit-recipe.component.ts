@@ -43,7 +43,7 @@ export class EditRecipeComponent implements OnInit, OnDestroy {
 
 	ngOnInit(): void {
 		//if all goes well we get the id from the url param
-		this.route.params.subscribe(params => {
+		this.route.params.pipe(takeUntil(this.destroy$)).subscribe(params => {
 			this.id = params['recipeId'];
 			if (this.id) {
 				this.recipe = this.recipeService.getRecipe(this.id)
@@ -56,6 +56,7 @@ export class EditRecipeComponent implements OnInit, OnDestroy {
 			this.handleMessages(message)
 		})
 	}
+
 	private handleMessages(message: number) {
 		switch(message){
 			case SharedService.id.ac_save:
@@ -70,17 +71,20 @@ export class EditRecipeComponent implements OnInit, OnDestroy {
 	}
 
 
-	setupForm() {
+	private setupForm() {
 		if (this.recipe) {
 			this.recipeForm = new FormGroup({
 				title: new FormControl(this.recipe.name),
 				ckIngredients: new FormControl(this.recipe.ingredients),
 				category: new FormControl(this.recipe.category),
 				ckInstructions: new FormControl(this.recipe.recipeInstructions),
-
+				tags: new FormControl(this.recipe.tags.join(', ')),
+				cookTime: new FormControl(this.recipe.cookTime),
+				prepTime: new FormControl(this.recipe.prepTime),
+				servings: new FormControl(this.recipe.recipeYield)
 			})
 			
-			this.recipeForm.valueChanges.subscribe(val => {
+			this.recipeForm.valueChanges.pipe(takeUntil(this.destroy$)).subscribe(val => {
 				if (!this.dirty){
 					this.dirty = true
 					this.sendMessage(SharedService.id.st_dirty)
@@ -95,9 +99,15 @@ export class EditRecipeComponent implements OnInit, OnDestroy {
 		})
 	}
 
+	clearTags(): void {
+		this.recipeForm.patchValue({
+			tags: ''
+		})
+	}
+
 	saveRecipe() {
 		if(this.dirty) {
-			this.authService.getCurrentUser().subscribe(user => {
+			this.authService.getCurrentUser().pipe(takeUntil(this.destroy$)).subscribe(user => {
 				const uid = user?.uid
 				if(uid && this.recipe) {
 					const recipe = this.mapRecipe(this.recipeForm.value, this.recipe)
@@ -128,6 +138,11 @@ export class EditRecipeComponent implements OnInit, OnDestroy {
 		recipe.category = values.category.length > 0 ? values.category: 'Ongecategoriseerd'
 		recipe.recipeInstructions = values.ckInstructions
 		recipe.datePublished = formatDate(new Date(), 'yyyy-MM-dd HH:mm:ss', 'nl-NL')
+		recipe.recipeYield = values.servings
+		recipe.cookTime = values.cookTime
+		recipe.prepTime = values.prepTime
+
+		recipe.tags = values.tags.split(',').map((t: string) => t.trim())
 
 		return recipe
 	}

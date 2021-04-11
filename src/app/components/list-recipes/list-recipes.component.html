@@ -1,6 +1,3 @@
-<!-- <button (click)="getRecipes()">getRecipes</button>
-<br />
-<button (click)="saveAllRecipes()">save all Recipes</button> -->
 <ul >
 	<li *ngFor="let recipeGroup of recipes">
 		<button  class="w-full text-left block category sticky" (click)="toggleCategory(recipeGroup[0].category)">
@@ -32,3 +29,23 @@
 		</ul>
 	</li>
 </ul>
+<div *ngIf="showExportModal">
+	<div class="modal-back" (click)="showExportModal = false" ></div>
+	<div class="modal">
+		<h3 >JSON export</h3>
+		<textarea [formControl]="jsonTextareaFC" #jsonTextArea></textarea>
+		<ul class="action-bar">
+			<li>
+				<button  (click)="copyJSON()" class="icon-button" aria-label="close">
+					<recipe-icon color="#fd4b4a" name="copy"></recipe-icon>
+				</button>
+			</li>
+			<li>
+				<button  (click)="showExportModal = false" class="icon-button" aria-label="close">
+					<recipe-icon color="#fd4b4a" name="close"></recipe-icon>
+				</button>
+			</li>
+		</ul>
+		
+	</div>
+</div>

@@ -6,6 +6,7 @@ import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators'
 import { FirebaseAuthService } from 'src/app/core/services/firebase-auth.service';
 import { RecipeService } from 'src/app/core/services/recipe.service';
+import { SharedService } from 'src/app/core/services/shared.service';
 
 @Component({
 	selector: 'app-list-header',
@@ -35,16 +36,20 @@ export class ListHeaderComponent implements OnInit, OnDestroy {
 	constructor(
 		public auth: AngularFireAuth,
 		private recipeService: RecipeService,
-		private authService: FirebaseAuthService
+		private authService: FirebaseAuthService,
+		private sharedService: SharedService
 	){}
 
 	ngOnInit(): void {
-		this.authService.getCurrentUser().subscribe(user => {
+		this.authService.getCurrentUser().pipe(takeUntil(this.destroy$)).subscribe(user => {
 			this.user = user
 			// listen to changes in the searchinput
 			this.searchQuery.valueChanges.pipe(takeUntil(this.destroy$)).subscribe (val => {
 				this.search(val)
 			})
+		})
+		this.sharedService.messageSource.pipe(takeUntil(this.destroy$)).subscribe((message: number) => {
+			this.handleMessages(message)
 		})
 	}
 
@@ -78,6 +83,17 @@ export class ListHeaderComponent implements OnInit, OnDestroy {
 		this.showSideMenu = !this.showSideMenu
 	}
 
+	toggleGroup(){
+		this.sendMessage(SharedService.id.ac_toggle_categoryGroups)
+	}
+
+	exportJson(){
+		this.sendMessage(SharedService.id.ac_export_JSON)
+	}
+	importJson(){
+		
+	}
+
 	login() {
 		this.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider())
 		.then((result: firebase.auth.UserCredential) => {
@@ -108,5 +124,16 @@ export class ListHeaderComponent implements OnInit, OnDestroy {
 		this.searchDelayTimer = setTimeout(() => {
 			this.recipeService.updateSearchQuery(searchQuery)
 		}, ListHeaderComponent.searchDelay)
+	}
+	//incoming messages
+	private handleMessages(message: number): void {
+		switch (message){
+
+			
+		}
+	}
+	//outgoing messages
+	private sendMessage(message: number): void {
+		this.sharedService.messageSource.next(message)
 	}
 }

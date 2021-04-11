@@ -3,7 +3,7 @@
 .form-input-container {
 	background-color: $bg-color;
 	border-color: $red;
-	@apply flex justify-between items-center border-b-2;
+	@apply flex relative justify-between items-center border-b-2;
 	input {
 		background-color: $bg-color;
 	}

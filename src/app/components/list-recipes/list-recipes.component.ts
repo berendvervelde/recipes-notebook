@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { Recipe, types } from 'src/app/core/models/recipe';
 import { FirebaseAuthService } from 'src/app/core/services/firebase-auth.service';
 import { JsonImporterService } from 'src/app/core/services/json-importer.service';
@@ -8,6 +8,7 @@ import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { SharedService } from 'src/app/core/services/shared.service';
 import { Router } from '@angular/router';
+import { FormControl } from '@angular/forms';
 
 interface categoryToggleInterface {
 	[key: string]: boolean
@@ -23,8 +24,17 @@ export class ListRecipesComponent implements OnInit, OnDestroy {
 	// this subjects to be put in the takeuntil so we can destroy observables on exit
 	private readonly destroy$ = new Subject();
 
+	jsonTextarea?: ElementRef
+	@ViewChild('jsonTextArea') set er(er: ElementRef) {
+		if(er){
+			this.jsonTextarea = er
+		}
+	}
+	jsonTextareaFC = new FormControl('')
+
 	recipes?: Recipe[][]
 	showCategory: categoryToggleInterface = {}
+	showExportModal = false
 
 	// to make an enum work in the template
 	types: typeof types = types;
@@ -70,13 +80,54 @@ export class ListRecipesComponent implements OnInit, OnDestroy {
 		this.showCategory[category] = !this.showCategory[category]
 	}
 
+	copyJSON(){
+		if(this.jsonTextarea){
+			this.jsonTextarea.nativeElement.select();
+			document.execCommand('copy');
+		}
+	}
+
 	private handleMessages(message: number) {
 		switch(message){
 			case SharedService.id.ac_new_recipe:
 				this.addRecipe()
 				break
+			case SharedService.id.ac_toggle_categoryGroups:
+				this.toggleCategories()
+				break
+			case SharedService.id.ac_export_JSON:
+				this.exportJson()
+				break
+			case SharedService.id.ac_import_JSON:
+				this.importJson()
+				break
 		}
 	}
+	private importJson(){
+		
+	} 
+
+	private exportJson(){
+		this.showExportModal = true
+
+		const val = JSON.stringify(this.recipes, null, 4)
+		this.jsonTextareaFC.setValue(val)
+	}
+
+	private toggleCategories() {
+		const cats: [string, boolean][] = Object.entries(this.showCategory)
+		let allClosed = true
+		cats.forEach(([key, value]) =>{
+			if(value) {
+				allClosed = false
+			}
+		})
+
+		for( let key in this.showCategory) {
+			this.showCategory[key] = allClosed
+		}
+	}
+
 	private addRecipe() {
 		const id = this.recipeService.newRecipe()
 		if(id > 0){

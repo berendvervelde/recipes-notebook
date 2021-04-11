@@ -22,7 +22,9 @@ import { CKEditorModule } from '@ckeditor/ckeditor5-angular'
 import { AutocompleteLibModule } from 'angular-ng-autocomplete'
 import { ListFooterComponent } from './components/list-footer/list-footer.component'
 import { registerLocaleData } from '@angular/common'
-import localeNl from '@angular/common/locales/nl'
+import localeNl from '@angular/common/locales/nl';
+import { TimePickerComponent } from './components/time-picker/time-picker.component';
+import { PercentageCalculatorComponent } from './components/percentage-calculator/percentage-calculator.component'
 registerLocaleData(localeNl);
 
 @NgModule({
@@ -39,7 +41,9 @@ registerLocaleData(localeNl);
     EditPageComponent,
     EditRecipeComponent,
     EditHeaderComponent,
-    ListFooterComponent
+    ListFooterComponent,
+    TimePickerComponent,
+    PercentageCalculatorComponent
   ],
   imports: [
     BrowserModule,

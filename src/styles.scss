@@ -1,7 +1,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import './assets/font/fonts.css';
 @import './app/shared/colors.scss';
+
+* {
+	font-family: 'Segoe UI' !important; /* until tailwind gets ditched */
+}
 
 body {
 	background-color: #f9f5ef;
@@ -10,7 +15,7 @@ body {
 button:focus,
 input:focus {
 	outline: none;
-	background-color: $bg-focus !important;
+	background-color: $bg-focus !important; /* until tailwind gets ditched */
 }
 
 .icon-button {

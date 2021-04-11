@@ -1,0 +1,7 @@
+<button class="timepicker-button" (click)="openTimeScroller()">{{label}} {{selectedTime}}</button>
+<div *ngIf="showTimepicker"  (click)="closeTimeScroller()" class="scrollcontainer-back" ></div>
+<div *ngIf="showTimepicker" class="scrollcontainer">
+	<ul>
+		<li *ngFor="let time of times"><button (click)="setValue(time)">{{time}}</button></li>
+	</ul>
+</div>

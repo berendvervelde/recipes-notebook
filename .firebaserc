@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "myrecipes-c8b4d"
+  },
+  "targets": {
+    "myrecipes-c8b4d": {
+      "hosting": {
+        "recipes-notebook": [
+          "myrecipes-c8b4d"
+        ]
+      }
+    }
+  }
+}

@@ -12,6 +12,12 @@ export class SharedService {
 		ac_dont_save: 1,
 		ac_new_recipe: 2,
 		ac_delete: 3,
+		ac_open_percentage_calculator: 4,
+		ac_toggle_categoryGroups: 5,
+		ac_apply_percentage: 6,
+		ac_export_JSON: 7,
+		ac_import_JSON: 8,
+
 		// statuses
 		st_dirty: 10
 

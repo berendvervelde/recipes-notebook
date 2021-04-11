@@ -1,0 +1,42 @@
+<!-- TODO: move to its own component -->
+<div *ngIf="showPercentageCalculator" (click)="closeModal()" class="calculator-back"></div>
+<div *ngIf="showPercentageCalculator" class="calculator">
+	<div class="controls amount">
+		<button (mousedown)="mouseDown(-1)"  
+			(mouseup)="mouseUp()" 
+			(touchstart)="mouseDown(-1)"
+			(touchend)="mouseUp()"
+			 class="change-amount">
+			<recipe-icon color="#fd4b4a" name="chevron_left"></recipe-icon>
+		</button>
+		<input [formControl]="inputAmount" type="number" min="1" step="1"/>
+		<button (mousedown)="mouseDown(1)"  
+			(mouseup)="mouseUp()" 
+			(touchstart)="mouseDown(1)"
+			(touchend)="mouseUp()"
+			class="change-amount">
+			<recipe-icon color="#fd4b4a" name="chevron_right"></recipe-icon>
+		</button>
+	</div>
+	<div class="controls buttons">
+		<button [ngClass]="{'selected': this.calculateType === 'percentage'}" (click)="setCalculateType('percentage')" class="type">
+			Percentage
+		</button>
+		<button  [ngClass]="{'selected': this.calculateType !== 'percentage'}" (click)="setCalculateType('servings')" class="type">
+			Porties
+		</button>
+	</div>
+	<div class="mb-4 result" #calculatedResult [innerHTML]="ingredients"></div>
+	<ul class="action-bar">
+		<li class="inline-block">
+			<button (click)="applyPercentage()" class="icon-button" aria-label="apply">
+				<recipe-icon color="#fd4b4a" name="check"></recipe-icon>
+			</button>
+		</li>
+		<li class="inline-block">
+			<button (click)="closeModal()" class="icon-button" aria-label="close">
+				<recipe-icon color="#fd4b4a" name="close"></recipe-icon>
+			</button>
+		</li>
+	</ul>
+</div>

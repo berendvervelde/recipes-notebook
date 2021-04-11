@@ -30,6 +30,21 @@
 				<recipe-icon color="#fd4b4a" name="calculator"></recipe-icon>
 			</button>
 		</li>
+		<li >
+			<button (click)="toggleGroup()" class="icon-button" aria-label="toggle open close">
+				<recipe-icon color="#fd4b4a" name="chevron_right_double"></recipe-icon>
+			</button>
+		</li>
+		<li >
+			<button (click)="exportJson()" class="icon-button" aria-label="export JSON">
+				<recipe-icon color="#fd4b4a" name="export"></recipe-icon>
+			</button>
+		</li>
+		<li >
+			<button (click)="importJson()" class="icon-button" aria-label="import JSON">
+				<recipe-icon color="#fd4b4a" name="import"></recipe-icon>
+			</button>
+		</li>
 	</ul>
 	<div  [ngClass]="{'show': showSearch}" class="search h-12 absolute w-full">
 		<input #searchInput class="h-12 border-b-2 w-full" type="text" [formControl]="searchQuery" />

@@ -14,6 +14,11 @@
 			</button>
 		</li>
 		<li class="inline-block">
+			<button class="icon-button" (click)="percentageCalculatorToggle()" aria-label="percentagecalculator">
+				<recipe-icon color="#fd4b4a" name="percent"></recipe-icon>
+			</button>
+		</li>
+		<li class="inline-block">
 			<a class="icon-button" [routerLink]="['/edit-recipe', id]" routerLinkActive="active">
 				<recipe-icon color="#fd4b4a" name="edit"></recipe-icon>
 			</a>
@@ -35,7 +40,6 @@
 					<recipe-icon color="#fd4b4a" name="close"></recipe-icon>
 				</button>
 			</li>
-			
 		</ul>
 	</div>
 </div>
