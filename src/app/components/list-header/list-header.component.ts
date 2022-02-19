@@ -90,9 +90,6 @@ export class ListHeaderComponent implements OnInit, OnDestroy {
 	exportJson(){
 		this.sendMessage(SharedService.id.ac_export_JSON)
 	}
-	importJson(){
-		
-	}
 
 	login() {
 		this.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider())

@@ -1,0 +1,4946 @@
+[
+	{
+		"datePublished": "2021-03-20 10:59:59",
+		"totalTime": "",
+		"recipeInstructions": "<p>Bak de Quiche blind. Bak de paddenstoelen met knoflook en salie. Leg de Ham op de bodem en hierover heen de paddenstoelen. Giet eieren en room bij en bak gaar. </p>",
+		"ingredients": "<p><strong>Quichedeeg</strong></p><p>200 g bloem</p><p>100 g boter</p><p>0,5 ei</p><p>zout</p><p>2 el ijswater</p><p>&nbsp;</p><p><strong>Vulling</strong><br>300 g Paddenstoelen<br>Salie<br>100 g Parmaham<br>4 Eieren<br>250 g creme fraiche</p>",
+		"recipeYield": 4,
+		"id": "44",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"cookTime": "een uur",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"tags": [
+			"quiche",
+			"frans",
+			"eieren",
+			"blind gebakken"
+		],
+		"prepTime": "een kwartier",
+		"@context": "http://schema.org/",
+		"type": 0,
+		"category": "Bijgerecht",
+		"name": "Paddenstoelen quiche",
+		"description": "",
+		"@type": "Recipe",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": "",
+			"calories": ""
+		}
+	},
+	{
+		"recipeYield": "",
+		"author": {
+			"@type": "Person"
+		},
+		"ingredients": "<p>400 g p&#226;te brisee<br>1 kg uien<br>75g boter<br>2 el honing<br>50 ml azijn<br>3 eieren<br>250 g creme fraise<br>Ontbijtspek<br>Nootmuskaat<br>Zout<br>Peper<br>Thijm</p>",
+		"recipeInstructions": "<p>Maak uien schoon en snij grof. Fruit en karameliseer de ui, honing en de boter in 20 minuten bruin. Voeg azijn en thijm toe en laat nog 5 minuten doorkoken.<br>Maak met de p&#226;te brisee een quiche bodem en bak deze blind, in 25 minuten op 200&#176;C gaar.<br>Meng eieren en creme fraise. Voeg zout, peper en nootmuskaat toe.<br>Spreidt uienmengsel op de bodem van de vorm. Giet eiermengsel over de uien. Leg plakjes spek bovenop de quiche en bak in 25 minuten op 200&#176;C gaar.</p>",
+		"@context": "http://schema.org/",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": ""
+		},
+		"description": "",
+		"datePublished": "2019-09-15 20:21:03",
+		"type": 0,
+		"tags": [
+			"frans"
+		],
+		"name": "Uienquich",
+		"totalTime": "",
+		"category": "Bijgerecht",
+		"prepTime": "",
+		"id": "127",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"cookTime": "",
+		"@type": "Recipe"
+	},
+	{
+		"tags": [],
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"datePublished": "2016-07-16 17:49:05",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": "",
+			"calories": ""
+		},
+		"category": "Borrelhapje",
+		"prepTime": "",
+		"totalTime": "",
+		"recipeYield": "",
+		"type": 0,
+		"ingredients": "<p>1 aubergine<br>3 tenen knoflook, gehakt<br>100 g gehakte walnoten<br>3el peterselie<br>Olijfolie<br>Zout<br>Peper</p>",
+		"@context": "http://schema.org/",
+		"cookTime": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"name": "Aubergine rolletjes",
+		"id": "3",
+		"@type": "Recipe",
+		"recipeInstructions": "<p>Snij de aubergine in de lengte in dunne plakken. Bak ze gaar, besprenkel met azijn en zout.<br>Bak de knoflook, meng  met dewalnoten,  peterselie en olijfolie tot rulle pasta.<br>Bestrijk de aubergine plakken met de pasta, rol op en halveer. Pin vast met cocktailprikkertje. </p>",
+		"description": ""
+	},
+	{
+		"prepTime": "",
+		"@context": "http://schema.org/",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation"
+		},
+		"tags": [],
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"datePublished": "2017-01-14 11:09:19",
+		"totalTime": "",
+		"name": "Bladerdeeg hapje met spinazie en feta",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"recipeInstructions": "<p>Kook de spinazie en laat uitlekken op keukenpapier<br>Rooster de pijnboompitten. Bak ui en knoflook in olie en voeg rozijnen en spinazie toe. Laat afkoelen, voeg feta, ei en pijnboompitten toe. Maak een lijn van spinazie op de rand van een strook bladerdeeg. Rol de bladerdeeg op. Snij de rol in plakjes. Bak in 25 minuten op 200&#176;C gaar. Laat afkoelen. </p>",
+		"ingredients": "<p>Bladerdeeg<br>Spinazie<br>20 g Rozijnen<br>Feta<br>1 ei<br>Pijnboompitten<br>1 kleine ui<br>2 tenen knoflook, gekneusd en fijngehakt</p>",
+		"type": 0,
+		"recipeYield": "",
+		"cookTime": "",
+		"id": "58",
+		"description": "",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"category": "Borrelhapje",
+		"@type": "Recipe"
+	},
+	{
+		"prepTime": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"@context": "http://schema.org/",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"description": "",
+		"name": "Borrelhapjes",
+		"id": "49",
+		"type": 2,
+		"cookTime": "",
+		"tags": [],
+		"recipeYield": "",
+		"ingredients": "<p>Turks brood met humus<br>Stokbrood met kruidenboter<br>Gehaktballetjes<br>Bladerdeeg met spinazie en feta<br>Plakken worst<br>blokjes kaas met gember of mosterd<br>Stokjes met kaas, augurk en tomaat<br>Gevulde eieren<br>Nootjes<br>Toastjes met tapenade<br>Bitterballen</p>",
+		"category": "Borrelhapje",
+		"totalTime": "",
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"datePublished": "2016-10-30 19:35:09",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"@type": "Recipe",
+		"recipeInstructions": "<p></p>"
+	},
+	{
+		"@type": "Recipe",
+		"datePublished": "2017-12-18 14:40:25",
+		"id": "96",
+		"totalTime": "",
+		"ingredients": "<p>75 g ontbijtspek<br>200 g pure chocolade<br>Mespunt chilipoeder</p>",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"@context": "http://schema.org/",
+		"tags": [],
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"prepTime": "",
+		"cookTime": "",
+		"type": 0,
+		"description": "",
+		"recipeYield": "",
+		"name": "Chocolade bacon",
+		"category": "Borrelhapje",
+		"recipeInstructions": "<p>Spek uitbakken en fijnsnijden. Chocolade smelten. Chocolade, spek en chilipoeder mengen. Mengsel uitsmeren, uit laten harden en in stukken snijden of breken.</p>"
+	},
+	{
+		"recipeYield": "",
+		"category": "Borrelhapje",
+		"@type": "Recipe",
+		"datePublished": "2016-07-16 17:49:05",
+		"@context": "http://schema.org/",
+		"cookTime": "",
+		"totalTime": "",
+		"name": "Gehaktrol",
+		"ingredients": "<p>500g lamsgehakt<br>2 tenen knoflook<br>2 eieren<br>Gember of gemberpoeder<br>Kaneel<br>Peper en zout<br>1pak filodeeg<br>Olijfollie</p>",
+		"description": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"recipeInstructions": "<p>Bak de gehakt met knoflook en bestrooi met kaneel en gember. Draai het gas uit en voeg de eieren toe. Maak rolletjes gehakt en rol in een lapje filodeeg. Vouw de zijkanten over de gehakt en rol op. Bestrijk met olijfolie.<br>Bak in een oven 25 minuten op 200&#176;C. </p>",
+		"id": "11",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"prepTime": "",
+		"nutrition": {
+			"servingSize": "",
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"calories": ""
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"tags": [],
+		"type": 0
+	},
+	{
+		"tags": [
+			"turks"
+		],
+		"prepTime": "",
+		"description": "",
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"ingredients": "<p>Humus<br>Aubergine rolletjes met walnoot<br>Tzatziki<br>Turks brood<br>Gevulde olijven<br>Garnalen<br>Rolletjes lamsgehakt<br>Rolletjes spinazie en feta<br>Met feta gevulde pepers</p>",
+		"type": 2,
+		"category": "Borrelhapje",
+		"@type": "Recipe",
+		"name": "Mezzes",
+		"id": "16",
+		"totalTime": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"datePublished": "2016-07-16 17:49:05",
+		"@context": "http://schema.org/",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"cookTime": "",
+		"recipeInstructions": "",
+		"recipeYield": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		}
+	},
+	{
+		"description": "",
+		"@type": "Recipe",
+		"ingredients": "<p>300g spinazie<br>2 el peterselie<br>2 bosuitjes<br>2 tenen knoflook<br>200g feta<br>200g h&#252;ttenk&#228;se<br>1ei<br>1pak filodeeg<br>Olijfolie</p>",
+		"id": "28",
+		"recipeYield": "",
+		"type": 0,
+		"recipeInstructions": "<p>Hak de gekookte spinazie fijn en meng met de peterselie, bosui, knoflook, kaas en ei.<br>Plak 2 lapjes filodeeg aan elkaar met een beetje water en leg een reep van het spinazie mengsel op het deeg. Vouw de zijkanten over de spinazie en rol op. Bestrijk met olijfolie.<br>Bak in een oven 25 minuten op 200&#176;C.</p>",
+		"category": "Borrelhapje",
+		"totalTime": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"tags": [
+			"borrelhap"
+		],
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"cookTime": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"datePublished": "2016-07-16 17:49:05",
+		"prepTime": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"@context": "http://schema.org/",
+		"name": "Spinazie feta rol"
+	},
+	{
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"datePublished": "2017-08-11 07:14:39",
+		"name": "Vegetarische Fois gras",
+		"totalTime": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"description": "",
+		"tags": [],
+		"ingredients": "<p>12 medium-sized (100g, about 1 cup) button mushrooms<br>2 tablespoons olive oil<br>2 tablespoons butter salted or unsalted<br>1 small onion peeled and diced<br>2 cloves garlic peeled and minced<br>400g cooked green lentils (van 160g gedroogde linzen)<br>140g toasted walnuts or pecans<br>2 tablespoons freshly squeezed lemon juice<br>1 tablespoon soy sauce or tamari<br>2 teaspoons minced fresh rosemary<br>2 teaspoons fresh thyme, minced<br>2 tablespoons fresh sage or flat leaf parsley<br>optional: 2 teaspoons Cognac or brandy<br>1 teaspoon brown sugar<br>1/8 teaspoon cayenne pepper<br>salt and freshly ground black pepper</p>",
+		"recipeYield": "",
+		"cookTime": "",
+		"id": "86",
+		"prepTime": "",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"calories": "",
+			"servingSize": "",
+			"fatContent": ""
+		},
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"type": 0,
+		"@type": "Recipe",
+		"@context": "http://schema.org/",
+		"recipeInstructions": "<p>1. Wipe the mushrooms clean. Slice off a bit of the stem end (the funky parts) and slice them. Heat the olive oil and butter in a skillet or wide saucepan. Add the onions and garlic, and cook, stirring frequently, until the onions become translucent, 5 to 6 minutes. Add the mushrooms and cook, stirring occasionally, until they&#8217;re soft and cooked through, another 5 to 8 minutes. Remove from heat.</p><p>2. In a food processor, combine the cooked lentils, nuts, lemon juice, soy sauce, rosemary, thyme, sage or parsley, Cognac (if using), brown sugar, and cayenne. Scrape in the cooked mushroom mixture and process until completely smooth. Taste, and add salt, pepper, and additional cognac, soy sauce, or lemon juice, if it needs balancing.</p><p>3. Scrape the p&#226;t&#233; into a small serving bowl and refrigerate for a few hours, until firm.</p><p><b>Serving:</b> Serve the p&#226;t&#233; with crackers, hearty bread, or small toasts. A nice accompaniment is shallot marmalade or just a few pickles alongside. Storage: The spread will keep for 4 days in the refrigerator. It can frozen for up to two months, well-wrapped.</p>",
+		"category": "Borrelhapje"
+	},
+	{
+		"cookTime": "",
+		"description": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"id": "66",
+		"category": "Brood",
+		"nutrition": {
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": ""
+		},
+		"ingredients": "<p>500 g  Amerikaanse patentbloem (14% gluten)<br>300 gr lauw water<br>5 gr instant gist<br>1 el honing<br>10 gr zout<br>3 el sesamzaad<br>3 el maanzaat<br>1 eiwit</p>",
+		"recipeInstructions": "<p>Meng bloem, gist, zout, honing en water en kneed 10 minuten. Laat 50 minuten rijzen. Verdeel in 10 porties en maak er rondjes van. Prik een gat in het midden en draai de dougnut even om je vinger om het gat iets groter te krijgen. Laat opnieuw 50 minuten rijzen. Kook de bagel in ruim water totdat 'ie komt bovendrijven. Kook daarna nog 2 minuten, 1 minuut per kant. Bestrijk met eiwit, bestrooi met maan- of sesamzaad en bak in 20 minuten gaar op 220 &#176;C.</p>",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"recipeYield": "",
+		"@type": "Recipe",
+		"tags": [
+			"amerikaans",
+			"lunch",
+			"new-york",
+			"ontbijt"
+		],
+		"totalTime": "",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"datePublished": "2017-03-26 11:14:36",
+		"prepTime": "",
+		"@context": "http://schema.org/",
+		"name": "Bagels",
+		"type": 0
+	},
+	{
+		"recipeInstructions": "<p>Maak een pouliche van 200 g bloem, 300 g water en de gist. Laat de pouliche 12 uur staan in de koelkast.<br>Meng de rest van de ingredi&#235;nten tot een deeg. Laat het 45 minuten rusten bij 23 &#176;C en vouw het deeg. Laat opnieuw 45 minuten rusten.<br>Deel het deeg in parten en vorm daar broodjes van. Laat het deeg 15 minuten rusten onder een licht geolied stuk plastic.<br>Vorm van elk stuk een baguette en laat 30 minuten rijzen op een stuk katoen met bloem. Verwarm de oven voor op 230&#176;C.<br>Leg de baguettes op een ingevet bakblik, maak insneden en bak ze in 16 &#224; 18 minuten gaar.<br>700 g bloem levert 6 middelgrote baguettes op. </p>",
+		"description": "",
+		"totalTime": "",
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"tags": [],
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"name": "Baguettes",
+		"@context": "http://schema.org/",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"type": 0,
+		"ingredients": "<p>700 g bloem (min 12% gluten)<br>520 g water<br>14 g zout<br>4 g droge gist</p>",
+		"recipeYield": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"prepTime": "",
+		"@type": "Recipe",
+		"id": "118",
+		"cookTime": "",
+		"datePublished": "2019-03-11 19:06:07",
+		"category": "Brood"
+	},
+	{
+		"name": "Bier granenbrood",
+		"category": "Brood",
+		"type": 0,
+		"ingredients": "<p>150 g gemengde zaden en vlokken, geweekt<br>100 g roggemeel<br>100 g tarwemeel<br>250 g patentbloem (12%)<br>9 g zout<br>9 g Instant gist<br>100 ml donker bier<br>200 ml water<br>1 el stroop</p>",
+		"@context": "http://schema.org/",
+		"tags": [
+			"bier",
+			"brood"
+		],
+		"image": {
+			"@type": "ImageObject",
+			"url": "/data/user/0/com.omg.recepten/files/image20170308211234.jpg"
+		},
+		"datePublished": "2016-10-16 10:02:50",
+		"id": "48",
+		"recipeInstructions": "<p>Zaden 1 dag weken en uitlekken.<br>Kneden: 12 minuten, deegtemperatuur 29&#176;C<br>Voorrijs: 1 uur op 29&#176;C<br>Eindrijs: 40 minuten op 30&#176;C<br>Bakken: 35 minuten op 220&#176;C </p>",
+		"description": "",
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"prepTime": "",
+		"recipeYield": "",
+		"cookTime": "",
+		"@type": "Recipe",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"totalTime": ""
+	},
+	{
+		"name": "Bruine bolletjes",
+		"recipeYield": "",
+		"tags": [
+			"brood"
+		],
+		"description": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"type": 0,
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": "",
+			"calories": ""
+		},
+		"prepTime": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"recipeInstructions": "<p>Alles mengen,  12 minuten kneden<br>Voorrijs 1 uur<br>Eindrijs 45 minuten<br>20 minuten bakken op 230 &#176; C</p>",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"cookTime": "",
+		"datePublished": "2016-11-26 17:52:00",
+		"@type": "Recipe",
+		"id": "53",
+		"totalTime": "",
+		"@context": "http://schema.org/",
+		"category": "Brood",
+		"ingredients": "<p>100 g geweekte zaden<br>100 g roggemeel<br>100 g tarwemeel<br>200 g patentbloem (12 %)<br>8 g gluten<br>240 g water<br>8 g gist<br>8 g zout</p>"
+	},
+	{
+		"recipeYield": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"@context": "http://schema.org/",
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": ""
+		},
+		"image": {
+			"url": "/data/user/0/com.omg.recepten/files/image20170319210856.jpg",
+			"@type": "ImageObject"
+		},
+		"datePublished": "2016-11-13 09:48:47",
+		"description": "",
+		"prepTime": "",
+		"tags": [
+			"brood"
+		],
+		"totalTime": "",
+		"recipeInstructions": "<p>Meng alle ingredi&#235;nten  behalve de olijfolie met 300 g water en kneed 12 minuten tot een soepel deeg. Voeg de extra water toe en kneed door. Voeg als laatste de olijfolie toe. Het deeg heeft nu een temperatuur van 29 &#176;C. Maak het deeg op een leg in een afsluitbare grote plastic bak of krat die flink is ingevet. Leg het deeg 2 dagen in de koelkast. Haal het deeg 3 uur voor verwerken uit de koelkast en laat opwarmen. Verwarm de oven voor tot 230 &#176;C. Bestrooi de werkplek met roggebloem en keer de krat om. Druk het deeg plat met de platte hand en snij in vierkantjes. Schiet de chiabattas in de oven, Breng de temperatuur van de oven terug tot 220&#176;C en bak in 20 minuten gaar. </p>",
+		"@type": "Recipe",
+		"cookTime": "",
+		"category": "Brood",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"type": 0,
+		"name": "Chiabattas",
+		"ingredients": "<p>450 g Amerikaanse patent (14%)<br>50 g roggebloem of roggemeel (5 minuten extra baktijd)<br>11 g zout<br>5 g instant gist<br>15 g olijfolie<br>300 g water  + 50 g voor bijwassen</p>",
+		"id": "51"
+	},
+	{
+		"type": 0,
+		"name": "Chiabattas alternatief",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"totalTime": "",
+		"category": "Brood",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"recipeYield": "",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"@context": "http://schema.org/",
+		"id": "117",
+		"description": "",
+		"@type": "Recipe",
+		"ingredients": "<p>550 g bloem 12 g gluten<br>440 g water<br>11 g zout<br>4 g droge gist</p>",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": "",
+			"calories": ""
+		},
+		"recipeInstructions": "<p>Maak een pouliche van 200 g water, 200 g bloem en alle gist. Meng en bewaar minimaal 12 uur in de koelkast.<br>Voeg de rest van de ingredi&#235;nten toe en laat 3 uur staan op kamertemperatuur.<br>Draai het deeg en laat 45 minuten rusten. Doe dit drie keer.<br>Laat het deeg voorzichtig op een aanrecht zakken bestrooid met bloem. Vorm het deeg voorzichtig in een rechthoek zonder het gas te laten ontsnappen. Deel de rechthoek in twee broden en deponeer ze voorzichtig op een doek (kussensloop) bestrooid met een ruime hoeveelheid bloem. Bedek de broden met een handdoek en wacht 20 minuten. Verwarm de oven voor op 230 &#176;C. Schuif de broden voorzichtig in de oven en bak in 20 minuten gaar.</p>",
+		"datePublished": "2019-03-07 19:27:19",
+		"cookTime": "",
+		"tags": [],
+		"prepTime": ""
+	},
+	{
+		"totalTime": "",
+		"recipeInstructions": "<p>Voor de pouliche: meng alle ingredi&#235;nten en laat minimaal 2 uur rusten. Voor het beste resultaat laat 16 uur rusten in de koelkast.</p><p>Meng alle ingredi&#235;nten inclusief de pouliche tot een kleverig deeg en laat 15 minuten rusten. Meng opnieuw en kneed 10 minuten tot een zacht deeg. Maak op en laat 1 uur rijzen bij 26&#176;C. Druk het deeg voorzichtig plat en maak opnieuw op. Laat 35 minuten rijzen bij 27&#176;C.<br>Verwarm de oven voor tot 250&#176;C. Bak 30 tot 35 minuten op 220 &#176;C. Stoom de oven regelmatig de eerste 10 minuten.</p>",
+		"name": "Frans landbrood",
+		"datePublished": "2017-04-30 11:14:05",
+		"@type": "Recipe",
+		"type": 0,
+		"description": "",
+		"prepTime": "",
+		"category": "Brood",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"@context": "http://schema.org/",
+		"recipeYield": "",
+		"id": "77",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": "",
+			"servingSize": ""
+		},
+		"tags": [
+			"frans"
+		],
+		"ingredients": "<p><b>pouliche</b><br>227 g water<br>2 g instant gist<br>100 g amerikaanse bloem<br>30 g volkorenmeel<br>50 g roggemeel</p><p><b>Deeg</b>:<br>230 g water<br>5 g instant gist<br>15 g suiker<br>450 g Amerikaanse bloem<br>12 g zout</p>",
+		"cookTime": ""
+	},
+	{
+		"type": 0,
+		"name": "Frans volkoren landbrood",
+		"@type": "Recipe",
+		"totalTime": "",
+		"recipeInstructions": "<p>30 minuten autolyse</p><p>5 uur bulkrijs, 3 tot 4 x vouwen<br>12 uur eindrijs in koelkast<br>20 minuten op 235&#176;C, 15 minuten op 220&#176;C</p>",
+		"prepTime": "",
+		"cookTime": "",
+		"recipeYield": "",
+		"datePublished": "2017-10-12 21:33:44",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"id": "93",
+		"description": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"@context": "http://schema.org/",
+		"ingredients": "<p>450 g Amerikaans patent<br>300 g volkorenmeel<br>600 g (80%) water<br>15 g zout<br>5 g gist</p>",
+		"tags": [
+			"frans"
+		],
+		"category": "Brood",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"nutrition": {
+			"servingSize": "",
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"calories": ""
+		}
+	},
+	{
+		"datePublished": "2017-04-23 20:41:15",
+		"type": 0,
+		"image": {
+			"@type": "ImageObject",
+			"url": "/data/user/0/com.omg.recepten/files/image20170424221106.jpg"
+		},
+		"totalTime": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"@type": "Recipe",
+		"id": "75",
+		"name": "Hokkaido melk broodjes",
+		"prepTime": "",
+		"recipeInstructions": "<p><b>Voor</b><b> </b><b>tangzhong</b><b>:</b><br>Meng bloem en water. Verhit tot de roux opstijft maar laat het niet koken. Laat afkoelen. De Tangzhong kan een paar dagen in de koelkast worden bewaard.</p><p><b><b>Voor</b></b><b> het </b><b><b>brood</b></b><b>:</b><br>Meng bloem, suiker, zout en gist. Voeg tangzhong, melk, boter en ei toe en roer tot egaal.<br>Kneed ruim 20 minuten tot een zeer taai, niet plakkerig deeg ontstaat waar een dun vlies van getrokken kan worden.<br>Laat 40 minuten rijzen in een ingevette kom op een zeer warme plek (34 &#176;C) tot het deeg in volume is verdubbeld. Druk het deeg plat en verdeel het in 4 stukken. Rol de stukken uit tot platte ovalen en rol op tot dikke cilinders. Leg naast elkaar in een in een geoliede bakvorm en laat 30 minuten rijzen. Glazeer de bovenkant van het brood met geklopt ei en bak in 30 minuten gaar op 180&#176;C. Het brood is gaar als de kerntemperatuur 96&#176;C is. Laat afkoelen. Door de Tangzhong blijft het brood ruim 2 dagen vers.</p>",
+		"description": "",
+		"@context": "http://schema.org/",
+		"category": "Brood",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": "",
+			"fatContent": ""
+		},
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"recipeYield": "",
+		"cookTime": "",
+		"ingredients": "<p><b>Tangzhong</b><b> (Water Roux)</b><br>25 g bloem<br>100 ml water</p><p><b>Melk </b><b>Brood</b><br>125 ml volle melk op kamertemperatuur<br>5 g gist<br>350 g amerikaanse patent bloem (14% gluten)<br>60 g suiker<br>5 g zout<br>1 ei plus een ei voor glazeren<br>30 g roomboter, zacht</p>",
+		"tags": [
+			"chinees"
+		]
+	},
+	{
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"@context": "http://schema.org/",
+		"datePublished": "2020-07-10 16:56:01",
+		"@type": "Recipe",
+		"cookTime": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"type": 0,
+		"recipeYield": "",
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"name": "Honing haverbroodjes",
+		"author": {
+			"@type": "Person"
+		},
+		"recipeInstructions": "<p>Breng het water aan de kook. Doe de havermout in een mengkom. Voeg het water bij de havermout en meng. Voeg de andere ingredi&#235;nten toe maar wacht met de eieren tot het beslag is afgekoeld.<br>Kneed het deeg tot elastisch. Laat het minimaal 45 minuten rijzen, kneed opnieuw en vorm in 8 ballen. Laat opnieuw 45 minuten rijzen onder ingeolied plastic folie. Borstel een beetje ei over de broodjes en strooi er wat haver overheen. Bak in 20 minuten gaar op 180&#176;C.</p>",
+		"id": "132",
+		"prepTime": "",
+		"description": "",
+		"category": "Brood",
+		"ingredients": "<p>240 ml water<br>380 g bloem<br>100 g havermout<br>70 g honing<br>30 g boter<br>2 grote eieren<br>8 g zout<br>10 g gist</p>",
+		"tags": [],
+		"totalTime": ""
+	},
+	{
+		"description": "",
+		"prepTime": "",
+		"cookTime": "",
+		"recipeYield": "",
+		"@context": "http://schema.org/",
+		"recipeInstructions": "<p>Meng alles behalve de noten en kneed 12 minuten door. Was het deeg. Meng als laatste de noten en maak het deeg op. Laat 1 uur rijzen op 29&#176;C.  Maak het brood op en laat nog 45 minuten rijzen op 30&#176;C. 25 minuten bakken op 220 &#176; C </p>",
+		"category": "Brood",
+		"id": "52",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"datePublished": "2016-11-17 20:00:37",
+		"ingredients": "<p>150 g volkoren meel<br>200 g patentbloem (12,5%)<br>100 g roggemeel<br>315 g water (20 g om te wassen)<br>10 g zout<br>9 g instant gist<br>30 g honing<br>130 g noten, geweekt</p>",
+		"name": "Honing notenbrood",
+		"@type": "Recipe",
+		"totalTime": "",
+		"type": 0,
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"tags": [
+			"brood"
+		],
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": "",
+			"fatContent": ""
+		}
+	},
+	{
+		"@context": "http://schema.org/",
+		"tags": [
+			"brood"
+		],
+		"category": "Brood",
+		"name": "Honing notenbroodjes",
+		"recipeInstructions": "<p>Meng alles behalve de noten en kneed 12 minuten door. Was het deeg met 20 g extra water. Meng als laatste de noten en maak de deegbal op. Laat 1 uur rijzen op 29&#176;C. Voor broodjes: verdeel in 10 porties. Maak de broodjes op en laat nog 45 minuten rijzen op 29&#176;C. 20 minuten bakken op 220 &#176; C </p>",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"totalTime": "",
+		"recipeYield": "",
+		"datePublished": "2016-11-06 09:51:16",
+		"type": 0,
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"ingredients": "<p>175 g volkoren meel<br>175 g patentbloem (12,5%)<br>225 g water + 20 g om te wassen.<br>7 g zout<br>7 g instant gist<br>15 g honing<br>100 g noten, geweekt</p>",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"description": "",
+		"cookTime": "",
+		"@type": "Recipe",
+		"id": "50",
+		"prepTime": "",
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		}
+	},
+	{
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"prepTime": "",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": "",
+			"calories": ""
+		},
+		"datePublished": "2016-09-03 15:05:10",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"ingredients": "<p>250 g bloem<br>10 g gist<br>30 g suiker<br>100 ml lauwwarme melk<br>50  gesmolten boter of margarine</p><p><b>Bestrijken</b><br>25 g zachte boter<br>125 g bruine suiker<br>1 theelepel kaneel</p><p><b>Glazuur</b><br>50 g poedersuiker<br>5 druppels vanillearoma<br>1 eetlepel melk</p>",
+		"totalTime": "",
+		"@context": "http://schema.org/",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"cookTime": "",
+		"recipeInstructions": "<p>Doe de bloem in een kom en maak hierin een kuiltje. Doe de verkruimelde gist, wat suiker en wat melk in het kuiltje, roer met wat bloem glad en laat in de oven op 50 &#176;C ca. 20 minuten rijzen. Kneed dit voordeeg met de rest van de ingredi&#235;nten voor het deeg tot een gladde bal en laat opnieuw op 50 &#176;C ca. 30 minuten rijzen.</p><p>Kneed het deeg nog even kort door. Rol het deeg op een met bloem bestoven werkvlak uit tot een rechthoek van ca. 6 mm dikte, bestrijk met boter, bestrooi met suiker en kaneel en rol vanaf de lange kant op. Snijd de rol in 16 plakjes van ca. 3 cm breedte.</p><p>Leg de plakjes plat en dicht tegen elkaar op een bakplaat. Bak de kaneelrolletjes in 20 minuten goudgeel in de op 180-200 &#176;C voorverwarmde oven.</p><p>Meng de ingredi&#235;nten voor het glazuur. Bestrijk de nog warme rolletjes meteen na het bakken met het glazuur.</p>",
+		"category": "Brood",
+		"@type": "Recipe",
+		"name": "Kaneelrolletjes",
+		"recipeYield": "",
+		"tags": [
+			"brood",
+			"gebak"
+		],
+		"id": "42",
+		"description": "",
+		"type": 0
+	},
+	{
+		"ingredients": "<p>300 g tarwebloem (amerikaans patent - 14%)<br>50 g roggebloem<br>8 g instant gist<br>230 g melk<br>30 g roomboter<br>7 g zout<br>30 g krentenbroodpoeder<br>200 g Rozijnen<br>100 g Krenten</p>",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"cookTime": "",
+		"prepTime": "",
+		"id": "0",
+		"@context": "http://schema.org/",
+		"recipeInstructions": "<p>Krenten en rozijnen wellen.<br>De bloem, melk, krentenbroodpoeder, zout en gist mengen en 12 minuten kneden. Na het kneden de gewelde rozijnen en krenten toevoegen. Opmaken en 30 minuten rijzen.<br>Na rijzen opnieuw opmaken en 30 minuten narijzen.<br>50 minuten bakken op 160&#176;C.</p>",
+		"totalTime": "",
+		"name": "Krentenbrood",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"recipeYield": "",
+		"type": 0,
+		"@type": "Recipe",
+		"image": {
+			"@type": "ImageObject",
+			"url": "/data/user/0/com.omg.recepten/files/image20170423181327.jpg"
+		},
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"datePublished": "2017-01-11 14:08:38",
+		"description": "",
+		"tags": [
+			"brood"
+		],
+		"category": "Brood"
+	},
+	{
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"recipeYield": "",
+		"@context": "http://schema.org/",
+		"name": "Kruidenrolletjes",
+		"recipeInstructions": "<p>Meng ingredi&#235;nten voor brood. Kneed 10 minuten. Laat 45 minuten rijzen in een licht ingevette vorm. Rol uit in een rechthoek.<br>Blend en zeef de kruiden. Smeer het brood in met de gesmolten boter. Strooi kruiden en suiker over het deeg en rol strak op. Snij de rol in kleine plakken en leg deze in een ovenschaal. Laat 30 minuten rijzen en bak op 180 &#176;C in 30 minuten gaar.</p>",
+		"category": "Brood",
+		"prepTime": "",
+		"cookTime": "",
+		"@type": "Recipe",
+		"type": 0,
+		"totalTime": "",
+		"author": {
+			"@type": "Person"
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"description": "",
+		"tags": [],
+		"ingredients": "<p><b>Brood</b><br>350 g bloem<br>25 g boter<br>250 g melk<br>7 g zout<br>7 g gist</p><p><b>Kruiden</b><br>1/2 tl Peper<br>1 tl Piment<br>1 tl Kardemom<br>2 el Kaneel<br>1 tl Anijs<br>2 Kruidnagels<br>1/2 tl Nootmuskaat</p><p>25 g gesmolten boter<br>100 g suiker</p>",
+		"datePublished": "2019-05-30 19:01:57",
+		"id": "121",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		}
+	},
+	{
+		"type": 0,
+		"id": "67",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"@context": "http://schema.org/",
+		"recipeYield": "",
+		"@type": "Recipe",
+		"tags": [],
+		"datePublished": "2017-04-02 11:42:20",
+		"name": "Maisbrood",
+		"recipeInstructions": "<p>Alle ingredi&#235;nten behalve de olijfolie mengen en 10 minuten kneden. Olijfolie toevoegen en kneden tot het is opgenomen.<br>Opmaken en 40 minuten laten rijzen.<br>Deeg doorslaan, opnieuw opmaken en 30 minuten laten rijzen.<br>20 tot 25 minuten bakken op 220 &#176;C.</p>",
+		"description": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"totalTime": "",
+		"cookTime": "",
+		"category": "Brood",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"ingredients": "<p>100 g tarwemeel<br>200 g tarwebloem<br>150 g maismeel<br>15 g gluten<br>9 g zout<br>9 g gist<br>1 blikje ma&#239;skorrels uitgelekt<br>210 g water<br>100 g melk<br>15 g olijfolie</p>",
+		"prepTime": ""
+	},
+	{
+		"@type": "Recipe",
+		"totalTime": "",
+		"id": "79",
+		"description": "",
+		"ingredients": "<p>200 g tarwebloem<br>200 g tarwemeel<br>100 g roggebloem<br>10 g zout<br>7,5 g moutpoeder<br>150 g desem<br>150 g zaden (geweekt)<br>265 g water</p>",
+		"prepTime": "",
+		"@context": "http://schema.org/",
+		"datePublished": "2017-05-13 18:13:21",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"tags": [],
+		"name": "Paulusbol",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"cookTime": "",
+		"recipeYield": "",
+		"type": 0,
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": ""
+		},
+		"recipeInstructions": "<p>Mix en meng alle ingredi&#235;nten 6 minuten, 3,5 minuut kneden.<br>90 minuten bulkrijs op 29&#176;C. Opmaken en 70 minuten rijzen op 30&#176;C. 30 minuten bakken op 230 &#176;C.</p>",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"category": "Brood"
+	},
+	{
+		"tags": [
+			"brood"
+		],
+		"ingredients": "<p>400 g tarwemeel<br>100 g tarwebloem<br>10 g zout<br>10 g gist<br>350 g water</p>",
+		"datePublished": "2016-09-22 21:16:04",
+		"recipeYield": "",
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"name": "Volkoren vloerbrood",
+		"totalTime": "",
+		"prepTime": "",
+		"@type": "Recipe",
+		"cookTime": "",
+		"id": "43",
+		"description": "",
+		"category": "Brood",
+		"recipeInstructions": "<p>Kort mengen, lang kneden +/-. 10 minuten<br>Opmaken en opbollen<br>Voorrijs 40 minuten op 29&#176;C<br>Plat slaan en opnieuw opbollen<br>Eindrijs 25 minuten op 29&#176;C<br>Stomen<br>25 minuten bakken op 220&#176;C </p>",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"@context": "http://schema.org/",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"type": 0
+	},
+	{
+		"name": "Chipolatapudding",
+		"category": "Dessert",
+		"prepTime": "",
+		"tags": [
+			"nagerecht"
+		],
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"type": 0,
+		"totalTime": "",
+		"recipeInstructions": "<p>Maak van de melk, suiker, vanille en eierdooier een custard. Week de gelatine in koud water. Haal van het vuur en voeg de gelatine toe. Laat afkoelen tot kamertemperatuur. Klop slagroom en eiwit. Meng custard, slagroom, eiwit, peer en chocolade. Giet pudding in met water omgespoelde puddingvorm. Leg biscuit op de bodem. Laat een paar uur opstijven.</p>",
+		"@type": "Recipe",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": "",
+			"servingSize": ""
+		},
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": "/data/user/0/com.omg.recepten/files/image20170216221121.jpg"
+		},
+		"recipeYield": "",
+		"id": "59",
+		"cookTime": "",
+		"ingredients": "<p><i>Bavarois</i><br>1 peer, geschild en in blokjes<br>50 gram pure chocolade, gehakt<br>250 milliliter slagroom<br>400 milliliter volle melk<br>1 vanillestokje<br>4 eidooiers<br>1 eiwit<br>100 gram fijne kristalsuiker<br>7 gelatine blaadjes</p><p><i>Biscuit bodem</i><br>30 g bloem<br>1 ei<br>30 g suiker</p>",
+		"@context": "http://schema.org/",
+		"description": "",
+		"datePublished": "2017-01-22 18:43:26"
+	},
+	{
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"nutrition": {
+			"fatContent": "",
+			"servingSize": "",
+			"calories": "",
+			"@type": "NutritionInformation"
+		},
+		"name": "Chocoladeroom",
+		"tags": [],
+		"description": "",
+		"recipeYield": "",
+		"totalTime": "",
+		"@context": "http://schema.org/",
+		"@type": "Recipe",
+		"cookTime": "",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"datePublished": "2017-07-19 18:24:44",
+		"ingredients": "<p>200 g pure chocolade<br>1 ei<br>250 g melk</p>",
+		"category": "Dessert",
+		"prepTime": "",
+		"type": 0,
+		"recipeInstructions": "<p>Verwarm de melk. Breek de chocolade in brokken en maal in de blender. Voeg melk en ei toe en blend 30 seconden. Laat minstens 3 uur opstijven in de koelkast.</p>",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"id": "83"
+	},
+	{
+		"totalTime": "",
+		"datePublished": "2019-10-20 20:05:38",
+		"tags": [],
+		"author": {
+			"@type": "Person"
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"name": "Chocoladesaus",
+		"category": "Dessert",
+		"nutrition": {
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"servingSize": ""
+		},
+		"recipeInstructions": "<p>Breng de melk aan de kook. Zet het vuur uit en smelt chocolade en boter in de melk.<br>Klop de eierdooier door het mengsel en laat afkoelen</p>",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"@type": "Recipe",
+		"ingredients": "<p>100 g pure chocolade<br>100 g melk<br>1 eierdooier<br>15 g boter</p>",
+		"id": "128",
+		"type": 0,
+		"recipeYield": "",
+		"description": "",
+		"@context": "http://schema.org/",
+		"cookTime": "",
+		"prepTime": ""
+	},
+	{
+		"recipeYield": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"@type": "Recipe",
+		"name": "Flan",
+		"cookTime": "",
+		"datePublished": "2016-07-16 17:49:05",
+		"category": "Dessert",
+		"tags": [
+			"nagerecht"
+		],
+		"@context": "http://schema.org/",
+		"description": "",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"id": "9",
+		"ingredients": "<p>4 eieren<br>0,5 l. melk<br>200 gr. suiker<br>Vanille essence</p>",
+		"totalTime": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"prepTime": "",
+		"type": 0,
+		"recipeInstructions": "<p>Breng in steelpannetje met steel de 0,5l melk met de 2 zakjes vanillesuiker voorzichtig tegen de kook aan.</p><p>Verhit in het steelpannetje zonder steel de 200gr. suiker tot het volledig is gecaramelliseerd. \"Wals\" het pannetje zodat de (gloeiend hete!!!) caramel de wand en bodem van het pannetje met een dun laagje bedekt. Giet de overtollige caramel in de hete melk. Roer in de melk totdat de caramel volledig is opgelost.</p><p>Klop in een kom de 4 eieren los en schuimig. Giet voorzichtig al roerend de caramel-melk erbij.</p><p>Giet het ei-melk-mengsel in het caramel-pannetje en zet het in de braadslee. Giet er kokend water bij totdat het pannetje voor ongeveer driekwart onder staat. Plaats de braadslee-met-pannetje in het midden van de oven. Bak het in 20-25 minuten gaar, totdat een erin gestoken breinaald er weer droog uitkomt.</p><p>Stort de afgekoelde flan voorzichtig op een groot bord. (Zet het bord op het pannetje en draai het geheel om, zodat de flan met de saus uit het pannetje netjes op het bord terecht komt) Serveer op kamer- of koelkasttemperatuur.</p>"
+	},
+	{
+		"cookTime": "",
+		"description": "",
+		"prepTime": "",
+		"name": "Galaktoboureko",
+		"recipeYield": "",
+		"type": 0,
+		"totalTime": "",
+		"recipeInstructions": "<p>Griesmeel pap maken van de melk en griesmeel. Ei opkloppen met de suiker. Griesmeel pap laten afkoelen en mengen met het eimengsel. Ovenschaal draperen met filodeeg lappen. Filodeeg bestrijken met gesmolten boter. Schaal vullen met griesmeel. Filodeeg over de griesmeel heenvouwen. 20 minuten bakken op 200&#176;C. Af laten koelen en overgieten met siroop van suiker, citroen en honing.</p>",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": "",
+			"servingSize": ""
+		},
+		"tags": [
+			"grieks"
+		],
+		"datePublished": "2017-04-03 18:57:14",
+		"ingredients": "<p>5 plakken filodeeg (ontdooid)<br>boter om in te vetten<br>550 ml melk<br>85 gr griesmeel<br>3 eieren<br>100 gr suiker<br>100 g&nbsp; gesmolten roomboter</p>",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"@type": "Recipe",
+		"category": "Dessert",
+		"@context": "http://schema.org/",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"id": "69"
+	},
+	{
+		"author": {
+			"@type": "Person"
+		},
+		"ingredients": "<p>75 g griesmeel<br>250 g yoghurt<br>3 eieren, gesplitst<br>100 g stroop of honing<br>50 g bloem<br>50 g gesmolten boter<br>Zout<br>Schil van 1 citroen<br>200 ml ongeslagen slagroom</p>",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": ""
+		},
+		"description": "",
+		"name": "Gebakken griesmeelpudding",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"cookTime": "",
+		"@context": "http://schema.org/",
+		"category": "Dessert",
+		"id": "140",
+		"recipeInstructions": "<p>Meng griesmeel met yoghurt en laat 5 minuten staan. Klop de eierdooiers met de stroop en meng griesmeel mengsel, bloem, boter, zout en zest. Laat 5 minuten rusten.<br>Klop de eiwitten stijf en schep het griesmeel mengsel er doorheen. Schep in een ovenschaal en bak in 20 minuten goudbruin gaar op 200&#176;C. Overgieten met slagroom en extra stroop. Direct serveren</p>",
+		"tags": [],
+		"totalTime": "",
+		"datePublished": "2020-11-28 11:29:09",
+		"prepTime": "",
+		"@type": "Recipe",
+		"recipeYield": "",
+		"type": 0,
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		}
+	},
+	{
+		"datePublished": "2017-03-05 12:22:10",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"@context": "http://schema.org/",
+		"name": "Gelatine",
+		"@type": "Recipe",
+		"totalTime": "",
+		"recipeInstructions": "<p>Gelatine per liter vloeistof:<br>Melk 25 g<br>Half melk,half koffieroom 20 g<br>Karnemelk 30 g<br>Vruchtensap 35 g<br>Vruchtenmoes 30 g<br>Water,wijn,likeur enz. 40 g</p><p>Per 1/2 l.slagroom,die stijfgeslagen ca. 1 l.<br>zal innemen 10 g.gelatine</p><p>Wordt voor het gerecht gebruik gemaakt van de bindkracht van meeverhitte eierdooiers dan kan per eierdooier 1 g gelatine minder worden gebruikt. Komt in het gerecht stijfgeklopt eiwit voor dan moet per eiwit 1 g gelatine meer worden gebruikt.</p>",
+		"tags": [],
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": "",
+			"calories": ""
+		},
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"description": "",
+		"cookTime": "",
+		"category": "Dessert",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"recipeYield": "",
+		"ingredients": "",
+		"prepTime": "",
+		"id": "63",
+		"type": 1
+	},
+	{
+		"category": "Dessert",
+		"ingredients": "<p>4 blaadjes gelatine<br>250 ml slagroom<br>250ml karnemelk<br>75 g suiker<br>Vanille<br>Frambozen<br>Poedersuiker</p>",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"name": "Karnemelk pudding",
+		"tags": [
+			"nagerecht"
+		],
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": ""
+		},
+		"@context": "http://schema.org/",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"type": 0,
+		"recipeYield": "",
+		"@type": "Recipe",
+		"prepTime": "",
+		"description": "",
+		"recipeInstructions": "<p>Kook room, suiker, vanille. Voeg gelatine toe, laat afkoelen. Voeg karnemelk toe, laat opstijven. Serveer met framboos en poedersuiker. </p>",
+		"cookTime": "",
+		"totalTime": "",
+		"datePublished": "2016-07-16 17:49:05",
+		"id": "13",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		}
+	},
+	{
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"name": "Kerst desserts",
+		"recipeYield": "",
+		"ingredients": "<p>Chocoladecr&#232;me<br>Chocolademousse<br>Mascarpone room met mangocoulis<br>Boterkoek met walnoten<br>Kwarktaart</p>",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"@context": "http://schema.org/",
+		"description": "",
+		"cookTime": "",
+		"nutrition": {
+			"calories": "",
+			"fatContent": "",
+			"servingSize": "",
+			"@type": "NutritionInformation"
+		},
+		"id": "94",
+		"type": 2,
+		"datePublished": "2017-11-26 13:52:58",
+		"tags": [],
+		"category": "Dessert",
+		"@type": "Recipe",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"prepTime": "",
+		"totalTime": "",
+		"recipeInstructions": ""
+	},
+	{
+		"name": "Kwarktaart kokos citroen",
+		"recipeInstructions": "<p>Blend de biscuits, voeg de gesmolten boter toe en druk aan op de bodem van een springvorm. Bak 10 minuten op 180 &#176;C. Laat afkoelen.<br>Rasp de citroenschil en pers uit. Doe rasp en sap in een pannetje en verwarm. Los de suiker  en de gelatine op in het sap en laat een beetje afkoelen.<br>Klop de slagroom luchtig. Meng de kwark met de kokos, citroensap en de slagroom. Vul de springvorm met de kwark en laat een paar uur opstijven in de koelkast.<br></p>",
+		"tags": [],
+		"prepTime": "",
+		"recipeYield": "",
+		"cookTime": "",
+		"nutrition": {
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": ""
+		},
+		"id": "109",
+		"category": "Dessert",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"totalTime": "",
+		"@context": "http://schema.org/",
+		"type": 0,
+		"ingredients": "<p>200 g biscuits<br>50 g roomboter<br>500 g kwark<br>1 citroen<br>250 g slagroom<br>130 g suiker<br>16 g gelatine<br>50 g gemalen kokos<br></p>",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"@type": "Recipe",
+		"datePublished": "2018-08-23 16:24:57",
+		"description": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		}
+	},
+	{
+		"tags": [
+			"nagerecht"
+		],
+		"ingredients": "<p>200 g fruit<br>1/2 bakje mascarpone<br>100 ml slagroom<br>50 g suiker<br>20 g Havervlokken,<br>1 el zadenmix<br>20 g bruine basterdsuiker<br>10 g roomboter</p>",
+		"datePublished": "2016-07-16 17:49:05",
+		"name": "Mangopuree met mascarpone",
+		"category": "Dessert",
+		"recipeInstructions": "<p>Klop de slagroom, suiker en mascarpone tot een stevige room. Pureer het fruit. Bak de havervlokken en zadenmix in een droge koekenpan. Voeg de bruine suiker en roomboter toe en laat karameliseren. Laat afkoelen.<br>Doe de room en mango om en om in een glas Bestrooi met zaden - havervlokken. </p>",
+		"id": "15",
+		"totalTime": "",
+		"@context": "http://schema.org/",
+		"recipeYield": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"description": "",
+		"type": 0,
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"prepTime": "",
+		"cookTime": "",
+		"@type": "Recipe",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": ""
+		}
+	},
+	{
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"totalTime": "",
+		"id": "72",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"prepTime": "",
+		"@context": "http://schema.org/",
+		"@type": "Recipe",
+		"name": "Melkpudding",
+		"description": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"recipeInstructions": "<p>Kook pudding van de melk, slagroom, zout, honing en suiker. Laat helemaal afkoelen, zorg dat zich geen vel vormt. Door de pudding in schaaltjes en garneer met vers fruit en karamel.</p>",
+		"recipeYield": "",
+		"ingredients": "<p>60 g maizena<br>500 g melk<br>175 g slagroom<br>45 g honing<br>45 g suiker<br>1 g zout</p><p>Verse vijgen<br>1 blikje dulche de leche</p>",
+		"type": 0,
+		"category": "Dessert",
+		"datePublished": "2017-04-05 07:17:56",
+		"tags": [],
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"cookTime": ""
+	},
+	{
+		"ingredients": "<p>1 peer<br>1 eetlepel honing<br>25 gram roomboter<br>25 g bloem<br>25 g suiker<br>1/4 bakje cr&#232;me fra&#238;che</p>",
+		"description": "",
+		"recipeYield": "",
+		"nutrition": {
+			"calories": "",
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"servingSize": ""
+		},
+		"@context": "http://schema.org/",
+		"id": "22",
+		"@type": "Recipe",
+		"name": "Peren kruimeltaartje",
+		"prepTime": "",
+		"cookTime": "",
+		"totalTime": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"recipeInstructions": "<p>Doe peer met honing in ovenschaaltje. Meng bloem, boter en suiker tot kruimelig deeg. Bak 25 minuten op 180 graden en laat 10 minuten afkoelen. Serveer met cr&#232;me fra&#238;che. </p>",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"tags": [
+			"gebak",
+			"nagerecht"
+		],
+		"category": "Dessert",
+		"type": 0,
+		"datePublished": "2016-07-16 17:49:05",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		}
+	},
+	{
+		"description": "",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"datePublished": "2017-10-01 10:31:12",
+		"type": 0,
+		"tags": [],
+		"cookTime": "",
+		"id": "91",
+		"@type": "Recipe",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"category": "Dessert",
+		"totalTime": "",
+		"recipeYield": "",
+		"name": "Tavuk gö?sü",
+		"recipeInstructions": "<p>Maak een roux van de bloem en boter, voeg suiker toe en laat licht bruinen. Leng de rijstmeel aan met wat melk. Snij de vanillestok doormidden, schraap de zaadjes eruit en doe zaadjes en vanillestok in de melk. Voeg de melk aan de roux toe en breng aan de kook. Haal de pap van het vuur, voeg de rijstmeel toe en kook het geheel in 15 minuten gaar. Stort in een puddingvorm en laat opstijven. Serveer met kaneel.</p>",
+		"prepTime": "",
+		"ingredients": "<p>1 liter melk<br>130 g boter<br></p><p>1 vanillestokje<br>130 g poedersuiker<br>130 g bloem<br>20 g rijstmeel<br>Kaneel<br></p>",
+		"@context": "http://schema.org/"
+	},
+	{
+		"prepTime": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"recipeInstructions": "<p>Kook van melk, kaneelstok en rijstmeel in 15 minuten pap. Voeg de aangelegde maizena toe en kook nog 3 minuten door. Meng de pap met de dulche de leche en vul stort in een puddingvorm. Laat afkoelen. Serveer met kaneel.</p>",
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"type": 0,
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"ingredients": "<p>400 g melk<br>400 g dulche de leche<br>50 g boter</p><p>1 kaneelstok<br>15 g maizena<br>20 g rijstmeel<br>Kaneel </p>",
+		"name": "Tavuk gö?sü 2",
+		"category": "Dessert",
+		"tags": [],
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"description": "",
+		"@context": "http://schema.org/",
+		"id": "92",
+		"totalTime": "",
+		"datePublished": "2017-10-09 19:06:43",
+		"recipeYield": "",
+		"@type": "Recipe",
+		"cookTime": ""
+	},
+	{
+		"description": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": "",
+			"calories": ""
+		},
+		"totalTime": "",
+		"type": 0,
+		"ingredients": "<p>2 eieren gesplitst<br>150 g suiker<br>100 g pure chocolade<br>1 kopje espresso<br>180 g lange vingers<br>2 el witte zoete wijn<br>200 g mascarpone<br></p>",
+		"tags": [
+			"nagerecht"
+		],
+		"@context": "http://schema.org/",
+		"prepTime": "",
+		"recipeInstructions": "<p>Mix eiwit en suiker. Mix eidooier, wijn, mascarpone en suiker. Meng eimengsel. Leg lange vingers met espresso in schaal, bedek met eimengsel, strooi geraspte chocolade over ei. Herhaal met een nieuwe laag lange vingers. </p>",
+		"category": "Dessert",
+		"recipeYield": "",
+		"id": "31",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"@type": "Recipe",
+		"name": "Tiramisu",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"datePublished": "2016-07-16 17:49:05",
+		"cookTime": ""
+	},
+	{
+		"cookTime": "",
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"totalTime": "",
+		"@context": "http://schema.org/",
+		"tags": [],
+		"recipeYield": "",
+		"ingredients": "<p>200 g bloem<br>200 g boter<br>200 g suiker<br>200 g eieren<br>2 g zout<br>2 g bakpoeder<br>3 appels<br>Eetlepel kaneel</p>",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"id": "88",
+		"datePublished": "2017-09-08 16:53:49",
+		"description": "",
+		"category": "Gebak",
+		"type": 0,
+		"prepTime": "",
+		"recipeInstructions": "<p>Meng boter, eieren en suiker en klop zacht en wit. Schil appels en snij in dunne plakken. Voeg bloem, kaneel, appels en bakpoeder toe en spatel door mix.<br>Bak in 40 - 60 minuten gaar in een oven op 160&#176;C.</p>",
+		"@type": "Recipe",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"name": "Appelcake"
+	},
+	{
+		"id": "34",
+		"totalTime": "",
+		"tags": [
+			"cake"
+		],
+		"@type": "Recipe",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"prepTime": "",
+		"name": "Appelcake met kokos",
+		"datePublished": "2016-07-16 17:49:05",
+		"description": "",
+		"recipeYield": "",
+		"cookTime": "",
+		"category": "Gebak",
+		"image": {
+			"@type": "ImageObject",
+			"url": "/data/user/0/com.omg.recepten/files/image20170309064641.jpg"
+		},
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": ""
+		},
+		"@context": "http://schema.org/",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"type": 0,
+		"recipeInstructions": "<p>Verwarm de oven voor op 180 &#176;C. Doe alle ingredi&#235;nten in een kom en roer door met een pollepel. Giet het beslag in de springvorm Bak de cake in 30 tot 40 minuten goudbruin en gaar. Laat de cake iets afkoelen en verwijder de rand van de springvorm. </p>",
+		"ingredients": "<p>200 g bloem<br>1&#189; theelepel bakpoeder<br>&#188; theelepel zout<br>180 g suiker<br>1 theelepel kaneel<br>90 ml zonnebloemolie<br>150 ml turkse yoghurt<br>3 eieren<br>125 g geraspte kokos<br>rasp van 2 appels (schillen niet nodig)<br>50 g rozijnen </p>"
+	},
+	{
+		"cookTime": "",
+		"totalTime": "",
+		"@type": "Recipe",
+		"category": "Gebak",
+		"tags": [
+			"basisrecept"
+		],
+		"@context": "http://schema.org/",
+		"type": 0,
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"nutrition": {
+			"calories": "",
+			"fatContent": "",
+			"servingSize": "",
+			"@type": "NutritionInformation"
+		},
+		"name": "Banketbakkers room",
+		"recipeInstructions": "<p>Breng 450 ml melk met de suiker aan de kook. Halveer het vanillestokje in de lengte, schraap het merg eruit en meng het merg met de eidooiers. Roer de resterende melk door de eidooiers en roer de bloem erdoor. Roer het eimengsel door de kokende melk en kook circa 2 minuten door. Spoel een bakplaatje af met koud water, schenk de banketbakkersroom erop en laat afgedekt met plastic folie afkoelen.<br>Klop de slagroom stijf en week de gelatine in koud water.<br>Roer de banketbakkersroom los in een kom. Smelt de gelatine in een pannetje en roer de gelatine door de banketbakkersroom.<br>Spatel de room erdoor en laat de banketbakkersroom opstijven in de koelkast. </p>",
+		"id": "4",
+		"ingredients": "<p>500 g melk<br>100 g suiker<br>1  vanillestokje<br>4  eidooiers<br>50 g bloem</p><p><b>Voor</b><b> </b><b>Zwitserse</b><b> </b><b>room</b><b>:</b><br>250 ml room<br>2 blaadjes gelatine</p>",
+		"prepTime": "",
+		"description": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"datePublished": "2016-07-16 17:49:05",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"recipeYield": ""
+	},
+	{
+		"type": 0,
+		"id": "60",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"@type": "Recipe",
+		"description": "",
+		"@context": "http://schema.org/",
+		"datePublished": "2017-01-28 16:37:02",
+		"cookTime": "",
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": ""
+		},
+		"recipeYield": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"totalTime": "",
+		"recipeInstructions": "<p>Verwarm het ei tot minimaal kamertemperatuur. Klop het ei met de suiker zeer schuimig. Schep er voorzichtig de bloem door. Bak 50 minuten in een springvorm op 160&#176;C </p>",
+		"tags": [
+			"basisrecept"
+		],
+		"name": "Biscuitdeeg",
+		"category": "Gebak",
+		"prepTime": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"ingredients": "<p>2 eieren<br>60 g suiker<br>60 g bloem</p>"
+	},
+	{
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"name": "Bladerdeeg",
+		"recipeYield": "",
+		"tags": [
+			"basisrecept"
+		],
+		"category": "Gebak",
+		"cookTime": "",
+		"@context": "http://schema.org/",
+		"id": "57",
+		"recipeInstructions": "<p>Meng bloem, boter en zout. Kneed met de vingertoppen snel tot een samenhangende bal. Leg een half uur in de koelkast. Rol uit tot een lap en vouw in drie&#235;n op. Draai een kwartslag en vouw opnieuw in drie&#235;n op. Dit is 1 toer. Laat het deeg circa 30 minuten rusten en herhaal de toer nog twee keer. </p>",
+		"description": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"ingredients": "<p>250 g tarwebloem<br>250 g verse roomboter in blokjes<br>+/-125 ml ijskoud water<br>4 g  zout</p>",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"datePublished": "2017-01-14 10:13:56",
+		"type": 0,
+		"prepTime": "",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": "",
+			"fatContent": ""
+		},
+		"totalTime": "",
+		"@type": "Recipe"
+	},
+	{
+		"datePublished": "2018-01-19 12:34:14",
+		"description": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"@context": "http://schema.org/",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"ingredients": "<p>250 g pure chocolade<br>150 g roomboter<br>120 g bloem<br>280 g bruine basterdsuiker<br>1/2&nbsp; tl bakpoeder<br>3 eieren<br>100 g walnoten</p>",
+		"prepTime": "",
+		"type": 0,
+		"id": "98",
+		"recipeYield": "",
+		"cookTime": "",
+		"recipeInstructions": "<p>Mix eieren met suiker minimaal 5 minuten tot schuimig. Smelt chocolade en boter au-bain-marie. Schep chocolade, boter en bloem door eieren. Voeg walnoten toe en bak 45 minuten in een oven op 160 &#176;C</p>",
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": ""
+		},
+		"totalTime": "",
+		"tags": [],
+		"category": "Gebak",
+		"@type": "Recipe",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"name": "Brownie"
+	},
+	{
+		"description": "",
+		"type": 0,
+		"name": "Cheesecake",
+		"ingredients": "<p>250 g mascarpone<br>400 g roomkaas<br>2,5 eieren<br>1 eierdooier<br>200 g slagroom<br>200 g suiker<br>40 g bloem<br>1 pak bastognekoeken<br>50 g boter</p>",
+		"@context": "http://schema.org/",
+		"cookTime": "",
+		"tags": [],
+		"recipeInstructions": "<p>Maal de bastognekoeken fijn en meng met de gesmolten boter. Beleg er de bodem van een springvorm mee.<br>Voeg andere ingredi&#235;nten samen en giet over de bastognebodem. Bak in ongeveer 45 minuten gaar op 150&#176;C. Laat in de oven afkoelen en in de koelkast opstijven.</p>",
+		"id": "141",
+		"totalTime": "",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": ""
+		},
+		"datePublished": "2020-12-27 15:57:51",
+		"category": "Gebak",
+		"@type": "Recipe",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"author": {
+			"@type": "Person"
+		},
+		"recipeYield": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"prepTime": ""
+	},
+	{
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"datePublished": "2016-07-16 17:49:05",
+		"name": "Cheesecake met citroen",
+		"id": "6",
+		"cookTime": "",
+		"totalTime": "",
+		"category": "Gebak",
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": ""
+		},
+		"type": 0,
+		"ingredients": "<p>100 g citroenzandkoekjes, verkruimeld<br>40 g boter, gesmolten<br>350 g ricotta<br>350 g roomkaas<br>100 g suiker<br>3 eieren<br>geraspte schil van 1 citroen en de helft van het sap<br>150 g lemon curd<br>garnering: lange reepjes dunne schil van 1 citroen</p>",
+		"@context": "http://schema.org/",
+		"tags": [],
+		"description": "",
+		"recipeYield": "",
+		"recipeInstructions": "<p>Verwarm de oven voor op 180 &#176;C.</p><p>Voeg voor de bodem de gesmolten boter toe aan de verkruimelde koekjes, verdeel het mengsel over de bodem van de vorm en druk goed aan. Zet 10 &#224; 15 minuten in de oven. Temper daarna de oven tot 140 &#176;C.</p><p>Klop de ricotta en de roomkaas 30 seconden met een handmixer of in een keukenmachine, zodat het een mooi glad mengsel wordt. Voeg de suiker toe en dan &#233;&#233;n voor &#233;&#233;n de eieren, terwijl je blijft kloppen, daarna de citroenrasp en het citroensap en klop net genoeg om te zorgen dat alle ingredi&#235;nten worden opgenomen. Voeg de helft van de lemon curd toe, zonder hem er goed doorheen te mengen.</p><p>Schenk in de vorm en zet ongeveer 1 uur in de oven: de vulling moet aan de randen net gestold zijn en in het midden nog een beetje zacht. Laat nog 1 uur in de oven staan, met de deur op een kier.</p><p>Laat de cheesecake buiten de oven helemaal afkoelen voordat je hem uit de vorm haalt. Verdeel de rest van de lemon curd over de taart en zet koel weg. Garneer de cheesecake met de reepjes citroenschil.</p>",
+		"@type": "Recipe",
+		"prepTime": "",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		}
+	},
+	{
+		"type": 0,
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": "",
+			"fatContent": ""
+		},
+		"tags": [],
+		"name": "Cheesecake sinaasappel kastanjepuree",
+		"totalTime": "",
+		"ingredients": "<p>voor de bodem: -<br>boter - 70 gram, gesmolten<br>koekjes - 160 gram, bijv. zandkoekjes, digestives of bastonjes<br>voor de vulling: -<br>ricotta - 380 gram<br>mascarpone - 135 gram<br>kastanjepuree - 150 gram, gezoet<br>room - 60 gram<br>vanille essence - 1 theelepel<br>zout - 1 snufje<br>sinaasappelzest -<br>eieren - 3<br>chocolade - 120 gram bittere, grof gehakt<br>bloem - 1 eetlepel</p>",
+		"@type": "Recipe",
+		"id": "7",
+		"recipeInstructions": "<p>Voor de bodem:Mix de gesmolten boter met de koekkruimels en druk het mengsel in een springvorm van 23 cm. Voor de vulling: Mix met een garde alle ingredi&#235;nten voor de vulling in een grote kom tot een soepel beslag, met als laatste de chocoladesnippers en de bloem. Schep de vulling op de bodem en bak de taart 45 tot 50 minuten in een voorverhitte oven op 180 C tot ie goudbruin is, en stevig aanvoelt als je er licht op drukt. Laat &#8216;m in de vorm afkoelen en dan koud worden in de ijskast. Je kunt &#8216;m voor gebruik eventueel nog versieren met sliertjes gesmolten chocolade of kastanjepur&#233;e. </p>",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"datePublished": "2016-07-16 17:49:05",
+		"category": "Gebak",
+		"description": "",
+		"@context": "http://schema.org/",
+		"cookTime": "",
+		"recipeYield": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"prepTime": "",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		}
+	},
+	{
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"cookTime": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"type": 0,
+		"@type": "Recipe",
+		"name": "Chipolatataart",
+		"prepTime": "",
+		"description": "",
+		"recipeInstructions": "<p>Wel de rozijnen voor de bavarois in rum (liefst een dag van te voren).Leg een ronde bakvorm met een diameter van 24 centimeter klaar. Leg een rol acetaat met een breedte van 5 centimeter klaar. Leg een taartring met een diameter van 20 centimeter klaar. Bedek een bakplaat met bakpapier. Verwarm de oven voor op 220&#730;C.</p><p><i>Amandelbiscuit</i>:<br>Maal amandelen met de helft van de suiker tot poeder en voeg eieren toe. Klop even <a href=\"http://door.klop/\">door.Klop</a> eiwitten stijf met rest van de <a href=\"http://suiker.smelt/\">suiker.Smelt</a> boter en voeg toe aan het amandelmengsel. Meng tot een glad <a href=\"http://beslag.verdeel/\">beslag.Verdeel</a> het beslag in twee gelijke delen. Meng in deel 1 de bloem door het beslag. Meng in deel 2 de cacao goed door het <a href=\"http://beslag.spatel/\">beslag.Spatel</a> de helft van de eiwitten door beslag 1 en de andere helft door beslag <a href=\"http://2.smeer/\">2.Smeer</a> het cacaobeslag uit op een bakplaat en trek er met een schone kam lijnen in. Zet even in de diepvries om op te <a href=\"http://stijven.smeer/\">stijven.Smeer</a> het lichte beslag uit over de laag <a href=\"http://cacaobeslag.bak/\">cacaobeslag.Bak</a> <a href=\"tel:1012\">10-12</a> minuten in de <a href=\"http://oven.laat/\">oven.Laat</a> afkoelen op een <a href=\"http://rooster.snijd/\">rooster.Snijd</a> stroken uit de biscuit ter grootte van de <a href=\"http://bakvormrand.bedek/\">bakvormrand.Bedek</a> de binnenkant van de bakvorm <a href=\"http://ermee.verlaag/\">ermee.Verlaag</a> de oventemperatuur tot 180&#730;C.</p><p><i>Bavarois</i>:<br>Week gelatine in koud water tot <a href=\"http://zacht.hak/\">zacht.Hak</a> chocolade in <a href=\"http://stukjes.klop/\">stukjes.Klop</a> slagroom lobbig. Breng melk aan de kook met <a href=\"http://vanillestokje.klop/\">vanillestokje.Klop</a> dooiers met suiker, giet melk erop en roer goed. Doe terug in de pan en laat iets indikken zonder te <a href=\"http://koken.haal/\">koken.Haal</a> van vuur en week gelatine erin op. Laat afkoelen in ijswater tot het dikker wordt en spatel daarna slagroom <a href=\"http://erdoor.spatel/\">erdoor.Spatel</a> het verse fruit, de rozijnen en de chocolade <a href=\"http://erdoor.giet/\">erdoor.Giet</a> in vorm en zet in diepvries.</p>",
+		"datePublished": "2016-07-16 17:49:05",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"@context": "http://schema.org/",
+		"ingredients": "<p>Amandelbiscuit<br>80 gram geschaafde amandelen<br>90 gram fijne kristalsuiker<br>2 eieren<br>2 eiwitten<br>20 gram roomboter<br>10 gram patentbloem</p><p>Bavarois<br>100 gram blanke rozijnen<br>100 milliliter rum<br>50 gram pure chocolade<br>250 milliliter slagroom<br>500 milliliter volle melk<br>1 vanillestokje<br>4 eidooiers<br>100 gram fijne kristalsuiker<br>8 gelatineblaadjes<br>1eiwit<br>2 peren (groot)</p>",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation"
+		},
+		"tags": [],
+		"category": "Gebak",
+		"id": "8",
+		"totalTime": "",
+		"recipeYield": ""
+	},
+	{
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": ""
+		},
+		"@context": "http://schema.org/",
+		"recipeInstructions": "<p>Maak van 2 eiwitten en 50 g suiker een meringue. Klop niet te stijf.<br>Smelt boter en chocolade eau bain marie. Meng de cacoapoeder, melk en slagroom door de mix. Mix eierdooier en suiker en meng met de chocolade mix. Meng de meringue door de chocolade mix, eerst een derde, daarna de rest. Zeef de cakemeel en meng door de mix.<br>Bekleed een bakvorm met bakpapier en vul met de cake mix.<br>Bak 15 minuten op 160&#176;C en vervolgens 25 minuten op 140&#176;C. Laat afkoelen.</p>",
+		"datePublished": "2019-02-10 19:14:20",
+		"cookTime": "",
+		"recipeYield": "",
+		"tags": [],
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"type": 0,
+		"id": "116",
+		"ingredients": "<p>100 g donkere chocolade<br>5 g cacoapoeder<br>85 g boter<br>30 g melk<br>12 g slagroom<br>2 eieren, gesplitst<br>20 g suiker<br>50 g suiker<br>50 g cakemeel<br>Zout </p>",
+		"category": "Gebak",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"@type": "Recipe",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"totalTime": "",
+		"name": "Chocolade fudge cake",
+		"prepTime": "",
+		"description": ""
+	},
+	{
+		"datePublished": "2019-06-11 20:42:59",
+		"tags": [],
+		"description": "",
+		"@context": "http://schema.org/",
+		"category": "Gebak",
+		"ingredients": "<p>3 eieren<br>200 g bloem<br>150 g suiker<br>200 g pure chocolade<br>100 g boter<br>100 g zonnebloemolie<br>1 g zout<br>1,5 tl chilipeper</p>",
+		"recipeYield": "",
+		"author": {
+			"@type": "Person"
+		},
+		"name": "Chocoladecake met chilipeper",
+		"type": 0,
+		"id": "124",
+		"recipeInstructions": "<p>Doe chocolade, boter en olie in een pan en verwarm au-bain-marie tot alles gesmolten is. Splits de eieren en klop de eiwitten met het zout en de de suiker tot merengue. Voeg bloem en chilipeper bij het chocolademengsel. Schep alles door elkaar en bak op 210&#176;C in 15 tot 20 minuten gaar. De binnenkant moet daarbij zacht blijven.</p>",
+		"totalTime": "",
+		"@type": "Recipe",
+		"cookTime": "",
+		"prepTime": "",
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		}
+	},
+	{
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"description": "",
+		"prepTime": "",
+		"cookTime": "",
+		"ingredients": "<p>5 eieren<br>1 liter melk<br>150 gram poedersuiker<br>100 maizena, gezeefd<br>1 vanillestokje, gespleten<br>230 gram pate brisee (150 gram bloem, 80 gram roomboter, wat ijskoud water)</p>",
+		"tags": [
+			"gebak",
+			"nagerecht"
+		],
+		"recipeYield": "",
+		"@context": "http://schema.org/",
+		"recipeInstructions": "<p>Maak eerst de pate brisee:<br>Doe de bloem in een kom met de in stukjes gesneden boter. Meng goed door elkaar. Voeg wat ijskoud water toe (begin met 1 eetlepel), kneed tot een glad deeg. Maak er een bol van, verpak in plastic folie en leg 30 minuten in de koelkast. Laat daarna nog 10 minuten op kamertemperatuur rusten.</p><p>Verwarm op zacht vuur de melk met het vanillestokje (in de lengte gehalveerd).  </p><p>Meng in een kom de maizena en de suiker. Klop in een andere kom de eieren los en voeg beetje bij beetje en al kloppend het suiker-maizenamengsel toe. Giet de warme melk (vanillestokje eerst verwijderen) bij het mengsel en meng goed.<br>Verwarm de oven op 180&#176;C.<br>Rol de pate brisee uit op een met bloem bestoven werkblad. Drapeer het deeg in de vorm. Giet de vulling erin. Laat 50 minuten bakken.<br>Laat afkoelen tot kamertemperatuur en zet dan minstens 2 uur in de koelkast.</p>",
+		"@type": "Recipe",
+		"type": 0,
+		"name": "Flan Patissier",
+		"image": {
+			"url": "/data/user/0/com.omg.recepten/files/image20170705080522.jpg",
+			"@type": "ImageObject"
+		},
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"id": "36",
+		"category": "Gebak",
+		"datePublished": "2016-07-21 20:12:07",
+		"totalTime": ""
+	},
+	{
+		"recipeInstructions": "<p>Mix suiker en boter. Voeg ei toe. Kneed er de bloem door.<br>(Blind) Bakken in 25 minuten op 200&#176;C.</p>",
+		"name": "Harde wener deeg",
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"category": "Gebak",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"recipeYield": "",
+		"@type": "Recipe",
+		"tags": [
+			"basisrecept",
+			"taartbodem"
+		],
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"description": "",
+		"id": "70",
+		"datePublished": "2017-04-04 15:35:21",
+		"prepTime": "",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"@context": "http://schema.org/",
+		"ingredients": "<p>100 g suiker<br>200 g boter<br>300 g bloem<br>1 ei<br>4 g zout</p>",
+		"cookTime": "",
+		"type": 0,
+		"totalTime": ""
+	},
+	{
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"recipeInstructions": "<p>Meng alle ingredi&#235;nten en mix tot een glad beslag. Giet in een 22 x 30 cm vorm en bak een uur op 180&#176;C. Laat afkoelen en snij in stukken.</p><p>In plaats van de gecondenseerde melk kan er ook 2 x zoveel gezoete gecondenseerde melk gebruikt worden. Er hoeft dan maar 50 g suiker toegevoegd te worden</p>",
+		"totalTime": "",
+		"type": 0,
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"@type": "Recipe",
+		"description": "",
+		"datePublished": "2017-07-24 07:46:36",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"prepTime": "",
+		"tags": [],
+		"category": "Gebak",
+		"recipeYield": "",
+		"cookTime": "",
+		"@context": "http://schema.org/",
+		"name": "Hawaiaanse mochi",
+		"ingredients": "<p>115 g gesmolten boter<br>400 g suiker<br>4 eieren<br>Vanille<br>475 g kleefrijstmeel<br>8 g bakpoeder<br>340 g gecondenseerde melk<br>400 g kokosmelk<br>100 g geraspte kokos</p>",
+		"id": "85"
+	},
+	{
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"totalTime": "",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": "",
+			"calories": ""
+		},
+		"@type": "Recipe",
+		"tags": [],
+		"recipeInstructions": "<p>Mix boter en suiker romig. Meng er &#233;&#233;n voor &#233;&#233;n de eieren door. Meng bloem en bakpoeder en mix tot zacht en wit.<br>Meng noten en honing. Schep cake mix in bakvorm en schep de notenmix er overheen. Bak 40 minuten op 180&#176;C.</p>",
+		"cookTime": "",
+		"@context": "http://schema.org/",
+		"category": "Gebak",
+		"ingredients": "<p>200 g bloem<br>200 g boter<br>200 g suiket<br>4 eieren<br>1 tl bakpoeder<br>200 g noten<br>2 el honing</p>",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"datePublished": "2019-02-03 19:55:37",
+		"type": 0,
+		"description": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"recipeYield": "",
+		"prepTime": "",
+		"name": "Honing notencake",
+		"id": "115"
+	},
+	{
+		"recipeYield": "",
+		"type": 0,
+		"cookTime": "",
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"name": "Japanse jiggly cheesecake",
+		"totalTime": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"description": "",
+		"ingredients": "<p>130 ml melk<br>100 g boter<br>200 g roomkaas<br>13 eiwitten<br>6 eierdooiers<br>60 g bloem<br>60 g maizena<br>260 g suiker<br>1 tl vanille<br>1/4 tl bakpoeder</p>",
+		"datePublished": "2018-07-05 19:47:01",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"@type": "Recipe",
+		"tags": [],
+		"recipeInstructions": "<p>Verwarm de boter, melk en roomkaas. Laat afkoelen en voeg de eierdooiers toe. Voeg de bloem, maizena, vanille en  bakpoeder toe. Klop eiwitten stijf met de suiker en schep alles door elkaar. Drapeer een waterdichte bakvorm met bakpapier (bodem en wanden) en bak de cake au Bain Marie 25 minuten op 160&#176;C en vervolgens 45 minuten op 135&#176;C gaar in een oven.</p>",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"id": "106",
+		"category": "Gebak",
+		"@context": "http://schema.org/",
+		"prepTime": ""
+	},
+	{
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"totalTime": "",
+		"ingredients": "<p>120 g bloem<br>80 g kleefrijstmeel<br>100 g boter<br>100 g olie<br>200 g suiker<br>3 eieren<br>2 g zout<br>2 g bakpoeder<br>200 g kokos<br>100 g kokosmelk</p>",
+		"@type": "Recipe",
+		"id": "89",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": ""
+		},
+		"type": 0,
+		"recipeYield": "",
+		"description": "",
+		"@context": "http://schema.org/",
+		"category": "Gebak",
+		"prepTime": "",
+		"tags": [],
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"recipeInstructions": "<p>Meng eieren en suiker en klop stijf en wit. Smelt boter en meng met kokos, bloem en bakpoeder. Spatel door mix.<br>Bak 50 minuten in een oven op 160&#176;C.</p>",
+		"cookTime": "",
+		"datePublished": "2017-09-08 16:57:47",
+		"name": "Kokoscake"
+	},
+	{
+		"cookTime": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"category": "Gebak",
+		"name": "Kruidkoek met gedroogd fruit",
+		"@context": "http://schema.org/",
+		"tags": [
+			"koek"
+		],
+		"type": 0,
+		"prepTime": "",
+		"@type": "Recipe",
+		"description": "",
+		"recipeYield": "",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"recipeInstructions": "<p>Week gedroogd fruit minimaal een uur in water. Laat uitlekken. Meng alle ingredi&#235;nten tot een slap deeg. Bak in 50 minuten in een oven op 150&#176;C gaar.</p>",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"totalTime": "",
+		"ingredients": "<p>50 g roggemeel<br>150 g bloem<br>50 g meel<br>50 g gesmolten boter<br>200 g bruine basterdsuiker<br>125 g melk<br>5 g Bakpoeder<br>5 g zout<br>1 ei</p><p>Rozijnen<br>Krenten<br>Gedroogde peren<br>Dadels<br>Vijgen<br>Walnoten<br>Hazelnoten</p><p>Kaneel<br>Nootmuskaat<br>Kruidnagel</p>",
+		"datePublished": "2017-04-04 19:39:58",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": "",
+			"calories": ""
+		},
+		"id": "71"
+	},
+	{
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"datePublished": "2018-08-17 19:04:35",
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"@type": "Recipe",
+		"type": 0,
+		"recipeYield": "",
+		"prepTime": "",
+		"recipeInstructions": "<p>Blend biscuits fijn. Smelt de boter. Meng kruimels en boter en druk aan op de bodem van een bakblik. Bak 10 minuten op 180&#176;C<br>Prak het fruit fijn met het citroensap. Meng kwark, yoghurt, slagroom en suiker en klop luchtig door. Voeg fruit toe. Los gelatine op in 2 eetlepels heet water en meng door het kwarkmengsel. Klop het eiwit stijf met het zout en schep door het kwarkmengsel. Schep kwark op de biscuitbodem en laat in 3 uur tijd opstijven.</p>",
+		"description": "",
+		"ingredients": "<p>125 g biscuit<br>25 g boter</p><p>600 g fruit<br>1/2 citroen<br>12 g gelatine<br>200 g kwark<br>50 g suiker<br>2 el yoghurt<br>150 g slagroom<br>1 eiwit<br>Snufje zout</p>",
+		"totalTime": "",
+		"category": "Gebak",
+		"name": "Kwarktaart aardbeien",
+		"@context": "http://schema.org/",
+		"tags": [
+			"dessert"
+		],
+		"cookTime": "",
+		"id": "108",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		}
+	},
+	{
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"prepTime": "",
+		"id": "38",
+		"@type": "Recipe",
+		"name": "Mon chou taart",
+		"description": "",
+		"ingredients": "<p>175 g roomboter<br>200 g bastogne koeken<br>1/4 l slagroom<br>1 pakje mijn mon chou<br>100 g basterdsuiker<br>1 zakje slagroomversteviger<br>1 blik vlaaienvulling kersen</p>",
+		"cookTime": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": ""
+		},
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"recipeInstructions": "<p>Smelt de boter, verkruimelen de bastogne koeken, Meng in een blik, druk plat en laat de boter stollen. Meng de mon chou, suiker, slagroom versteviger en slagroom en klop stevig. Strijk het mon chou mengsel over de bastogne bodem. Strijk de vlaaivulling over het mon chou mengsel.</p>",
+		"category": "Gebak",
+		"tags": [
+			"gebak"
+		],
+		"datePublished": "2021-04-09 16:42:09",
+		"totalTime": "",
+		"@context": "http://schema.org/",
+		"recipeYield": 8,
+		"type": 0
+	},
+	{
+		"prepTime": "",
+		"description": "",
+		"datePublished": "2016-07-16 17:49:05",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"recipeInstructions": "<p>Snij de koude boter met de bloem en gemalen noten tot een kruimig geheel. Voeg de eierdooier en water toe en kneed snel tot een samenhangend geheel. Leg in de koelkast om te laten rusten. </p><p>Maal de amandelen fijn in een blender. Voeg de suiker toe en maal opnieuw fijn. Voeg de eiwit toe en kneed tot een samenhangend geheel.</p><p>Maak van het deeg een bodem, leg de spijs hier overheen en strooi noten over de spijs. Kwast de resterende eierdooier over de koek heen. Bak de koek 25 minuten op 180&#176; C.</p><p>Haal de koek uit de oven en laat afkoelen.<br>Smelt de chocolade en Klieder over de koek heen. Laat afkoelen.</p>",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"id": "17",
+		"name": "Notentaart",
+		"ingredients": "<p><b>Zandbodem</b>:<br>150 g bloem<br>50 g gebrande en gemalen hazelnoten<br>60 g basterdsuiker<br>110 g boter<br>4 el water<br>1/2 eierdooier</p><p><b>Spijs</b>:<br>100 g amandelen<br>100g suiker<br>1 eiwit</p><p>Noten<br>1/2 eidooier<br>Chocolade</p>",
+		"totalTime": "",
+		"@type": "Recipe",
+		"tags": [
+			"gebak"
+		],
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"type": 0,
+		"cookTime": "",
+		"recipeYield": "",
+		"category": "Gebak",
+		"@context": "http://schema.org/"
+	},
+	{
+		"cookTime": "",
+		"prepTime": "",
+		"tags": [],
+		"recipeYield": "",
+		"author": {
+			"@type": "Person"
+		},
+		"totalTime": "",
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": ""
+		},
+		"description": "",
+		"datePublished": "2019-07-20 17:05:55",
+		"name": "Pâte feuilletée inversée",
+		"category": "Gebak",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"@type": "Recipe",
+		"ingredients": "<p>400 g boter op kamertemperatuur<br>175 g bloem</p><p>350 g bloem<br>150 ml koud water<br>1/4 el azijn<br>15g zout<br>113 g gesmolten boter</p>",
+		"recipeInstructions": "<p>Meng boter en bloem tot zacht. Vouw in 23 x 23 cm bakpapier en koel 2 uur in koelkast.<br>Mix de andere ingredienten tot een stevig deeg. Koel een paar uur.</p><p>Rol de boter uit op een bebloemd oppervlak tot 23 x 30 cm. Rol de deeg ook uit tot 23 x 30 cm en leg de deeg op de boter<br>Rol uit tot 50cm en vouw in derden, draai een kwartslag, rol plat en koel een uur. Rol uit tot 60cm en vouw in kwarten, draai een kwartslag, rol plat en koel een uur.<br>Herhaal het uitrollen en vouwen in derden en kwarten. Koel steeds een uur in de kelkast.<br>Rol de deeg uit en snij in twee stukken. Bewaar tot 6 maanden in de vriezer.</p><p>Rol uit tot 6mm, koel 30 minuten voor het bakken.</p>",
+		"@context": "http://schema.org/",
+		"type": 0,
+		"id": "125",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		}
+	},
+	{
+		"tags": [
+			"gebak"
+		],
+		"category": "Gebak",
+		"nutrition": {
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"servingSize": ""
+		},
+		"recipeYield": "",
+		"name": "Pindakaas Brownie",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"cookTime": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"type": 0,
+		"datePublished": "2016-07-16 17:49:05",
+		"@context": "http://schema.org/",
+		"description": "",
+		"id": "23",
+		"ingredients": "<p>150 g pure chocolade<br>250 g pindakaas<br>100 g gehakte pinda's<br>280 g bruine basterdsuiker<br>3 eieren<br>120 g bloem<br>Theelepel bakpoeder</p>",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"@type": "Recipe",
+		"totalTime": "",
+		"recipeInstructions": "<p>Smelt de pindakaas. Neem de pan van her vuur en roer er de chocolade door totdat deze is gesmolten. Mix de eieren met de suiker minimaal 5 minuten. Voeg de bloem, gehakte pinda's, pindakaasmengsel en bakpoeder toe en roer goed door.<br>Doe mengsel in bakvorm en bak 45 minuten op 160 &#176;C.<br>Let op: de brownie blijft zacht en plakkerig van binnen. </p>",
+		"prepTime": ""
+	},
+	{
+		"totalTime": "",
+		"recipeYield": "",
+		"ingredients": "<p>200 g bloem<br>100 g boter<br>2 g zout<br>1 ei<br>1 el water</p>",
+		"description": "",
+		"cookTime": "",
+		"@type": "Recipe",
+		"@context": "http://schema.org/",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"name": "Quichedeeg",
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"category": "Gebak",
+		"recipeInstructions": "<p>200 g bloem</p>",
+		"type": 2,
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"id": "102",
+		"datePublished": "2018-05-13 14:06:16",
+		"tags": [],
+		"prepTime": ""
+	},
+	{
+		"prepTime": "",
+		"totalTime": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"ingredients": "<p>1 kg appels<br>150 ml sinaasappelsap<br>50 g boter<br>100 g suiker<br>Kaneel<br>Gemberpoeder<br>1 rol beschuit<br>3 eieren<br>125 g rozijnen</p>",
+		"recipeInstructions": "<p>Kook appels met sinaasappelsap. Meng met boter, suiker, kaneel en gemberpoeder rozijnen, eierdooier en verkruimelde beschuit.<br>Klop de eiwitten een spatel door het appelmengsel. Bak 50 minuten op 200 &#176;C. Bestrooi met poedersuiker. </p>",
+		"recipeYield": "",
+		"@type": "Recipe",
+		"type": 0,
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"id": "25",
+		"datePublished": "2016-07-16 17:49:05",
+		"@context": "http://schema.org/",
+		"nutrition": {
+			"calories": "",
+			"fatContent": "",
+			"servingSize": "",
+			"@type": "NutritionInformation"
+		},
+		"tags": [
+			"gebak"
+		],
+		"name": "Schoenlappers taart",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"category": "Gebak",
+		"cookTime": "",
+		"description": ""
+	},
+	{
+		"@context": "http://schema.org/",
+		"name": "Sinaasappel bavarois taart",
+		"@type": "Recipe",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"ingredients": "<p><b>Harde wenerbodem</b><br>150 gram gezeefde bloem<br>100 gram roomboter<br>50 gram kristalsuiker<br>1 ei<br>1 citroen<br>zout</p><p><b>Moskovisch biscuit</b><br>60 gram roomboter<br>4 eieren<br>115 gram kristalsuiker<br>100 gram gezeefde bloem<br>1 citroenrasp</p><p><b>Banketbakkersroom</b><br>4 sinaasappels (200 gram sinaasappelsap)<br>1 citroen<br>40 gram kristalsuiker<br>20 gram ma&#239;zena<br>2 eidooiers<br>1 vanillestokje</p><p><b>Orangecurd</b><br>1 sinaasappelrasp<br>1 citroen<br>100 gram kristalsuiker<br>1 ei<br>50 gram roomboter</p><p><b>Sinaasappelbavarois</b><br>2 sinaasappels (rasp en een beetje sap)<br>1 citroenrasp<br>400 milliliter slagroom<br>6 gelatine blaadjes</p><p><b>Chocoladelaagje</b><br>25 gram pure chocolade</p><p><b>Sinaasappelspiegel</b><br>60 gram kristalsuiker<br>2 gelatine blaadjes<br>3 sinaasappels (90 gram sap)</p>",
+		"type": 0,
+		"tags": [],
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": ""
+		},
+		"cookTime": "",
+		"category": "Gebak",
+		"description": "",
+		"totalTime": "",
+		"id": "111",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"recipeYield": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"prepTime": "",
+		"recipeInstructions": "<p><b>Harde wenerbodem:</b><br>Meng boter, suiker en citroenrasp in de mixer tot een egaal geheel.<br>Voeg het ei toe en blijf kloppen tot het is opgenomen.<br>Zeef de bloem boven de mengkom en voeg zout toe. Meng tot een egaal deeg en laat rusten in de koelkast.</p><p><b>Moskovisch</b> <b>biscuit</b>:<br>Warm de oven voor op 175&#176;C.<br>Vet een springvorm met een diameter van 18 centimeter in met een diameter van ongeveer 19 centimeter.<br>Smelt de roomboter in een steelpannetje.<br>Splits de eieren.<br>Klop de eiwitten met de helft van de suiker stijf.<br>Klop eidooiers met de rest van de suiker au bain-marie schuimig en lobbig.<br>Spatel de helft van de bloem door het eidooiermengsel.<br>Voeg een derde van het eiwit toe en spatel goed door.<br>Voeg de overige bloem door en meng tot alles goed is opgenomen.<br>Spatel dit door de resterende eiwitten.<br>Voeg citroenrasp en gesmolten boter toe en meng tot een egaal beslag.<br>Schenk in de springvorm en bak de cake in ongeveer 30 minuten gaar.<br>Laat de cake 5 minuten in de vorm afkoelen. Stort hem dan op een rooster en laat ongeveer 15 minuten afkoelen.<br>Verhoog de oventemperatuur naar 180&#176;C.<br>Snijd de cake horizontaal in 3 gelijke plakken.<br>Steek uit de 2 mooiste delen met een taartring een plak met een diameter van circa 16 centimeter. Vermaal de rest in een keukenmachine tot kruimels.</p><p><b>Harde</b><b> Wenerbodem II:</b><br>Vet een springvorm van 18 centimeter in en bestuif met bloem.<br>Rol het deeg uit tot ca. 4 millimeter dikte.<br>Steek een plak uit van 18 centimeter en leg deze in de springvorm.<br>Dek af met bakpapier en vul met bakbonen.<br>Bak de bodem 12 minuten blind. Verwijder de bakbonen, het bovenste bakpapier en de rand van de springvorm. Bak nog ca. 5 minuten tot de bovenkant bruin begint te kleuren.<br>Haal uit de oven en laat afkoelen.<br>Bevestig vervolgens de rand van de springvorm en bekleed de rand met cellofaanfolie.</p><p><b>Banketbakkersroom</b><b>:</b><br>Meng de eidooiers, ma&#239;zena, een deel van de suiker en een klein beetje van het sinaasappelsap tot een papje.<br>Breng de rest van het sinaasappel- en citroensap aan de kook.<br>Halveer het vanillestokje, schraap het merg eruit en voeg toe aan het sinaasappel-citroensap.<br>Giet het kokende sap al roerend bij het dooiermengsel en giet vervolgens alles terug in de pan.<br>Laat de room ca. 2 minuten koken, giet op een schaal, dek af met een stukje plasticfolie en laat afkoelen.</p><p><b>Orangecurd</b><b>:</b><br>Verwarm het sinaasappelsap, de sinaasappelrasp en het citroensap samen met de suiker en de boter totdat alles is opgelost.<br>Neem de pan van het vuur en laat iets afkoelen.<br>Kluts het ei en voeg deze toe aan het mengsel in de pan.<br>Plaats de pan op een middelmatig vuur en roer goed met een garde totdat er een dikke vla ontstaat.</p><p><b>Sinaasappelbavarois</b><b>:</b><br>Week de gelatine in koud water.<br>Klop de slagroom tot yoghurtdikte.<br>Roer met een spatel de banketbakkersroom los en voeg deze toe aan de slagroom.<br>Voeg het sinaasappelsap, de sinaasappelrasp, het citroensap en de citroenrasp toe en spatel alles voorzichtig door elkaar.<br>Smelt de gelatine met aanhangend water in een steelpannetje op laag vuur.<br>Schenk bij het slagroommengsel en roer goed door.<br>Laat koud worden en opstijven.</p><p><b>Chocoladelaagje</b><b>:</b><br>Hak de chocolade zeer fijn en smelt au bain-marie of in de magnetron, maar laat de chocolade niet te warm worden.<br>Strijk met een siliconen bakkwast een laagje chocolade op de harde wenerbodem.<br>Leg hier direct een plak Moskovisch biscuit op (de chocolade zorgt ervoor dat het Moskovisch biscuit aan de harde wenerbodem plakt).</p><p><b>Sinaasappelspiegel</b><b>:</b><br>Week de gelatine in koud water.<br>Breng het sinaasappelsap met de suiker aan de kook.<br>Giet het sap door een zeef in een grote kom en voeg de uitgeknepen gelatine toe.<br>Plaats de kom in ijswater en roer met een spatel door totdat de gelatine is opgenomen en de saus dikker begint te worden.</p><p><b>Samenstellen</b><b>:</b></p><p><i>Opbouw</i>:<br>Strijk met een eetlepel een aantal lepels orangecurd op de onderste plak Moskovisch biscuit.</p><p>Giet de helft van de bavarois over de onderste laag. Werk van de rand naar het midden.<br>Leg hier vervolgens de tweede plak Moskovisch biscuit op.<br>Bestrijk ook deze plak met een flinke laag orangecurd.</p><p>Giet vervolgens de rest van de bavarois over de taart. Ook nu weer van buiten naar binnen werken. Lep op: zorg dat de bovenkant van de taart iets lager is dan de bovenrand van de vorm!<br>Zet de taart ca. 10 minuten in de diepvries.</p><p><i>Afwerking en garnering:</i><br>Neem de taart uit de vriezer en giet de sinaasappelgelei erover. Verdeel de gelei door met de taart te draaien.<br>Plaats de taart 5 minuten in de vriezer.<br>Controleer of de sinaasappelspiegel is opgesteven. Zo niet, plaats de taart nog een paar minuten in de vriezer.<br>Los de taart en verwijder het cellofaanfolie.<br>Zet de zijkant van de taart aan met de koekkruimels, verwijder de bodemplaat van de springvorm en garneer met een schijfje sinaasappel.<br></p>",
+		"datePublished": "2018-11-16 14:25:05"
+	},
+	{
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"recipeYield": "",
+		"datePublished": "2016-07-16 17:49:05",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": "",
+			"fatContent": ""
+		},
+		"ingredients": "<p>Mon chou taart<br>Tarte tatin<br>Tarte tatin peer<br>Groene cake<br>Brownie<br>Citroencake<br>Boterkoek<br>Kwarktaart<br>Cheesecake<br>Chocolade cheesecake<br></p>",
+		"@context": "http://schema.org/",
+		"recipeInstructions": "",
+		"tags": [],
+		"id": "30",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"totalTime": "",
+		"category": "Gebak",
+		"prepTime": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"description": "",
+		"name": "Taart",
+		"cookTime": "",
+		"@type": "Recipe",
+		"type": 2
+	},
+	{
+		"datePublished": "2017-02-20 15:38:21",
+		"recipeYield": "",
+		"nutrition": {
+			"servingSize": "",
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"calories": ""
+		},
+		"totalTime": "",
+		"prepTime": "",
+		"@context": "http://schema.org/",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"recipeInstructions": "<p>Bedek de bodem van een cakeblik van 23 x 23 cm met bananenbladeren of bakpapier. Verwarm de oven voor tot 170&#176;C.<br>Schil en rasp de cassave wortel. Laat 30 minuten uitlekken en vang het vocht op. Giet het vocht voorzichtig af zodat alleen het zetmeel overblijft. Meng cassave, eieren, suiker, zout en zetmeel. Kneed de pandan bladeren door het mengsel en voeg vervolgens de kokosmelk en water toe. Verwijder de pandan bladeren en giet het mengsel in het bakblik. Bak 75 tot 90 minuten, laat afkoelen en snij in blokken. Serveer op kamertemperatuur.</p>",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"category": "Gebak",
+		"@type": "Recipe",
+		"cookTime": "",
+		"image": {
+			"url": "/data/user/0/com.omg.recepten/files/image20170310182107.jpg",
+			"@type": "ImageObject"
+		},
+		"ingredients": "<p>1.30 kg cassave wortel<br>2 eieren<br>300 g suiker<br>&#188; theelepel zout<br>400 g kokosmelk<br>125 g water<br>5 pandan bladeren<br>2 bananen bladeren of bakpapier</p>",
+		"type": 0,
+		"name": "Tapioca cake",
+		"tags": [
+			"cake",
+			"cassave",
+			"tapioca"
+		],
+		"description": "",
+		"id": "62"
+	},
+	{
+		"id": "137",
+		"prepTime": "",
+		"recipeYield": "",
+		"type": 0,
+		"@context": "http://schema.org/",
+		"nutrition": {
+			"fatContent": "",
+			"servingSize": "",
+			"calories": "",
+			"@type": "NutritionInformation"
+		},
+		"tags": [],
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"ingredients": "<p><b>Deeg</b><br>225 g bloem<br>100 g roomboter<br>50 g suiker<br>3 eidooiers</p><p><b>Vulling</b><br>150 g gepelde walnoten<br>150 g suiker<br>100 g cr&#232;me fra&#238;che<br>3 eiwitten</p><p><b>En verder</b><br>boter om in te vetten<br>250 g mascarpone (of meer)<br>meer walnoten als garnering</p>",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"@type": "Recipe",
+		"cookTime": "",
+		"datePublished": "2020-09-17 22:58:35",
+		"author": {
+			"@type": "Person"
+		},
+		"category": "Gebak",
+		"totalTime": "",
+		"description": "",
+		"recipeInstructions": "<p>Maal de walnoten tot kruim met de keukenmachine. Maak dan het deeg: doe er de ingredi&#235;nten voor in de keukenmachine (zonder dat walnotenkruim, natuurlijk!) en draai tot zich een bal begin te vormen. Stop meteen. Pak de bal in folie en leg een half uur in de koelkast.</p><p>Verwarm de oven op 180 graden. Meng voor de vulling de suiker en de cr&#232;me fra&#238;che. Roer er het notenkruim en een snufje zout door. Klop apart met schoon materiaal de eiwitten stijf. Spatel het notenmengsel door de eiwitten.</p><p>Beboter een taartvorm en verdeel het deeg erover, met een rand. Uitrollen lukt mij nooit; ik boetseer kluitjes aan elkaar. Doe de vulling erin. Bak 30 minuten; dek de bovenkant af met beboterde folie als hij te bruin wordt. Laat afkoelen en bestrijk met losgeroerde mascarpone. Liefhebbers roeren daar een ippetippie loeisterke koffie door; suiker is niet nodig. En echte liefhebbers nemen nog meer mascarpone. Garneer met meer noten.</p>",
+		"name": "Tarte aux noix"
+	},
+	{
+		"image": {
+			"@type": "ImageObject",
+			"url": "/data/user/0/com.omg.recepten/files/image20170402122448.jpg"
+		},
+		"name": "Tarte tatin",
+		"description": "",
+		"cookTime": "",
+		"datePublished": "2017-04-02 12:13:19",
+		"totalTime": "",
+		"prepTime": "",
+		"ingredients": "<p>Kostdeeg:<br>175 g bloem<br>75 g roomboter, in blokjes<br>1 eierdooier<br>50 g basterdsuiker<br>1 el ijswater</p><p>Vulling:<br>100 g suiker<br>50 g boter<br>500 g appels<br>2 el water</p>",
+		"category": "Gebak",
+		"recipeYield": "",
+		"recipeInstructions": "<p>Meng ingredi&#235;nten voor korstdeeg. Kneed kort tot een vaste bal. Laat rusten in koelkast.<br>Doe suiker en water in een ondiepe pan die ook in de oven kan. Karamelliseer de suiker en voeg de boter toe. Schil en snij de appels in vieren. Leg de parten appels dakpansgewijs in de pan en kook even door. Zet het vuur uit en laat afkoelen.<br>Rol het deeg uit tot een ronde lap en drapeer over de appels. Bak in 20 tot 30 gaar in een oven op 200&#176;C. Laat even afkoelen en stort de taart  boven een schaal of bord.</p>",
+		"@type": "Recipe",
+		"tags": [
+			"frans"
+		],
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation"
+		},
+		"id": "68",
+		"type": 0,
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"@context": "http://schema.org/"
+	},
+	{
+		"@type": "Recipe",
+		"totalTime": "",
+		"cookTime": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"name": "Worteltaart",
+		"recipeYield": "",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"tags": [],
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": "",
+			"fatContent": ""
+		},
+		"ingredients": "<p><b>Voor de taart</b><br>3 eieren<br>175 ml karnemelk<br>175 ml plantaardige olie<br>300 gr suiker<br>2 theelepels vanille-extract<br>2 theelepels kaneelpoeder<br>1/4 theelepel zout<br>250 gr witte bloem<br>2 theelepels baksoda<br>225 gr wortelen, geraspt<br>75 gr kokosschaafsel<br>125 gr gehakte walnoten<br>1/2 blikje (432 gr) ananaspulp met sap<br>150 gr rozijnen</p><p><b>Voor de topping</b><br>200g mascarpone<br>50g magere kwark<br>65g poedersuiker<br>Rasp van een halve sinaasappel</p>",
+		"type": 0,
+		"id": "100",
+		"description": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"category": "Gebak",
+		"recipeInstructions": "<p>De oven voorverwarmen op 180&#176;C/gasstand 4. Een bakvorm van 20x30 cm invetten en met bloem bestrooien.</p><p>Bloem, baksoda, zout en kaneel in een middelgrote kom zeven en apart zetten.</p><p>In een grote kom eieren, karnemelk, olie, suiker en vanille goed mengen. De bloem toevoegen en goed vermengen.</p><p>In een middelgrote kom geraspte wortel, kokos, walnoot, ananas en rozijnen vermengen.</p><p>Met een grote houten leven of een stevige klopper de wortelmix goed door het beslag scheppen.</p><p>In de ingevette bakvorm schenken en 1 uur bij 180&#176;C/gasstand 4 bakken. Controleer de gaarheid van de cake met een vleespen en laat de cake minstens 20 minuten afkoelen alvorens te serveren.</p><p>Voor de romige bovenlaag: kwark en poedersuiker tot een zachte massa opkloppen en vervolgens de roomkaas en rasp erdoor kloppen. Even in de koelkast zetten alvorens over de cake te smeren.</p>",
+		"prepTime": "",
+		"datePublished": "2018-05-02 15:03:44",
+		"@context": "http://schema.org/"
+	},
+	{
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"@type": "Recipe",
+		"@context": "http://schema.org/",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"ingredients": "<p>600 gr bloemkool<br>1 ui<br>2 teentjes knoflook<br>265 gr kikkererwten (= uitlekgewicht van een blikje van 400 gr)<br>400 gr tomatenblokjes (uit blik)<br>400 ml kokosmelk<br>2 flinke el gele currypasta<br>Sap van een halve limoen<br>Handje verse koriander<br>Peper en zout<br>Olijfolie</p>",
+		"description": "",
+		"tags": [
+			"vegetarisch"
+		],
+		"type": 0,
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"recipeYield": "",
+		"recipeInstructions": "<p>Snijd de bloemkool in roosjes en was ze. Spoel de kikkererwten af en laat ze uitlekken.</p><p>Pel en snipper de ui en hak de knoflook fijn. Fruit dit aan in een grote pan in wat olijfolie.</p><p>Voeg de currypasta toe en verhit dit kort. Je kunt de currypasta heel goed zelf maken, maar ook een kant en klare versie gebruiken. Let wel even op de ingredi&#235;ntenlijst, sommige merken bevatten onnodige toevoegingen.</p><p>Voeg de tomatenblokjes en de kokosmelk toe en roer even kort.</p><p>Voeg de bloemkool en de kikkererwten toe. Laar de bloemkool curry in ongeveer 15 minuten gaar worden. De curry is klaar als de bloemkool een lekkere bite heeft. Dus niet te hard, maar vooral ook niet te zacht.</p><p>Breng de vega curry op smaak met peper en zout en het sap van een halve limoen.</p><p>Garneer de bloemkool curry met verse koriander (of peterselie als je niet van koriander houdt).</p><p>Serveer de curry met rijst of noedels.</p>",
+		"datePublished": "2018-03-08 10:40:43",
+		"totalTime": "",
+		"category": "Groenten",
+		"nutrition": {
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"servingSize": ""
+		},
+		"prepTime": "",
+		"id": "99",
+		"cookTime": "",
+		"name": "Bloemkool kikkererwten curry"
+	},
+	{
+		"id": "122",
+		"description": "",
+		"cookTime": "",
+		"@context": "http://schema.org/",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"totalTime": "",
+		"type": 0,
+		"prepTime": "",
+		"ingredients": "<p>500 g aardappels<br>250 g aubergine<br>125 g paprika<br>3 Lente ui<br>3 tenen knoflook<br>3 cm gember<br>Soya saus<br>1 el maizena<br>Sesam olie<br>Zonnebloem olie</p>",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"recipeInstructions": "<p>Hak lente ui, knoflook en gember fijn. Snij aardappels, paprika en aubergine in stukken. Verhit zonnebloem olie in wok tot 120 &#176;C en frituur daarin de aardappels gaar in 12 minuten. Verhoog het vuur en bak de aardappels goudbruin. Laat de aardappels uitlekken en frituur ondertussen de paprika en vervolgens de aubergine kort.<br>Verwijder het grootste deel van de olie en bak kort de lente ui, knoflook en gember. Voeg soya saus toe en blus met het water. Maak maizena aan met water en voeg toe. Voeg groenten toe en wat sesam olie, meng en serveer.</p>",
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"tags": [
+			"chinees"
+		],
+		"recipeYield": "",
+		"name": "Di San Xian",
+		"category": "Groenten",
+		"@type": "Recipe",
+		"datePublished": "2019-06-02 19:46:27",
+		"author": {
+			"@type": "Person"
+		}
+	},
+	{
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"recipeInstructions": "<p>Rooster pijnboompitten. Snij aubergine in plakken, bestrooi met zout. Laat kwartier rusten en spoel af. Halveer paprika en grill paprika en aubergine. Bestrooi met pijnboompitten en peterselie.</p>",
+		"@context": "http://schema.org/",
+		"name": "Gegrilde aubergine met paprika",
+		"category": "Groenten",
+		"cookTime": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"id": "40",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"@type": "Recipe",
+		"datePublished": "2016-08-13 21:08:28",
+		"type": 0,
+		"tags": [
+			"bijgerecht"
+		],
+		"recipeYield": "",
+		"ingredients": "<p>2 tenen knoflook<br>2 puntpaprika's<br>2 aubergine<br>2 el pijnboompitten<br>Kappertjes<br>Peterselie</p>",
+		"totalTime": "",
+		"description": "",
+		"prepTime": "",
+		"nutrition": {
+			"servingSize": "",
+			"fatContent": "",
+			"calories": "",
+			"@type": "NutritionInformation"
+		}
+	},
+	{
+		"cookTime": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"@context": "http://schema.org/",
+		"@type": "Recipe",
+		"recipeInstructions": "<p>Halveer grote spruiten. Verdeel over ovenschaal. Sprenkel de helft van de olie over de spruiten. Rooster de spruiten in 20 minuten gaar en bruin, schud na 10 minuten even om.<br>Meng de rest van de olie, honing, peper en azijn en sprenkel over de spruiten. Serveer warm.</p>",
+		"type": 0,
+		"name": "Geroosterde spruiten",
+		"recipeYield": "",
+		"datePublished": "2017-03-20 06:38:20",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"id": "65",
+		"totalTime": "",
+		"tags": [],
+		"prepTime": "",
+		"description": "",
+		"category": "Groenten",
+		"ingredients": "<p>750 g spruiten<br>20 g olijfolie<br>7 g azijn<br>1 theelepel honing<br>Pet<br>Peper</p>"
+	},
+	{
+		"description": "",
+		"name": "Rode bietensalade",
+		"datePublished": "2017-07-20 12:40:57",
+		"tags": [],
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"@context": "http://schema.org/",
+		"recipeYield": "",
+		"recipeInstructions": "<p>Kook de rode bieten gaar en laat helemaal afkoelen. Verwijder het vel en snij in dunne plakken. Snij de prei fijn en fruit in hete olie. Maak de makreel schoon en Snij in plakjes. Meng bieten, makreel, prei en olijven.<br>Maak van de mayonaise, yoghurt en mierikswortel een sausje. Breng op smaak met zout en peper.</p>",
+		"@type": "Recipe",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": "",
+			"fatContent": ""
+		},
+		"type": 0,
+		"id": "84",
+		"totalTime": "",
+		"cookTime": "",
+		"ingredients": "<p>4 rode bieten<br>1 gerookte makreel<br>200 g garnalen<br>1 Prei<br>Olijven</p><p>50 g Mayonaise<br>50 g Turkse yoghurt<br>30 g mierikswortel<br>Zout<br>Peper<br></p>",
+		"prepTime": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"category": "Groenten",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		}
+	},
+	{
+		"recipeYield": "",
+		"type": 0,
+		"datePublished": "2017-12-14 16:43:44",
+		"id": "95",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"prepTime": "",
+		"cookTime": "",
+		"ingredients": "<p>400 g broccoli<br>Pijnboompitten<br>Knoflook<br>Olie</p>",
+		"name": "Roergebakken broccoli",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"description": "",
+		"@type": "Recipe",
+		"totalTime": "",
+		"recipeInstructions": "<p>Snij de broccoli dun. Snipper de knoflook. Bak de knoflook met de pijnboompitten kort bruin. Voeg de broccoli toe en roerbak in 3 minuten beetgaar. </p>",
+		"category": "Groenten",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"tags": [],
+		"@context": "http://schema.org/",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation"
+		}
+	},
+	{
+		"type": 2,
+		"datePublished": "2016-07-16 17:49:05",
+		"cookTime": "",
+		"tags": [],
+		"@context": "http://schema.org/",
+		"totalTime": "",
+		"id": "27",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"recipeYield": "",
+		"prepTime": "",
+		"recipeInstructions": "",
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"category": "Groenten",
+		"@type": "Recipe",
+		"name": "Seizoensgroenten",
+		"description": "",
+		"ingredients": "<p><b>Seizoensgroenten</b><b> Januari</b><br>Aardappelen, Knolselderij, Paddenstoelen, Pastinaak, Pompoen, Prei, Raap, Rammenas, Rode biet, Rode kool, Savooikool, Schorseneren, Spruiten, Uien, Veldsla, Witlof, Witte kool, Wortelen</p><p><b>Seizoensgroenten</b><b> Februari</b><br>Aardappelen, Groene selderij, Knolselderij, paddenstoelen, Pastinaak, Pompoen, Prei, Raap, Rammenas, Rode biet, Rode kool, Savooikool, Schorseneren, Spruiten, Uien, Veldsla, Witlof, Witte kool, Wortelen</p><p><b>Seizoensgroenten</b><b> Maart</b><br>Aardappelen, Bloemkool, Groene selderij, Knolselderij, Paddenstoelen, Pastinaak, Pompoen, Prei, Raap, Radijs, Rammenas, Rode biet, Rode kool, Savooikool, Schorseneren, Spinazie, Spruiten, Uien, Veldsla, Witlof, Witte kool, Wortelen</p><p><b>Seizoensgroenten</b><b> April</b><br>Aardappelen, Andijvie, Bloemkool, Groene selderij, Paddenstoelen, Prei, Raap, Raapstelen, Radijs, Rode biet, Spinazie, Uien, Witlof</p><p><b>Seizoensgroenten</b><b> Mei</b><br>Andijvie, Asperges, Bloemkool, Doperwt, Groene Selderij, Koolrabi, Kropsla, Paddenstoelen, Prei, Raap, Raapstelen, Radijs, Spinazie,<br>Spitskool, Uien, Warmoes, Wortelen</p><p><b>Seizoensgroenten</b><b> Juni</b><br>Aardappelen, Andijvie, Artisjok, Asperges, Bloemkool, Broccoli, Doperwt, Groene selderij, Koolrabi, Kropsla, Paddenstoelen, Prei, Prinsessenbonen, Raap, Radijs, Savooikool, sperziebonen, Spinazie, Spitskool, Tomaten, Tuinbonen, Uien, Venkel, Warmoes, Wortelen</p><p><b>Seizoensgroenten</b><b> Juli</b><br>Aardappelen, Andijvie, Artisjok, Aubergine, Bleekselderij, Bloemkool, Broccoli, Chinese kool, Courgette, Doperwt, Groene selderij, Komkommer, Koolrabi, Kropsla, Paddenstoelen, Paprika, Prinsessenboon, Prei, Radijs, Rode biet, Rode kool, Savooikool, Snijbonen, sperziebonen, Spinazie, Spitskool, Tomaat, Tuinbonen,<br>Uien, Warmoes, Witte kool, Wortelen</p><p><b>Seizoensgroenten</b><b> Augustus</b><br>Aardappelen, Andijvie, Artisjok, Aubergine, Bleekselderij, Bloemkool, Broccoli, Chinese kool, Courgette, Groene selderij, Groenlof, Knolselderij, Komkommer, Koolrabi, Kropsla, Ma&#239;s, Paddenstoelen, Paprika, Prinsessenboon, Pompoen, Prei, Raapstelen, Radijs, Rode biet, Rode kool, Savooikool, Snijbonen, sperziebonen, Spinazie, Spitskool, Tomaat, Uien,<br>Warmoes, Witte kool, Wortelen</p><p><b>Seizoensgroenten</b><b> September</b><br>Aardappelen, Andijvie, Artisjok, Aubergine, Bleekselderij, Bloemkool, Broccoli, Chinese kool, Courgette, Groene selderij, Knolselderij, Komkommer, Koolrabi, Kropsla, Ma&#239;s, Paddenstoelen, Paprika, Pompoen, Prei, Prinsessenbonen, Raap, Raapstelen, Radijs, Rammenas, Rode biet, Rode kool, Savooikool, Snijbonen, sperziebonen, Spinazie, Spitskool, Tomaat, Uien, Venkel, Warmoes, Witte kool, Wortelen</p><p><b>Seizoensgroenten</b><b> Oktober</b><br>Aardappelen, Andijvie, Artisjok, Aubergine, Bleekselderij, Bloemkool, Broccoli, Chinese kool, Courgette, Groene selderij, Knolselderij, Koolrabi, Kropsla, Paddenstoelen, Paprika, Pastinaak, Pompoen, Prei,  Prinsessenbonen, Raap, Raapstelen, Radijs, Rammenas, Rode biet, Rode kool, Savooikool, Schorseneren, Snijbonen, sperziebonen, Spinazie, Spitskool, Spruiten, Tomaat, Uien, Veldsla,  Venkel, Warmoes, Witlof, Witte kool, Wortelen</p><p><b>Seizoensgroenten</b><b> November</b><br>Aardappelen, Andijvie, Bleekselderij, Bloemkool, Broccoli, Chinese kool, Courgette, Groene selderij, Knolselderij, Paddenstoelen, Pastinaak, Pompoen, Prei, Raap, Rammenas, Rode biet, Rode kool, Savooikool, Schorseneren, Spruiten, Uien, Veldsla, Venkel, Witlof, Wittekool,  Wortelen</p><p><b>Seizoensgroenten</b><b> December</b><br>Aardappelen, Andijvie, Groene selderij, Knolselderij, Paddenstoelen, Pastinaak, Pompoen, Prei, Raap, Rammenas, Rode biet, Rode kool, Savooikool, Schorseneren, Spruiten, Uien, Veldsla, Witlof, Witte kool, Wortelen</p>",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		}
+	},
+	{
+		"datePublished": "2016-07-16 17:49:05",
+		"ingredients": "<p>350 g rundergehakt<br>3 rode appels<br>2 uien<br>1 paprika<br>1/2 el chilipoeder<br>1 el paprika poeder<br>100 ml slagroom<br>1 blikje tomatenpuree</p>",
+		"prepTime": "",
+		"name": "Appelchili",
+		"recipeYield": "",
+		"id": "1",
+		"tags": [
+			"hoofdgerecht"
+		],
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": "",
+			"calories": ""
+		},
+		"@context": "http://schema.org/",
+		"recipeInstructions": "<p>Bak gehakt rul, voeg gesnipperde ui toe.<br>Voeg stukjes paprika toe, chilipoeder en tomatenpuree. Laat 20 minuten sudderen. Voeg appel in blokjes toe, 5 minuten meebakken en voeg als laatste de slagroom toe. </p><p>Serveer met aardappelpuree.</p>",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"cookTime": "",
+		"totalTime": "",
+		"type": 0,
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"@type": "Recipe",
+		"description": "",
+		"category": "Hoofdgerecht"
+	},
+	{
+		"name": "BBQ",
+		"@context": "http://schema.org/",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"totalTime": "",
+		"cookTime": "",
+		"category": "Hoofdgerecht",
+		"recipeInstructions": "",
+		"type": 2,
+		"tags": [],
+		"prepTime": "",
+		"description": "",
+		"@type": "Recipe",
+		"datePublished": "2016-08-25 19:08:24",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"nutrition": {
+			"calories": "",
+			"fatContent": "",
+			"servingSize": "",
+			"@type": "NutritionInformation"
+		},
+		"ingredients": "<p>Meloensalade<br>Groene salade<br>Aardappelsalade</p><p>Lamskoteletten<br>Speklappen<br>Worstjes<br>Kofte<br>Mais</p><p>Knoflooksaus<br>Rode BBQ saus<br>Whiskey cocktailsaus</p><p>Stokbrood<br>Kruidenboter</p>",
+		"recipeYield": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"id": "41"
+	},
+	{
+		"tags": [],
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"prepTime": "",
+		"@type": "Recipe",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"datePublished": "2017-06-27 12:02:16",
+		"name": "Camping maaltijden",
+		"ingredients": "<p>Sla met eendemagen en gebakken aardappels<br>Groentesoep met brood<br>Pasta carbonara<br>Pasta pesto en tomaat<br>Pasta met tomatensaus en merengues/worstjes<br>Risotto met chorizo en groenten<br>Tortilla van ei, aardappel en paprika<br></p>",
+		"cookTime": "",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": ""
+		},
+		"type": 2,
+		"id": "81",
+		"description": "",
+		"@context": "http://schema.org/",
+		"recipeYield": "",
+		"totalTime": "",
+		"category": "Hoofdgerecht",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"recipeInstructions": ""
+	},
+	{
+		"type": 0,
+		"prepTime": "",
+		"category": "Hoofdgerecht",
+		"@context": "http://schema.org/",
+		"ingredients": "<p>Zuurkool<br>Slagroom<br>Witte wijn<br>Tomaat<br>Zalm<br>Garnalen<br>Mosselen<br>Makreel</p>",
+		"datePublished": "2017-06-18 21:00:48",
+		"totalTime": "",
+		"cookTime": "",
+		"tags": [],
+		"@type": "Recipe",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"id": "80",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"name": "Choucroute de la mer",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"description": "",
+		"recipeYield": "",
+		"recipeInstructions": ""
+	},
+	{
+		"totalTime": "",
+		"@type": "Recipe",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"cookTime": "",
+		"id": "113",
+		"type": 0,
+		"recipeInstructions": "<p>Bak de duiven in boter. Voeg sjalot, spek, kruiden en bier toe. Laat afgedekt 20 a 30 minuten sudderen.<br>Bak ondertussen de champignons bruin.<br>Haal de duifjes uit de pan en bind de saus met de eierdooiers los geklopt in room. Voeg de champignons toe aan de saus<br>Serveer met puree of frietjes</p>",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"name": "Gebraden duif",
+		"datePublished": "2018-12-15 09:29:39",
+		"prepTime": "",
+		"category": "Hoofdgerecht",
+		"description": "",
+		"tags": [
+			"wild"
+		],
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"recipeYield": "",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation"
+		},
+		"@context": "http://schema.org/",
+		"ingredients": "<p>4 duifjes<br>boter<br>20 kleine sjalotten of verse zilveruitjes<br>150 g gerookte spekblokjes<br>1 tak tijm<br>1 laurierblad<br>cayennepeper<br>zout en peper<br>1 fles donker bier<br>3 eierdooiers<br>1,5 dl room<br>250 gr. champignons<br></p>"
+	},
+	{
+		"description": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"ingredients": "<p>* 2 middelgrote uien, 1 fijngehakt en 1 in stukjes van 1 cm<br>  * olijfolie<br>  * 1 volle theelepel gemalen koriander<br>  * 1 afgestreken theelepel gemalen komijn<br>  * 12 Jacob's creamcrackers<br>  * 2 theelepels gedroogde oregano<br>  * 2 volle theelepels dijonmosterd<br>  * 500 g rundergehakt van goede kwaliteit<br>  * 1 groot ei, liefst vrije uitloop of biologisch<br>  * 2 teentjes knoflook, in plakjes<br>  * &#189; tot 1 verse, rode Spaanse peper (naar smaak), in dunne ringetjes<br>  * 1 theelepel gerookt paprikapoeder<br>  * 2 eetlepels worcestersaus<br>  * 1 blik kikkererwten van 400 g, uitgelekt<br>  * 2 blikken tomatenstukjes van 400 g<br>  * 2 eetlepels balsamicoazijn<br>  * 2 takjes verse rozemarijn<br>  * 12 plakken mager rookspek of pancetta, liefst scharrel of biologisch<br>  * 1 citroen</p>",
+		"category": "Hoofdgerecht",
+		"@type": "Recipe",
+		"type": 0,
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"id": "10",
+		"name": "Gehaktbrood",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"prepTime": "",
+		"tags": [],
+		"cookTime": "",
+		"recipeYield": "",
+		"totalTime": "",
+		"datePublished": "2016-07-16 17:49:05",
+		"@context": "http://schema.org/",
+		"recipeInstructions": "<p>Verwarm de oven op de hoogste stand voor.bereiden<br>Zet de gehakte ui met een snufje zout en peper in een grote koekenpan met 2 scheuten olijfolie op matig hoog vuur. Strooi de gemalen koriander en komijn erbij. Bak ze 7 minuten, terwijl je elke 30 seconden roert, tot de stukjes ui zacht en goudbruin zijn; doe ze dan in een grote kom om af te koelen.</p><p>Doe de crackers in een theedoek, stamp ze fijn en breek de grootste stukjes klein met je handen. Doe de kruimels met oregano, mosterd en gehakt bij de afgekoelde uien in de kom. Breek het ei erbij en strooi er nog een flinke snuf zout en peper op. Kneed en wrijf alles met goed gewassen handen door elkaar. Leg het vleesmengsel op een plank en kneed en rol het tot een soort grote rugbybal. Wrijf de bal in met een beetje olie.</p><p>Leg het vlees in een braadpan of ovenschaal, zet die in de voorverwarmde oven en verlaag de temperatuur onmiddellijk tot 200 &#176;C of gasovenstand 4. Bak het gehaktbrood 30 minuten.</p><p>Zet intussen de in stukjes gesneden ui, de knoflook en Spaanse peper met 2 flinke scheuten olijfolie, het paprikapoeder en een snufje zout en peper in een grote pan op matig hoog vuur. Laat de pan ongeveer 7 minuten op het vuur staan terwijl je elke 30 seconden even roert. Voeg er de worcestersaus, kikkererwten, tomaten en balsamicoazijn aan toe. Laat aan de kook komen, zet het vuur laag en laat de saus 10 minuten zachtjes pruttelen. Proef en voeg zo nodig nog wat extra zout en peper toe.</p><p>Pluk de rozemarijnnaaldjes van de takjes en doe ze in een kommetje. Haal het gehaktbrood uit de oven, giet het vet uit de pan bij de rozemarijn en roer. Schep de saus om het gehaktbrood heen. Leg het rookspek over het gehaktbrood en de saus. Verdeel er de rozemarijn over. Zet de pan nog 10 tot 15 minuten in de oven, tot het spek goudbruin is. Serveer er een gemengde salade bij en wat partjes citroen</p>"
+	},
+	{
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"datePublished": "2016-07-16 17:49:05",
+		"cookTime": "",
+		"type": 0,
+		"description": "",
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"totalTime": "",
+		"tags": [
+			"hoofdgerecht"
+		],
+		"@context": "http://schema.org/",
+		"prepTime": "",
+		"name": "Goulash met sperciebonen",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"category": "Hoofdgerecht",
+		"recipeYield": "",
+		"recipeInstructions": "<p>Snijd het vlees in stukken en wentel ze door de bloem. Verhit de vloeibare margarine in een braadpan en bak het vlees op matig hoog vuur in ca. 5 minuten al omscheppend rondom bruin.<br>Bak de spekreepjes ca. 2 minuten zachtjes mee.</p><p>Pel en snipper de ui en de tenen knoflook.<br>Maak de paprikas schoon en snijd ze in stukken.</p><p>Schep de ui, knoflook en paprika door het vlees en bak alles nog ca. 2 minuten.<br>Strooi het paprikapoeder erover en bak dit ca. 2 minuten zachtjes mee.<br>Schenk de gezeefde tomaten, de wijn en de bouillon langs de rand van de pan bij het vlees.<br>Voeg de tijm toe.<br>Breng het geheel aan de kook en laat de goulash afgedekt ca. 2 uur heel zachtjes (op een vlamverdeler) sudderen.</p><p>Schil de aardappelen en snijd ze in kleine blokjes. Haal de sperziebonen af en snijd ze in drieen.<br>Schep de aardappelblokjes en sperziebonen door de goulash en smoor het gerecht in nog ca. 45 minuten zachtjes gaar.</p>",
+		"ingredients": "<p>600 gram doorregen runderlappen<br>10 eetlepels olijfolie<br>50 gram spekreepjes<br>1 grote ui<br>2 teentjes knoflook<br>4 paprikas (rood en groen)<br>2 eetlepels bloem<br>1.5 eetlepel paprikapoeder of chilipoeder<br>1 blikje tomaatstukjes (400 gram)<br>1 deciliter rode wijn<br>2 deciliter Rundvleesbouillon<br>2 theelepels tijm<br>4 vastkokende aardappelen<br>250 gram sperziebonen</p>",
+		"@type": "Recipe",
+		"id": "12"
+	},
+	{
+		"totalTime": "",
+		"cookTime": "",
+		"ingredients": "<p><b>Voor</b><br>Garnalen cocktail<br>Of<br>Paprika tomatensoep met garnalen<br>En<br>Mini chiabattas</p><p><b>Hoofd</b><br>Pommes dauphine<br>Eendeborst<br>Gebakken spruitjes met granaatappel<br>Quiche pompoen, blauwe kaas en kweeperenpasta<br>Salade gegrilde groentes met geitenkaas en pijnboompitten</p><p><b>Na</b><br>Chipolatataart</p><p>Kersen Clafoutis<br>Merengue rol met Mascarponeroom<br>Chocolade-hazelnoot cr&#232;me<br>Slagroom<br>Fruit<br>Vanille parfait<br>Chocolade mousse<br>Walnoten boterkoek<br>Slagroom-hangop met mango coulis<br></p>",
+		"datePublished": "2016-12-04 20:42:35",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"recipeYield": "",
+		"category": "Hoofdgerecht",
+		"@type": "Recipe",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"name": "Kerst diner",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"recipeInstructions": "",
+		"description": "",
+		"type": 2,
+		"tags": [],
+		"@context": "http://schema.org/",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"calories": "",
+			"servingSize": "",
+			"fatContent": ""
+		},
+		"id": "56",
+		"prepTime": ""
+	},
+	{
+		"totalTime": "",
+		"datePublished": "2018-06-12 20:37:03",
+		"recipeInstructions": "<p>Maak van de yoghurt, knoflook, zout en komkommer tzatziki. Zet opzij.<br>Verwarm de oven voor voor de pita broodjes.<br>Snij de chorizo in plakjes of blokjes, snipper de ui. Fruit chorizo en ui met de olie in een braadpan. Bak even de tomatenpuree mee. Voeg spinazie toe en laat slinken. Als de spinazie is geslonken voeg de kaneel en de kikkererwten toe. Voeg eventueel wat water toe en laat 20 minuten stoven. Bak ondertussen de pita broodjes in de oven.</p>",
+		"@context": "http://schema.org/",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"cookTime": "",
+		"prepTime": "",
+		"recipeYield": "",
+		"category": "Hoofdgerecht",
+		"id": "104",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"type": 0,
+		"tags": [],
+		"description": "",
+		"name": "Kikkererwten met spinazie",
+		"ingredients": "<p>400 g spinazie<br>400 g kikkererwten<br>200 g chorizo<br>1 ui<br>Blikje tomatenpuree<br>Kaneel,<br>Chilipoeder<br>Olijfolie<br>Turkse yoghurt<br>Knoflook<br>Komkommer<br>Pita broodjes<br></p>",
+		"@type": "Recipe"
+	},
+	{
+		"prepTime": "",
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"totalTime": "",
+		"type": 0,
+		"datePublished": "2016-07-16 17:49:05",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"name": "Kikkererwtenbrood met salsa",
+		"@context": "http://schema.org/",
+		"id": "14",
+		"@type": "Recipe",
+		"recipeInstructions": "<p>Kook 2 eieren<br>Hak de kikkererwten grof<br>Meng met 2 eieren, kruiden, 1 bosui.<br>Vul een cakeblik met de erwten. Leg de gekookte eieren in het midden en bak in 30 min op 200&#176;C. </p><p>Maak de salsa van tomaat, sinaasappel rasp, lente ui, zout en peper.</p>",
+		"recipeYield": "",
+		"ingredients": "<p>4 eieren<br>600 g kikkererwten<br>gemalen komijn<br>Gemalen koriander<br>Peterselie<br>1 rode paprika<br>2 bosuitjes<br>Rasp van een sinaasappel<br>3 tomaten</p>",
+		"description": "",
+		"category": "Hoofdgerecht",
+		"cookTime": "",
+		"tags": []
+	},
+	{
+		"id": "110",
+		"tags": [],
+		"@type": "Recipe",
+		"name": "Kikkerwten met sperciebonen",
+		"recipeYield": "",
+		"prepTime": "",
+		"datePublished": "2018-08-28 20:46:56",
+		"type": 0,
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"recipeInstructions": "<p>Fruit ui, snij chorizo in blokjes. Bak mee. Snij wortel in stukjes, bak mee. Voeg kikkererwten, gehakte knoflook, sperciebonen en wat water toe en stoof in 20 minuten gaar.<br>Serveer met tsjatiki en rijst.</p>",
+		"category": "Hoofdgerecht",
+		"@context": "http://schema.org/",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"ingredients": "<p>Kikkererwten<br>Sperciebonen<br>Chorizo<br>Ui<br>Knoflook<br>Wortel</p>",
+		"totalTime": "",
+		"nutrition": {
+			"fatContent": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"calories": ""
+		},
+		"description": "",
+		"cookTime": ""
+	},
+	{
+		"recipeYield": "",
+		"@type": "Recipe",
+		"tags": [],
+		"datePublished": "2016-08-03 16:51:16",
+		"ingredients": "<p>Appelchili<br>Bloemkool<br>Boerenkool stamppot<br>Bonenschotel<br>Ei omelet<br>Gado gado<br>Gevulde paprika's<br>Kikkererwten met groente, vlees en rijst<br>Lasagne<br>Lasagne met ham en hinkelspel<br>Nasi<br>Pannenkoeken<br>Pasta met blauwe kaas saus<br>Pasta met drie soorten kaas en tomaat<br>Pasta met zalm<br>Pizza<br>Quiche<br>Risotto met gegrilde aubergine salade<br>Rode bieten met hachee<br>Rode bieten salade met vis en garnalen<br>Roergebakken vlees en groentes met rijst of mie<br>Rode kool<br>Sla met tonijn<br>Snijbiet gratin<br>Soep met brood<br>Spinazieschotel<br>Spitskool in melk gesmoord<br>Stamppot rauwe andijvie<br>Sushi<br>Uiensoep met brood<br>Wortels<br>Zuurkool stamppot</p>",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"prepTime": "",
+		"description": "",
+		"name": "Maaltijden",
+		"cookTime": "",
+		"totalTime": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"id": "39",
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": ""
+		},
+		"recipeInstructions": "",
+		"@context": "http://schema.org/",
+		"type": 2,
+		"category": "Hoofdgerecht"
+	},
+	{
+		"totalTime": "",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"type": 0,
+		"recipeInstructions": "<p>Kook rijst volgens de aanwijzingen. Fruit ui en knoflook in olijfolie. Voeg gehakt, courgette in blokjes en champignons toe. Voeg tomatensaus en rijst toe.<br>Snij paprika open en vul met het gehakt en rijst mengsel. Bak 45 minuten op 200&#176;C in de oven.</p>",
+		"description": "",
+		"tags": [],
+		"@type": "Recipe",
+		"name": "Met rijst en gehakt gevulde paprika's",
+		"ingredients": "<p>Paprika<br>Gehakt<br>Rijst<br>Ui<br>Knoflook<br>Tomatensaus of puree<br>Courgette<br>Champignons</p>",
+		"category": "Hoofdgerecht",
+		"prepTime": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"author": {
+			"@type": "Person"
+		},
+		"@context": "http://schema.org/",
+		"id": "131",
+		"cookTime": "",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": "",
+			"fatContent": ""
+		},
+		"recipeYield": "",
+		"datePublished": "2020-06-29 16:12:29"
+	},
+	{
+		"description": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"totalTime": "",
+		"ingredients": "<p>700 gr groene asperges<br>400 gr pasta penne<br>250 gr ricotta<br>30 gr pijnboompitten<br>80 gr prosciutto ham</p><p><b>Pesto</b><br>40 gr basilicumblaadjes<br>30 gr pijnboompitten<br>1 teentje knoflook<br>1 eetl citroensap<br>scheutje olijfolie<br>50 gr parmezaanse kaas, grof geraspt<br>zwarte peper<br></p>",
+		"id": "101",
+		"cookTime": "",
+		"datePublished": "2018-05-11 18:34:11",
+		"type": 0,
+		"recipeInstructions": "<p>Maak eerst de pesto: Doe het teentje knoflook, basilicumblaadjes, pijnboompitten en parmezaanse kaas in een keukenmachine en maal fijn. Voeg het citroensap en een scheutje olijfolie toe en breng op smaak met een beetje zwarte peper. Was de asperges en verwijder de onderste 3 cm en snijd de rest in stuken van ca 5 cm.</p><p>Zet een pan met een ruime hoeveelheid water op het vuur en kook de asperges ca 5 min beetgaar. Schep ze met een schuimspaan uit de pan en kook de pasta gaar in het water van de asperges (vul eventueel nog wat aan met wat water). Verhit een eetl olijfolie in een hapjespan of wokpan en roerbak de asperges een minuut of twee.</p><p>Giet de pasta af en schep door de asperges. Voeg de pesto toe en meng voorzichtig door de pasta en asperges. Rooster de pijnboompitten. Schep de pasta op een bord en doe een schep ricotta er boven op. Scheur de ham in reepjes en verdeel deze samen met de geroosterde pijnboompitten over de pasta en ricotta. Voor een snellere versie kun je ook pesto uit een potje gebruiken.</p>",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"prepTime": "",
+		"tags": [
+			"pasta"
+		],
+		"category": "Hoofdgerecht",
+		"@type": "Recipe",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"@context": "http://schema.org/",
+		"recipeYield": "",
+		"nutrition": {
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": ""
+		},
+		"name": "Pasta met asperges en ham"
+	},
+	{
+		"type": 0,
+		"cookTime": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"id": "19",
+		"nutrition": {
+			"servingSize": "",
+			"calories": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"prepTime": "",
+		"tags": [
+			"hoofdgerecht"
+		],
+		"datePublished": "2016-07-16 17:49:05",
+		"category": "Hoofdgerecht",
+		"name": "Pasta met bloemkool en ansjovis",
+		"recipeYield": "",
+		"recipeInstructions": "<p>Fruit ansjovis, knoflook, pepers en peterselie 5 minuten zacht. </p><p>Kook de bloemkool in 3 minuten beetgaar. Voeg de roosjes en wat kookvocht bij de olie.</p><p>Kook de pasta beetgaar, voeg de pasta en wat kookvocht bij de bloemkool en serveer direct in diepte borden.</p>",
+		"@context": "http://schema.org/",
+		"description": "",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"@type": "Recipe",
+		"ingredients": "<p>Peterselie<br>6 tenen knoflook<br>6 ansjovis filet<br>2 Spaanse pepers<br>1 bloemkool in roosjes<br>400 g penne<br>80 ml olijfolie</p>",
+		"totalTime": ""
+	},
+	{
+		"description": "",
+		"prepTime": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"tags": [
+			"hoofdgerecht",
+			"vegetarisch"
+		],
+		"@context": "http://schema.org/",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"totalTime": "",
+		"type": 0,
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"@type": "Recipe",
+		"ingredients": "<p><b>Ingredi&#235;nten</b><br>pasta<br>bloem<br>boter<br>melk<br>smeltkaas<br>blauwe kaas<br>harde kaas<br>ei<br>mosterd<br>tomaat<br>zonnebloempitten </p>",
+		"name": "Pasta met drie soorten kaas",
+		"datePublished": "2016-07-16 17:49:05",
+		"category": "Hoofdgerecht",
+		"recipeInstructions": "<p>Pasta kort koken, bechamelsaus met cheddar kaas, ei en mosterd. Pasta met saus in een schaal, tomaten in plakjes er overheen, geraspte harde en blauwe kaas, zonnebloempitten </p>",
+		"id": "20",
+		"recipeYield": "",
+		"nutrition": {
+			"servingSize": "",
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"calories": ""
+		},
+		"cookTime": ""
+	},
+	{
+		"@type": "Recipe",
+		"name": "Pasta met pesto en bloemkool",
+		"@context": "http://schema.org/",
+		"author": {
+			"@type": "Person"
+		},
+		"ingredients": "<p>Pasta<br>Pesto<br>Bloemkool</p>",
+		"category": "Hoofdgerecht",
+		"recipeInstructions": "<p>Snij bloemkool in blokjes/roosjes en grill in een grill- of koekenpan. Kook de pasta. Meng pasta, bloemkool en pesto.</p>",
+		"type": 0,
+		"recipeYield": "",
+		"totalTime": "",
+		"tags": [],
+		"datePublished": "2020-07-21 12:06:05",
+		"description": "",
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"prepTime": "",
+		"id": "134",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"cookTime": "",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		}
+	},
+	{
+		"category": "Hoofdgerecht",
+		"@context": "http://schema.org/",
+		"datePublished": "2016-07-16 17:49:05",
+		"recipeYield": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"tags": [
+			"hoofdgerecht",
+			"vegetarisch"
+		],
+		"cookTime": "",
+		"description": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"@type": "Recipe",
+		"recipeInstructions": "<p>Roerbak de spinazie met ruim olie tot ze geslonken is. Snij fijn Pel en snip per de knoflook, bak in olie. Voeg de pijnboompitten toe, bak even door en voeg de spinazie toe. Roer drie eetlepels mascarpone door de spinazie, voeg de olijven toe. Meng de saus met de pasta, serveer direct.</p>",
+		"name": "Pasta met spinazie en room",
+		"ingredients": "<p>Pasta,<br>Verse spinazie,<br>Mascarpone,<br>Knoflook<br>Zwarte Olijven<br>Pijnboompitten </p>",
+		"prepTime": "",
+		"id": "21",
+		"totalTime": "",
+		"type": 0,
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": "",
+			"calories": ""
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		}
+	},
+	{
+		"cookTime": "",
+		"@context": "http://schema.org/",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"prepTime": "",
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": ""
+		},
+		"recipeInstructions": "<p>Marineer vlees in ketjap. </p><p>Fruit ui, gember, peper en knoflook in olie. Maal pinda's met kokosmelk in blender. Voeg ui mengel en bloem toe en maal kort door. <br>Door het mengsel in een grote pan en verwarm zonder te koken. Voeg suiker, ketjap pindasaus, kurkuma, sambal, zout en citroen toe. Bak vlees in een koekenpan is 15 minuten gaar en voeg toe.<br>Voeg melk toe als het gaat schiften. Serveer.</p>",
+		"category": "Hoofdgerecht",
+		"@type": "Recipe",
+		"recipeYield": "",
+		"id": "24",
+		"type": 0,
+		"totalTime": "",
+		"description": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"datePublished": "2016-07-16 17:49:05",
+		"ingredients": "<p>1 blikje Kokosmelk<br>2 eetlepels Bruine suiker<br>Zakje Pinda's<br>1 pot Pindakaas<br>Sambal<br>Scheut Citroensap of azijn<br>Kurkuma<br>Rode peper<br>1 cm Gember<br>Ketjap manis<br>500 g Varkensvlees<br>2 Uien<br>Knoflook<br>Olie<br>Theelepel bloem<br>Eetlepel melk</p>",
+		"tags": [
+			"hoofdgerecht"
+		],
+		"name": "Pindasaus met varkensvlees"
+	},
+	{
+		"nutrition": {
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"servingSize": ""
+		},
+		"name": "Risotto met spinazie en Gorgonzola",
+		"recipeYield": "",
+		"tags": [
+			"hoofdgerecht",
+			"vegetarisch"
+		],
+		"totalTime": "",
+		"datePublished": "2016-10-13 09:11:24",
+		"type": 0,
+		"id": "47",
+		"ingredients": "<p>Risotto<br>Witte wijn<br>Ui<br>Knoflook<br>Spinazie<br>Bouillon<br>Gorgonzola<br>Walnoten</p>",
+		"recipeInstructions": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"category": "Hoofdgerecht",
+		"@type": "Recipe",
+		"@context": "http://schema.org/",
+		"cookTime": "",
+		"description": "",
+		"prepTime": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		}
+	},
+	{
+		"datePublished": "2016-10-02 19:18:22",
+		"category": "Hoofdgerecht",
+		"id": "45",
+		"description": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"recipeYield": "",
+		"prepTime": "",
+		"cookTime": "",
+		"name": "Spruiten met appel en worst",
+		"totalTime": "",
+		"recipeInstructions": "<p>Snij de aardappels in partjes en kook ze in 7 minuten gaar. Kook de spruiten in 12 minuten beetgaar. Bak de aardappels, worst en uien 5 minuten en voeg spruiten en appels in partjes toe. Bak nog 5 minuten. </p>",
+		"type": 0,
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"@type": "Recipe",
+		"ingredients": "<p>1 kg aardappels<br>700 g spruiten<br>2 rode uien<br>2 appels.<br>200 g salami of chorizo in stukjes.</p>",
+		"nutrition": {
+			"servingSize": "",
+			"fatContent": "",
+			"calories": "",
+			"@type": "NutritionInformation"
+		},
+		"tags": [
+			"eenpansgerecht",
+			"hoofdgerecht"
+		],
+		"@context": "http://schema.org/",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		}
+	},
+	{
+		"name": "Sushi rijst",
+		"datePublished": "2016-11-27 11:25:52",
+		"@type": "Recipe",
+		"cookTime": "",
+		"id": "55",
+		"category": "Hoofdgerecht",
+		"prepTime": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"recipeYield": "",
+		"ingredients": "<p>500 g rijst<br>6 el rijstwijn<br>4 tl suiker<br>2 tl zout</p>",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"description": "",
+		"@context": "http://schema.org/",
+		"tags": [
+			"basisrecept"
+		],
+		"recipeInstructions": "<p><i>Wassen</i><br>Dit is een belangrijke stap, neem er genoeg tijd voor! Doe 500 gram rijst in de pan (of binnenpan van de rijstkoker). Doe er 400 ml water bij en was de rijst alsof je kleine grindkorreltjes spoelt. Houd de rijstkorrels daarbij continu in beweging en wrijf ze voorzichtig over elkaar. Spoel het troebele water nu weg en herhaal het wassen tot het afgespoelde water helder is. Spoel het water weer weg en laat het tien minuten zo staan, zodat de rijst het vocht kan opnemen. Giet er vervolgens 750 milliliter water bij. </p><p><i>Koken</i><br>Doe het deksel op de pan, breng aan de kook en laat de rijst vervolgens 2 minuten op hoog vuur koken. Zet nu het vuur middelhoog en kook 5 minuten. Zet dan het vuur laag en kook nog eens 8 minuten. Blijf altijd bij je rijst staan en zet wekkertjes, bijvoorbeeld op je telefoon. Zelf heb ik in het verleden kilo&#8217;s rijst verprutst door even weg te lopen of de tijd een beetje in te schatten. Til tijdens het koken NIET het deksel van de pan. Zet nu het vuur uit. Neem het deksel van de pan, leg een schone theedoek over de pan en leg het deksel er weer bovenop. De theedoek voorkomt dat de condens op de rijst drupt. Laat de rijst 15 minuten zo staan.</p><p><i>Azijn bereiden</i><br>Verwarm ondertussen 6 eetlepels rijstazijn, 4 theelepels suiker en 2 theelepels zout. Roer dit tot de suiker en het zout zijn opgelost. Zorg ervoor dat het mengsel niet kookt, dit is namelijk niet bevorderlijk voor de smaak. Laat afkoelen tot kamertemperatuur.  Schep de rijst voorzichtig met een platte houten spatel (of lepel) in een lage schaal. Sprenkel de dressing nu over de rijst en schep deze voorzichtig om.</p><p><i>Afkoelen</i><br>Wuif de rijst met een waaier (of iets anders, bijvoorbeeld een magazine) terwijl je deze voorzichtig omschept. Hierdoor koelt de rijst gelijkmatig af. Snel afkoelen is gewenst voor de consistentie van de rijst. Blijf wapperen en omscheppen tot de rijst is afgekoeld naar maximaal 37 graden (lichaamstemperatuur). Eventueel kun je een ventilator gebruiken om de rijst snel af te koelen. Ga je de rijst te warm verwerken, dan zal je norivel taai worden en/of scheuren.</p>",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"calories": "",
+			"servingSize": "",
+			"fatContent": ""
+		},
+		"totalTime": "",
+		"type": 0
+	},
+	{
+		"totalTime": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"category": "Hoofdgerecht",
+		"@context": "http://schema.org/",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"id": "107",
+		"prepTime": "",
+		"ingredients": "<p>2 uien<br>2 tomaten<br>30 g Boter<br>200 g Varkensvlees in stukjes<br>2 Winterpenen<br>2 tl paprikapoeder<br>1 tl chilipoeder<br>1 tl vijfkruidenpoeder</p>",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"description": "",
+		"name": "Ui en wortel stoofschotel",
+		"tags": [],
+		"recipeYield": "",
+		"@type": "Recipe",
+		"cookTime": "",
+		"recipeInstructions": "<p>Blend of rasp de uien, smelt de boter en stoof de ui 10 minuten zachtjes in de boter. Snij de winterpeen in blokjes, voeg toe bij de ui en stoof 10 minuten op laag vuur. Snij de tomaten in stukjes en voeg toe. Voeg paprikapoeder, chilipoeder en vijfkruidenpoeder toe. Stoof nog 20 minuten op laag vuur.<br>Verhit olie in een koekenpan en bak het varkensvlees in 15 minuten gaar. Voeg het varkensvlees vlees toe aan de stoofpot.<br>Serveer met gebakken rijst of turks brood</p>",
+		"datePublished": "2018-07-29 11:01:42",
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": ""
+		},
+		"type": 0
+	},
+	{
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"name": "Zuurkoolschotel",
+		"@type": "Recipe",
+		"description": "",
+		"category": "Hoofdgerecht",
+		"type": 0,
+		"cookTime": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"prepTime": "",
+		"recipeYield": "",
+		"recipeInstructions": "<p>Snij de aardappels in plakken en kook in 7 minuten gaar. Leg in een ovenschaal de zuurkool, ananas en salami in stukjes. Beleg met aardappel schijfjes. Klop cr&#232;me fraiche met ei los en giet over de aardappels. Bestrooi met kaas.<br>Bak in 20 minuten gaar in de oven op 200&#176;C</p>",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": ""
+		},
+		"datePublished": "2018-01-05 18:27:37",
+		"tags": [],
+		"@context": "http://schema.org/",
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"totalTime": "",
+		"id": "97",
+		"ingredients": "<p>Zuurkool<br>Ananas<br>Salami<br>Aardappels<br>Cr&#232;me fraiche<br>Harde kaas, geraspt<br>Ei</p>"
+	},
+	{
+		"category": "Koek",
+		"totalTime": "",
+		"datePublished": "2017-09-24 11:06:06",
+		"recipeYield": "",
+		"description": "",
+		"tags": [],
+		"@type": "Recipe",
+		"type": 0,
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"fatContent": "",
+			"@type": "NutritionInformation"
+		},
+		"cookTime": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"ingredients": "<p>250 gram geraspte kokos<br>200 gram suiker<br>4 eiwitten<br></p>",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"name": "Kokoskoekjes",
+		"id": "90",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"@context": "http://schema.org/",
+		"prepTime": "",
+		"recipeInstructions": "<p>Klop de eiwitten tot schuim. Mix de suiker in porties mee tot de suiker opgelost is. Spatel de kokos door het schuim.<br>Maak bolletjes op een bakplaat en bak in een oven op 170&#176;C in 20 - 25 gaar. Laat afkoelen en steek voorzichtig van de bakplaat. Je kan eventueel ouwel, bakpapier of siliconen bakplaat gebruiken.</p>"
+	},
+	{
+		"datePublished": "2019-01-27 09:37:36",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"prepTime": "",
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"recipeInstructions": "<p>Meng voor de bodem het suiker, de kokos, het zelfrijzende bakmeel en voeg dan de gesmolten boter toe.<br>Vet een brownievorm of ovenschaal in verdeel het deeg over de bodem.<br>Zet de bodem 10 minuten in een voorverwarmde oven op 180&#176;C en laat vervolgens iets afkoelen.<br>Strooi de chocoladedrops over de bodem en giet hierover het blikje gecondenseerde melk.<br>Strooi vervolgens de noten erover.<br>Bak nog 20 minuten in de oven.<br>Laat afkoelen en snij in blokjes.</p>",
+		"@type": "Recipe",
+		"@context": "http://schema.org/",
+		"category": "Koek",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"name": "Noten plaatkoek",
+		"cookTime": "",
+		"ingredients": "<p>100 gram bloem<br>100 gram suiker<br>100 gram boter, gesmolten<br>100 gram geraspte kokos<br>1 blikje gecondenseerde melk<br>150 gram diverse noten<br>4 eetlepels pure chocolade drops (deze smelten niet en blijven dus heel bij het bakken) (te koop bij Jamin en winkels voor taartbenodigdheden)</p>",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"type": 0,
+		"id": "114",
+		"description": "",
+		"recipeYield": "",
+		"tags": [],
+		"totalTime": ""
+	},
+	{
+		"@type": "Recipe",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": 0,
+			"servingSize": ""
+		},
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": 0,
+			"ratingValue": 0
+		},
+		"type": 0,
+		"cookTime": "",
+		"category": "Koek",
+		"tags": [],
+		"description": "",
+		"ingredients": "<ul><li>225 gr margarine/boter/combinatie van beide</li><li>125 gr witte basterdsuiker</li><li>½ citroen, rasp</li><li>¼ tl zout</li><li>2 el melk</li><li>275 gr bloem</li></ul>",
+		"prepTime": "",
+		"name": "Spritsen",
+		"totalTime": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"recipeInstructions": "<p>Oventemperatuur is 160 °C, baktijd is 20 tot 25 minuten.</p><p>Mix de boter met de suiker tot de boter wit wordt. Voeg de melk toe en mix nog een paar minuten door. Voeg zout, bloem en rasp toe. Meng tot een zacht deeg en wrijf tot het soepel wordt. Spuit koekjes op een bakplaat en bak lichtbruin. Laat afkoelen.</p>",
+		"recipeYield": 0,
+		"@context": "http://schema.org/",
+		"id": "142",
+		"datePublished": "2021-03-14 21:11:14"
+	},
+	{
+		"recipeYield": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"@context": "http://schema.org/",
+		"@type": "Recipe",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"type": 0,
+		"description": "",
+		"tags": [
+			"gebak",
+			"koek"
+		],
+		"id": "29",
+		"datePublished": "2016-07-16 17:49:05",
+		"totalTime": "",
+		"ingredients": "<p>1  vanillestokje<br>160 g zachte boter<br>100 g basterdsuiker<br>1/2  ei<br>200 g bloem<br>Zout</p>",
+		"cookTime": "",
+		"prepTime": "",
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": ""
+		},
+		"category": "Koek",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"recipeInstructions": "<p>Verwarm de oven voor op 160 &#186;C.<br>Halveer het vanillestokje in de lengte en schraap het merg eruit.<br>Wrijf de boter met de suiker en het vanillemerg glad. Meng met het ei erdoor en kneed de bloem erdoor tot er een zacht deeg ontstaat.<br>Schep het deeg in een spuitzak met gekarteld spuitmondje.<br>Spuit spritzen op een met bakpapier beklede bakplaat en bak ze in de oven in circa 17 minuten goudbruin en gaar. </p>",
+		"name": "Spritsen"
+	},
+	{
+		"author": {
+			"@type": "Person"
+		},
+		"tags": [],
+		"recipeInstructions": "",
+		"type": 0,
+		"ingredients": "<p>Brood<br>Mozzarella<br>Ansjovis</p>",
+		"name": "Broodje mozarella ansjovis",
+		"@type": "Recipe",
+		"recipeYield": "",
+		"datePublished": "2019-04-18 12:35:45",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"@context": "http://schema.org/",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": "",
+			"servingSize": ""
+		},
+		"id": "120",
+		"cookTime": "",
+		"description": "",
+		"totalTime": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"prepTime": "",
+		"category": "Lunch"
+	},
+	{
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": 0,
+			"reviewCount": 0
+		},
+		"ingredients": "<ul><li>3 broodjes<br>1 ei<br>2 el melk<br>250 g roomkaas<br>150 g boter<br>60 g knoflook<br>3 eetlepels suiker<br>1 tl zout<br>peterselie</li></ul>",
+		"@type": "Recipe",
+		"datePublished": "2021-03-17 16:59:20",
+		"recipeInstructions": "<p>Mix gesmolten boter, knoflook, zout, peterselie, 3 el suiker en ei. Snij broodjes diep in en doop in de knoflookboter.<br>smeer roomkaas in de ingesneden broodjes en bak 15 minuten op 150 °C.</p>",
+		"cookTime": "",
+		"description": "",
+		"tags": [],
+		"totalTime": "",
+		"type": 0,
+		"category": "Lunch",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"prepTime": "",
+		"name": "Knoflook roomkaas broodjes",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"id": "143",
+		"nutrition": {
+			"fatContent": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"calories": 0
+		},
+		"recipeYield": 0,
+		"@context": "http://schema.org/"
+	},
+	{
+		"@type": "Recipe",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"name": "Paaslunch",
+		"description": "",
+		"recipeInstructions": "",
+		"tags": [],
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": ""
+		},
+		"recipeYield": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"category": "Lunch",
+		"id": "18",
+		"totalTime": "",
+		"@context": "http://schema.org/",
+		"datePublished": "2016-07-16 17:49:05",
+		"cookTime": "",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"ingredients": "<p>Mosterd courgette soep<br>Stokbrood<br>Paasbrood met roomboter<br>Sandwiches met eiersalade en serannoham<br>Sandwiches van volkorenbrood met oude kaas en komkommer<br>Aardappelsalade<br>Quiche Lorraine<br>Warme beenham met mosterdsaus<br>Gevulde eieren<br>Saucijzen broodjes</p><p>Slagroomtaart<br>Brownie</p>",
+		"prepTime": "",
+		"type": 2
+	},
+	{
+		"prepTime": "",
+		"type": 0,
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"totalTime": "",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"calories": "",
+			"servingSize": ""
+		},
+		"@type": "Recipe",
+		"name": "Poffertjes",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"id": "54",
+		"ingredients": "<p>300 g bloem<br>6 g zout<br>4 g instant gist<br>10 g suiker<br>400 g lauwe melk<br>1 ei<br>Olie<br>Boter<br>Poedersuiker<br></p>",
+		"datePublished": "2016-11-27 09:20:17",
+		"tags": [],
+		"@context": "http://schema.org/",
+		"cookTime": "",
+		"category": "Lunch",
+		"recipeInstructions": "<p>Meng bloem, ei, zout, gist, melk en suiker. Beslaan. 1 uur laten rijzen.<br>Bakken in een poffertjespan.<br></p>",
+		"recipeYield": "",
+		"description": ""
+	},
+	{
+		"description": "",
+		"nutrition": {
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"servingSize": ""
+		},
+		"type": 0,
+		"id": "61",
+		"ingredients": "<p>125 gram bloem<br>125 gram boekweitmeel<br>1 ei<br>250 ml water<br>250 ml melk<br>5 gram instant gist<br>50 gram gesmolten boter voor het beslag<br>5 g zout<br>zachte boter of olie om de pan in te vetten</p><p><i>Om te </i><i>serveren</i><br>Roomboter<br>Poedersuiker</p>",
+		"totalTime": "",
+		"category": "Lunch",
+		"datePublished": "2017-02-09 21:58:53",
+		"@context": "http://schema.org/",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"tags": [],
+		"cookTime": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"recipeYield": "",
+		"@type": "Recipe",
+		"recipeInstructions": "<p>Meng de droge bestanddelen met het ei. Voeg geleidelijk de water en melk toe en meng goed. Voeg als laatste de boter toe. Laat op een warme plaats 30 minuten rijzen. Bak de poffertjes in een poffertjespan. Serveer met roomboter en poedersuiker</p>",
+		"name": "Poffertjes met boekweitmeel",
+		"prepTime": ""
+	},
+	{
+		"description": "",
+		"cookTime": "",
+		"@context": "http://schema.org/",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"category": "Ontbijt",
+		"recipeInstructions": "<p>Rooster de hazelnoten 10 minuten. Smelt de chocolade met de boter. Maal de hazelnoten fijn met de suiker en zout. Voeg de chocolade toe en vervolgens de warme melk. Laat minimaal 4 uur opstijven in de koelkast. </p>",
+		"totalTime": "",
+		"id": "46",
+		"ingredients": "<p>100 g hazelnoten<br>150 g pure chocolade<br>50 g boter<br>75 g suiker<br>175 ml volle melk, warm<br>1/4 theelepel zout</p>",
+		"datePublished": "2016-10-09 18:31:01",
+		"name": "Nutella",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": ""
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"prepTime": "",
+		"@type": "Recipe",
+		"tags": [],
+		"type": 0,
+		"recipeYield": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		}
+	},
+	{
+		"id": "26",
+		"@context": "http://schema.org/",
+		"tags": [
+			"engels"
+		],
+		"name": "Scones",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"cookTime": "",
+		"datePublished": "2016-07-16 17:49:05",
+		"description": "",
+		"nutrition": {
+			"fatContent": "",
+			"servingSize": "",
+			"calories": "",
+			"@type": "NutritionInformation"
+		},
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"@type": "Recipe",
+		"category": "Ontbijt",
+		"type": 0,
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"totalTime": "",
+		"prepTime": "",
+		"ingredients": "<p>225 g bloem<br>6 g bakpoeder<br>4 g zout<br>50 gram boter<br>10 g suiker<br>1,5 dl melk of karnemelk<br>10 g rozijnen, gehakt<br>1 ei, losgeklopt</p>",
+		"recipeYield": "",
+		"recipeInstructions": "<p>Bakmeel met bakpoeder en zout boven kom zeven. Suiker toevoegen. Boter in kleine stukjes erdoor mengen.<br>Uitrollen tot 3 cm dikke lap en rondjes uitsteken. Inkwasten met wat ei en 10 tot 12 minuten bakken op 200&#176;C.</p>"
+	},
+	{
+		"category": "Salade",
+		"id": "103",
+		"cookTime": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"prepTime": "",
+		"description": "",
+		"recipeInstructions": "<p>Snij de aubergine in plakken. Rooster in een grillpan. Leg in een platte schaal. Laat afkoelen. Rooster pijnboompitten in een koekenpan. Strooi pijnboompitten, stukjes geitenkaas en blaadjes basilicum over de aubergine. Besprenkel met olie en honing.</p>",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"ingredients": "<p>Aubergine<br>Honing<br>Zachte geitenkaas<br>Pijnboompitten<br>Basilicum<br>Olijfolie</p>",
+		"name": "Gegrilde aubergine salade",
+		"type": 0,
+		"totalTime": "",
+		"@type": "Recipe",
+		"@context": "http://schema.org/",
+		"datePublished": "2018-06-02 10:00:52",
+		"nutrition": {
+			"fatContent": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"calories": ""
+		},
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"recipeYield": "",
+		"tags": []
+	},
+	{
+		"id": "37",
+		"totalTime": "",
+		"description": "",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"ingredients": "<p>Tomaten<br>Hardgekookt eieren<br>Lente uitjes<br>Zwarte olijven<br>Basilicum<br>Ansjovis filet of tonijn</p><p><b>Optioneel</b>:<br>Komkommer<br>Artisjok harten<br>Rode pepers</p><p><b>Dressing</b>:<br>mosterd<br>Olie<br>Azijn<br>Knoflook</p>",
+		"tags": [
+			"bijgerecht",
+			"salade"
+		],
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"nutrition": {
+			"fatContent": "",
+			"servingSize": "",
+			"calories": "",
+			"@type": "NutritionInformation"
+		},
+		"recipeInstructions": "",
+		"cookTime": "",
+		"@context": "http://schema.org/",
+		"category": "Salade",
+		"name": "Salade Nicoise",
+		"recipeYield": "",
+		"datePublished": "2016-07-23 10:29:22",
+		"prepTime": "",
+		"@type": "Recipe",
+		"type": 0,
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		}
+	},
+	{
+		"cookTime": "",
+		"recipeInstructions": "<p>Pel en blancheren de tuinbonen 3 minuten in kokend water. Laat afkoelen. Snij de aubergine in plakken en grill ze aan beide zijden. Snij de plakken in kwarten. Laat afkoelen.<br>Meng aubergine en tuinbonen, overgiet met olijfolie. Drapeer kaas en basilicum over de salade. Bestrooi met wat zout en peper.</p>",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"name": "Tuinbonen aubergine salade",
+		"category": "Salade",
+		"totalTime": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": "/data/user/0/com.omg.recepten/files/image20170406192758.jpg"
+		},
+		"recipeYield": "",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"description": "",
+		"prepTime": "",
+		"@context": "http://schema.org/",
+		"@type": "Recipe",
+		"ingredients": "<p>1 kg ongepelde tuinbonen<br>1 grote aubergine<br>Olijfolie<br>Zachte geitenkaas<br>Basilicum<br>Zout<br>Peper</p>",
+		"id": "73",
+		"type": 0,
+		"datePublished": "2017-04-06 19:19:51",
+		"tags": [
+			"voorjaarsgroenten"
+		],
+		"nutrition": {
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"servingSize": ""
+		}
+	},
+	{
+		"tags": [
+			"bijgerecht"
+		],
+		"ingredients": "<p>4 stronken witlof<br>1appel<br>200 g brie<br>25g walnoten<br>Tijm</p>",
+		"recipeInstructions": "<p>Halveer de witlof en smoor in hete boter 4 - 6 minuten.<br>Doe de witlof, plakken appel, brie, tijm en walnoten in een ovenschaal en bak op 200&#176; C tot de brie kleurt en smelt. </p>",
+		"@context": "http://schema.org/",
+		"name": "Witlof met brie en appel",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"description": "",
+		"totalTime": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"datePublished": "2016-07-16 17:49:05",
+		"type": 0,
+		"prepTime": "",
+		"@type": "Recipe",
+		"category": "Salade",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": "",
+			"calories": ""
+		},
+		"id": "32",
+		"recipeYield": "",
+		"cookTime": ""
+	},
+	{
+		"name": "Witlofsalade",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"category": "Salade",
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": ""
+		},
+		"id": "33",
+		"type": 0,
+		"@context": "http://schema.org/",
+		"tags": [
+			"bijgerecht",
+			"salade"
+		],
+		"prepTime": "",
+		"datePublished": "2016-07-16 17:49:05",
+		"totalTime": "",
+		"@type": "Recipe",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"recipeInstructions": "<p>Snij stronkel dwars in stukken. Verwijder de kern. Meng cr&#232;me fraude, mosterd, olie, citroensap. Schil appel en snijd in dunne stukken. Meng alles. Voeg zout en peper toe. Direct opeten.</p>",
+		"recipeYield": "",
+		"description": "",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"ingredients": "<p>2 stronken witlof<br>Appel / peer<br>Rozijnen<br>Blauwe kaas<br>1/2 bekertje creme fraise<br>Theelepel mosterd<br>Eetlepel citroensap<br>Olijfolie<br>Zout<br>Peper</p>",
+		"cookTime": ""
+	},
+	{
+		"recipeInstructions": "<p>Schil de appels. Snij in stukken en verwijder het klokhuis. Kook de appels met een beetje water tot compote.<br>Doe suiker en zout met water in een pan en verhit tot karamel. Voeg room toe en roer tot opgenomen. Voeg de boter toe en roer totdat deze gesmolten is. Voeg de compote toe en laat even koken.<br>Doe in steriele potten. Laat afkoelen<br>Voor bij pannenkoeken, op brood of bij een kaasplankje.</p>",
+		"recipeYield": "",
+		"datePublished": "2019-09-13 09:59:19",
+		"tags": [],
+		"prepTime": "",
+		"category": "Saus",
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"@type": "Recipe",
+		"ingredients": "<p>200 g moesappels, geschild en ontpit<br>200 g suiker<br>100 g boter<br>Zout<br>Water</p>",
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": ""
+		},
+		"author": {
+			"@type": "Person"
+		},
+		"totalTime": "",
+		"@context": "http://schema.org/",
+		"type": 0,
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"id": "126",
+		"name": "Appel karamel",
+		"description": "",
+		"cookTime": ""
+	},
+	{
+		"@context": "http://schema.org/",
+		"totalTime": "",
+		"recipeYield": "",
+		"@type": "Recipe",
+		"ingredients": "<p>4 gekookte eieren<br>Geroosterd sesamzaad<br>Paddenstoelen<br>1 prei<br>125 g eiermie<br>225 g kikkererwten<br>3 el sojasaus<br>1/2 l water</p>",
+		"type": 0,
+		"prepTime": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"cookTime": "",
+		"datePublished": "2016-09-27 19:38:05",
+		"tags": [
+			"voorgerecht"
+		],
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"category": "Soep",
+		"id": "35",
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": ""
+		},
+		"aggregateRating": {
+			"ratingValue": "",
+			"@type": "AggregateRating",
+			"reviewCount": ""
+		},
+		"description": "",
+		"name": "Noedelsoep met kikkererwten",
+		"recipeInstructions": "<p>Snij de prei heel fijn. Halveer grote paddenstoelen maar hou de kleinere heel. Snij de gekookte eieren in plakken. Breng het water aan de kook. Kook de prei, paddenstoelen en eiermie in 10 minuten gaar. Voeg ei en kikkererwten toe. Breng op smaak met sojasaus en geroosterde sesamzaad.</p>"
+	},
+	{
+		"type": 0,
+		"description": "",
+		"cookTime": "",
+		"recipeYield": "",
+		"category": "Suikergoed",
+		"ingredients": "<p>150 g suiker<br>50 g slagroom<br>theelepel oploskoffie of<br>Theelepel cacao of<br>Klont roomboter of<br>Kaneel of<br>Gekarameliseerde suiker</p>",
+		"name": "Borstplaat",
+		"@type": "Recipe",
+		"@context": "http://schema.org/",
+		"id": "5",
+		"datePublished": "2016-07-16 17:49:05",
+		"nutrition": {
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"calories": "",
+			"fatContent": ""
+		},
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"prepTime": "",
+		"recipeInstructions": "<p>Meng suiker met slagroom en smaakmaker. Breng aan de kook. Kook de siroop 5 minuten. Stort uit in een vorm en laat afkoelen. </p>",
+		"tags": [],
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"totalTime": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		}
+	},
+	{
+		"recipeYield": "",
+		"totalTime": "",
+		"datePublished": "2017-04-22 11:46:51",
+		"type": 0,
+		"ingredients": "<p>100 gram boter<br>600 gram kristalsuiker<br>200 ml melk<br>30 g cacaopoeder<br>1/2 theelepel zout of minder als de boter gezouten is.</p>",
+		"prepTime": "",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"@context": "http://schema.org/",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"description": "",
+		"recipeInstructions": "<p>Meng suiker, melk en zout. Kook ongeveer 20 minuten tot 116&#176;C. Laat iets afkoelen en roer de boter en cacao erdoor. Klop 5 minuten met de mixer tot de stevigheid van pindakaas is bereikt. Laat afkoelen in een ingevette vorm en snij in blokken.</p>",
+		"nutrition": {
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"calories": "",
+			"fatContent": ""
+		},
+		"id": "74",
+		"cookTime": "",
+		"tags": [],
+		"@type": "Recipe",
+		"aggregateRating": {
+			"ratingValue": "",
+			"reviewCount": "",
+			"@type": "AggregateRating"
+		},
+		"category": "Suikergoed",
+		"name": "Chocolade fudge"
+	},
+	{
+		"prepTime": "",
+		"description": "",
+		"datePublished": "2017-05-13 09:52:55",
+		"@type": "Recipe",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"tags": [],
+		"image": {
+			"url": "/data/user/0/com.omg.recepten/files/image20170815123757.jpg",
+			"@type": "ImageObject"
+		},
+		"category": "Suikergoed",
+		"recipeYield": "",
+		"name": "Fudge",
+		"ingredients": "<p>680 g suiker<br>170 g gecondenseerde of volle melk<br>225 g boter<br>170 g witte chocolade<br>1 stokje vanille<br>Olie om in te vetten</p>",
+		"type": 0,
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"id": "78",
+		"totalTime": "",
+		"cookTime": "",
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": "",
+			"fatContent": ""
+		},
+		"@context": "http://schema.org/",
+		"recipeInstructions": "<p>Vet een bak in van 18 x 20 cm. Meng suiker,  melk en boter en verhit tot 116 &#176;C. Haal van het vuur.<br>Breek de chocolade in stukjes en meng door de fudge. Mix de fudge totdat deze begint af te koelen en dof wordt. Giet de fudge in de ingevette bak. Laat afkoelen tot kamertemperatuur en snij in blokjes.</p>"
+	},
+	{
+		"description": "",
+		"ingredients": "<p>100 ml room<br>500 g suiker<br>Water<br>160 g gezouten boter<br>4 g zout</p>",
+		"@type": "Recipe",
+		"cookTime": "",
+		"name": "Karamels",
+		"category": "Suikergoed",
+		"recipeInstructions": "<p>Kook suiker en water tot karamel: 174&#176;C Voeg heavy cream toe en kook tot 130&#176;C. Haal van vuur en voeg boter en zout toe. Roer tot gemengd. Giet in een vorm met bakpapier.</p>",
+		"@context": "http://schema.org/",
+		"id": "129",
+		"type": 0,
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"datePublished": "2020-01-21 19:38:17",
+		"author": {
+			"@type": "Person"
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"prepTime": "",
+		"recipeYield": "",
+		"nutrition": {
+			"calories": "",
+			"servingSize": "",
+			"@type": "NutritionInformation",
+			"fatContent": ""
+		},
+		"totalTime": "",
+		"tags": []
+	},
+	{
+		"@context": "http://schema.org/",
+		"prepTime": "",
+		"tags": [],
+		"category": "Suikergoed",
+		"cookTime": "",
+		"recipeInstructions": "<p>Rooster noten. Verwarm suiker, water en honing tot 145&#176;C. Klop eiwitten stijf, giet suikerstroop bij eiwitten. Voeg noten en sinaasappelschil toe en laat afkoelen op eetpapier. Laat eventueel drogen op een rooster om de nougat uit te laten harden.<br>Droog </p>",
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"totalTime": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"description": "",
+		"type": 0,
+		"@type": "Recipe",
+		"ingredients": "<p>150 g amandelen met vlies<br>125 g amandelen<br>150 g pistachenoten<br>350 g suiker<br>125 ml water<br>340 g honing<br>3  eiwitten<br>250 g gekonfijte sinaasappelschil<br>20 vellen wit eetpapier</p>",
+		"name": "Nougat de Montélimar",
+		"author": {
+			"@type": "Person"
+		},
+		"id": "133",
+		"nutrition": {
+			"calories": "",
+			"fatContent": "",
+			"@type": "NutritionInformation",
+			"servingSize": ""
+		},
+		"recipeYield": "",
+		"datePublished": "2020-07-20 19:17:52"
+	},
+	{
+		"aggregateRating": {
+			"reviewCount": "",
+			"ratingValue": "",
+			"@type": "AggregateRating"
+		},
+		"recipeYield": "",
+		"recipeInstructions": "<p>Meng de suiker, honing en melk en kook tot soft ball (116&#176;C). Haal van het vuur en meng er de pindakaas, boter en noten door. Laat afkoelen in vorm met bakpapier op de bodem. Snij in blokken.</p>",
+		"totalTime": "",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": ""
+		},
+		"ingredients": "<p>600 g suiker<br>200 g volle melk<br>30 g honing<br>100 g boter<br>1 theelepel vanille extract<br>90 g pindakaas<br>100 g gehakte wal- of pecannoten<br></p>",
+		"category": "Suikergoed",
+		"author": {
+			"@type": "Person",
+			"name": ""
+		},
+		"prepTime": "",
+		"cookTime": "",
+		"description": "",
+		"@context": "http://schema.org/",
+		"type": 0,
+		"tags": [],
+		"datePublished": "2017-04-29 07:27:15",
+		"@type": "Recipe",
+		"name": "Pindakaas fudge",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"id": "76"
+	},
+	{
+		"totalTime": "",
+		"description": "",
+		"category": "Suikergoed",
+		"name": "Zoute Karamel",
+		"prepTime": "",
+		"recipeYield": "",
+		"recipeInstructions": "<p>Leg bakpapier in een bakvorm.<br>Meng dubbele room met vanille en warm op zonder te koken.<br>Meng suiker en water en kook tot karamel. Voeg room toe en kook tot 140&#176;C. Voeg boter en zout toe. Giet in de bakvorm en laat afkoelen. Snij in blokken.</p>",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"@context": "http://schema.org/",
+		"tags": [],
+		"cookTime": "",
+		"author": {
+			"@type": "Person"
+		},
+		"@type": "Recipe",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "",
+			"reviewCount": ""
+		},
+		"id": "130",
+		"nutrition": {
+			"calories": "",
+			"fatContent": "",
+			"servingSize": "",
+			"@type": "NutritionInformation"
+		},
+		"ingredients": "<p>160 ml room<br>1 el vanille extract<br>500 g suiker<br>160 g gezouten boter<br>1 el Fleur de wel (zout)<br>Water</p>",
+		"datePublished": "2020-06-02 18:31:47",
+		"type": 0
+	},
+	{
+		"type": 0,
+		"id": "123",
+		"prepTime": "",
+		"datePublished": "2019-06-02 19:59:21",
+		"image": {
+			"url": "",
+			"@type": "ImageObject"
+		},
+		"tags": [
+			"chinees"
+		],
+		"recipeYield": "",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"reviewCount": "",
+			"ratingValue": ""
+		},
+		"@context": "http://schema.org/",
+		"author": {
+			"@type": "Person"
+		},
+		"name": "Sichuan Huiguorou",
+		"cookTime": "",
+		"ingredients": "<p><b>Eerste bereiding</b><br>300 g buikspek<br>1 prei<br>1el Sichuan peperkorrels<br>5 cm gember</p><p><b>2e bereiding</b><br>3 Groene knoflook of 1 paksoi<br>1,5 el chilibonen pasta (pixian doubanjiang)<br>1 el gefermenteerde zwarte bonen (douchi)<br>3 cm gember<br>3 tenen knoflook<br>1 tl suiker<br>1 tl msg<br>Donkere soya saus</p>",
+		"@type": "Recipe",
+		"recipeInstructions": "<p>Brand de huid tot goudbruin. Kook het vlees met de gember, peper en stukken prei in 20 minuten gaar. Laat het vlees onbedekt afkoelen zodat het goed droogt.<br>Hak gember en knoflook fijn. Snij het varken in dunne plakken. Verhit de wok en voeg olie toe om te bakken. Roerbak de plakjes vlees goudbruin. Schuif het vlees aan de kant, temper het vuur uit en bak de chillibonen pasta kort. Voeg de gefermenteerde bonen toe en vervolgens de gember en knoflook. Voeg groene knoflook of paksoi toe en roerbak in een minuut gaar. Voeg suiker, soya said en msg toe. Roer en serveer.</p>",
+		"category": "Vlees",
+		"totalTime": "",
+		"nutrition": {
+			"calories": "",
+			"@type": "NutritionInformation",
+			"fatContent": "",
+			"servingSize": ""
+		},
+		"description": ""
+	},
+	{
+		"type": 0,
+		"@type": "Recipe",
+		"recipeYield": "",
+		"totalTime": "",
+		"cookTime": "",
+		"nutrition": {
+			"fatContent": "",
+			"calories": "",
+			"@type": "NutritionInformation",
+			"servingSize": ""
+		},
+		"datePublished": "2018-07-01 13:55:08",
+		"recipeInstructions": "",
+		"image": {
+			"@type": "ImageObject",
+			"url": ""
+		},
+		"description": "",
+		"id": "105",
+		"name": "Carpaggio",
+		"ingredients": "<p>Dun gesneden rundvlees<br>Stoofperen<br>Sla met balsamicoazijn<br>Zongedroogde tomaten<br>Snippers parmezaanse kaas<br></p>",
+		"author": {
+			"name": "",
+			"@type": "Person"
+		},
+		"@context": "http://schema.org/",
+		"category": "Voorgerecht",
+		"tags": [],
+		"aggregateRating": {
+			"reviewCount": "",
+			"@type": "AggregateRating",
+			"ratingValue": ""
+		},
+		"prepTime": ""
+	}
+]

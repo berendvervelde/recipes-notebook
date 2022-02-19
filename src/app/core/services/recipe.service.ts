@@ -132,9 +132,15 @@ export class RecipeService implements OnDestroy{
 		return Object.keys(categories)
 	}
 
+	private getNextId(cache: Recipe[]): number {
+		let newId: number = -1
+		newId = Math.max(...cache.map(r => r.id)) + 1
+		return newId
+	}
+
 	newRecipe(): number {
 		if (this.cache && this.recipeObj) {
-			const id = this.cache.length
+			const id = this.getNextId(this.cache)
 			const newRecipe: Recipe = {
 				'@type': 'Recipe',
 				'@context': 'http://schema.org/',

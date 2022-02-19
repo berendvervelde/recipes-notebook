@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Recipe } from '../models/recipe';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { RecipeService } from './recipe.service';
 
 interface recipesDictionary {
 	[id: string]: Recipe | null
@@ -11,52 +12,25 @@ interface recipesDictionary {
 	providedIn: 'root'
 })
 export class JsonImporterService {
-	static readonly cacheTimeout = 30 * 60 * 1000
 
 	recipes?: Recipe[]
-	id = 0
-
-	recipeObj?: recipesDictionary
+	id = 134
 
 	constructor(
-		private http: HttpClient
+		private http: HttpClient,
+		private recipeService: RecipeService
 	) { }
 
 	importRecipesJson(): Observable<Recipe[]> {
-		if (this.recipes){
-			return new Observable(subscriber => {
-				subscriber.next(this.recipes)
-			})
-		}
-		const now = new Date().getTime()
-		const cacheDate = Number(window.localStorage.getItem('cacheDate'))
-		if (now - cacheDate < JsonImporterService.cacheTimeout){
-			const lsr = window.localStorage.getItem('recipes')
-			if(lsr){
-				const r = JSON.parse(lsr)
-				this.recipeObj = this.mapToDictionary(r)
-				return new Observable(subscriber => {
-					subscriber.next(r)
-				})
-			}
-		}
 		return this.http.get<Recipe[]>('assets/recipes-export.json').pipe(map(resp => {
-			resp = this.setID(resp)
+			// this may go after the initial import
+			resp = this.map(resp)
 			this.recipes = this.convertIngredients(resp).sort(this.sort)
-			this.recipeObj = this.mapToDictionary(this.recipes)
-
-			window.localStorage.setItem('recipes', JSON.stringify(this.recipes))
-			window.localStorage.setItem('cacheDate', new Date().getTime().toString())
+			// this may go after the initial import
 			return this.recipes
 		}))
 	}
 
-	getRecipe(id: number):Recipe | null {
-		if(this.recipeObj){
-			return this.recipeObj[id]
-		}
-		return null
-	}
 
 	private sort(a: Recipe, b: Recipe): number{
 		const cSort = a.category.localeCompare(b.category)
@@ -66,26 +40,27 @@ export class JsonImporterService {
 		return a.name.localeCompare(b.name)
 	}
 
-	private mapToDictionary(recipes: Recipe[]): recipesDictionary{
-		const obj: recipesDictionary = {}
-		recipes.forEach(r => {
-			obj[r.id] = r
-		})
-		return obj
-	}
-
-	private setID(resp: Recipe[]): Recipe[] {
+	private map(resp: Recipe[]): Recipe[] {
 		return resp.map(recipe => {
-			recipe.id = this.id++
+			if(!recipe.id){
+				recipe.id = this.id++
+			}
+			recipe.jsonImported = true
 			return recipe
 		})
 	}
 
 	private convertIngredients(resp: Recipe[]): Recipe[]{
 		return resp.map(recipe => {
-			const list = recipe.ingredients as unknown as string[]
-			recipe.ingredients = list.join('')
+			if(recipe.ingredients && Array.isArray(recipe.ingredients)){
+				const list = recipe.ingredients as unknown as string[]
+				recipe.ingredients = list.join('')
+			}
 			return recipe
 		})
+	}
+	combineRecipes(r1: Recipe[], r2: Recipe[]) {
+		const allRecipes = r1.concat(r2).sort(this.sort)
+		return this.recipeService.groupBy(allRecipes, 'category')
 	}
 }

@@ -1,7 +1,6 @@
 import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { Recipe, types } from 'src/app/core/models/recipe';
 import { FirebaseAuthService } from 'src/app/core/services/firebase-auth.service';
-import { JsonImporterService } from 'src/app/core/services/json-importer.service';
 import { RecipeService } from 'src/app/core/services/recipe.service';
 import firebase from 'firebase/app';
 import { Subject } from 'rxjs';
@@ -41,7 +40,6 @@ export class ListRecipesComponent implements OnInit, OnDestroy {
 	user?: firebase.User;
 
 	constructor(
-		private jsonImporterService: JsonImporterService,
 		private recipeService: RecipeService,
 		private authService: FirebaseAuthService,
 		private sharedService: SharedService,
@@ -54,6 +52,7 @@ export class ListRecipesComponent implements OnInit, OnDestroy {
 	}
 
 	ngOnInit(): void {
+
 		this.recipeService.subscribeToRecipes().pipe(takeUntil(this.destroy$)).subscribe(resp => {
 			if (resp) {
 				this.recipes = this.recipeService.groupBy(resp, 'category')
@@ -98,14 +97,8 @@ export class ListRecipesComponent implements OnInit, OnDestroy {
 			case SharedService.id.ac_export_JSON:
 				this.exportJson()
 				break
-			case SharedService.id.ac_import_JSON:
-				this.importJson()
-				break
 		}
 	}
-	private importJson(){
-		
-	} 
 
 	private exportJson(){
 		this.showExportModal = true
@@ -135,14 +128,6 @@ export class ListRecipesComponent implements OnInit, OnDestroy {
 		}
 	}
 
-	private importRecipes(): void {
-		this.jsonImporterService.importRecipesJson().pipe(takeUntil(this.destroy$)).subscribe(resp => {
-			if (resp) {
-				this.recipes = this.recipeService.groupBy(resp, 'category')
-				this.showCategory = this.buildCategoryToggleObject(this.recipes)
-			}
-		})
-	}
 	private buildCategoryToggleObject(recipes: Recipe[][]): categoryToggleInterface {
 		const sc: categoryToggleInterface = {}
 		// add each category to the schowCategory object so we can use it to keep track if a category is shown or hidden in the list later

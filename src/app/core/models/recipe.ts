@@ -33,7 +33,7 @@ export interface Recipe {
 	author:author
 	cookTime: string
 	description: string
-	type: types,
+	type: types
 	prepTime: string
 	tags: string[]
 	datePublished: string
@@ -41,7 +41,8 @@ export interface Recipe {
 	nutrition: nutrition
 	name:string
 	ingredients: string
-	category: string,
+	category: string
 	aggregateRating: aggregateRating
 	recipeInstructions: string
+	jsonImported?: boolean
 }

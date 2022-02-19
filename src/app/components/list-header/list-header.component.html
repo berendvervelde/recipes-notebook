@@ -41,9 +41,9 @@
 			</button>
 		</li>
 		<li >
-			<button (click)="importJson()" class="icon-button" aria-label="import JSON">
+			<a class="icon-button" [routerLink]="['/import-recipes']" routerLinkActive="active">
 				<recipe-icon color="#fd4b4a" name="import"></recipe-icon>
-			</button>
+			</a>
 		</li>
 	</ul>
 	<div  [ngClass]="{'show': showSearch}" class="search h-12 absolute w-full">

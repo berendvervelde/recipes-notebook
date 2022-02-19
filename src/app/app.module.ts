@@ -24,7 +24,10 @@ import { ListFooterComponent } from './components/list-footer/list-footer.compon
 import { registerLocaleData } from '@angular/common'
 import localeNl from '@angular/common/locales/nl';
 import { TimePickerComponent } from './components/time-picker/time-picker.component';
-import { PercentageCalculatorComponent } from './components/percentage-calculator/percentage-calculator.component'
+import { PercentageCalculatorComponent } from './components/percentage-calculator/percentage-calculator.component';
+import { ImportListRecipesComponent } from './components/import-list-recipes/import-list-recipes.component';
+import { ImportPageComponent } from './components/pages/import-page/import-page.component';
+import { ImportListHeaderComponent } from './components/import-list-header/import-list-header.component'
 registerLocaleData(localeNl);
 
 @NgModule({
@@ -43,7 +46,10 @@ registerLocaleData(localeNl);
     EditHeaderComponent,
     ListFooterComponent,
     TimePickerComponent,
-    PercentageCalculatorComponent
+    PercentageCalculatorComponent,
+    ImportListRecipesComponent,
+    ImportPageComponent,
+    ImportListHeaderComponent
   ],
   imports: [
     BrowserModule,
